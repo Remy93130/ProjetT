@@ -1,0 +1,130 @@
+/*============ STYLE FONT ============*/
+
+@font-face {
+	font-family: Dyno_Regular;
+	src: url(../font/Dyno_Regular.ttf);
+	font-family: Cicle_Fina;
+	src: url(../font/Cicle_Fina.ttf);
+}
+
+/*============ STYLE GENERAL ============*/
+
+* {
+	font-family: Cicle_Fina;
+}
+
+html {
+	overflow-x: hidden;
+}
+
+header {
+	margin-top: 0%;
+	padding: 15px;
+	margin-bottom: 0px;
+}
+
+header>h1 {
+	text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Dyno_Regular;
+}
+
+li>a {
+	color:  #B94503;
+}
+
+li>a:hover {
+	color:  #333;
+	text-decoration: none;
+}
+
+.nav>li>a {
+	font-size: 20px;
+}
+
+.nav-stacked>li>a {
+	font-size: 20px;
+}
+
+.nav-stacked>li>a:hover {
+	background-color: #F7AF3E;
+}
+
+p {
+	font-size: 18px;
+}
+
+/*============ STYLE CLASS ============*/
+
+.histoire>p {
+	text-indent: 2em;
+}
+
+.barre_menu {
+	margin-top: 0px;
+	font-size: 24px;
+	display: flex;
+	justify-content: center;
+}
+
+.histoire {
+	padding: 5px;
+	border-radius: 6px;
+}
+
+.partie {
+	margin: 5px;
+	padding: 4%;
+}
+
+.plan {
+	background-color: white;
+}
+
+.histoire {
+	padding: 5px;
+	border-radius: 25px;
+	background-color: #505050;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+	border: 1px solid black;
+}
+
+.box {
+	background-color: #505050;
+	border-radius: 6px;
+}
+
+/*============ STYLE ID ============*/
+
+#titre_lien {
+	text-decoration: none;
+	color: #B94503;
+	font-family: Dyno_Regular;
+	font-size: 64px;
+}
+
+/*============ STYLE RESPONSIVE ============*/
+
+@media screen and (min-width: 971px) {
+	.nav_histoire {
+		position: fixed;
+		background-color: #505050;
+		padding: 25px;
+		margin-top: 8%;
+		border: 2px solid black;
+		border-radius: 10px;
+	}
+}
+
+@media screen and (max-width: 970px) {
+	.nav_histoire {
+		background-color: #505050;
+		padding: 25px;
+		border: 1px solid black;
+		border-radius: 10px;
+	}
+}
+
