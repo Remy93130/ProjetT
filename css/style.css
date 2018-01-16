@@ -74,7 +74,7 @@ p {
 .histoire {
 	padding: 5px;
 	border-radius: 6px;
-	color: white&;
+	color: white;
 }
 
 .partie {
@@ -108,6 +108,7 @@ p {
 	color: #F7AF3E;
 	background-color: #505050;
 	border-radius: 10px;
+	opacity: 0.75;
 }
 
 /*============ STYLE ID ============*/
@@ -138,6 +139,9 @@ p {
 		padding: 25px;
 		border: 1px solid black;
 		border-radius: 10px;
+	}
+	.caption-C {
+		display: none;
 	}
 }
 
