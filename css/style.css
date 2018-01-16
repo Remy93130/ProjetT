@@ -56,6 +56,7 @@ p {
 	font-size: 18px;
 }
 
+
 /*============ STYLE CLASS ============*/
 
 .histoire>p {
@@ -73,7 +74,7 @@ p {
 .histoire {
 	padding: 5px;
 	border-radius: 6px;
-	color: white;
+	color: white&;
 }
 
 .partie {
@@ -97,6 +98,16 @@ p {
 .box {
 	background-color: #505050;
 	border-radius: 6px;
+}
+
+.table-col2 {
+	padding: 1em;
+}
+
+.caption-C {
+	color: #F7AF3E;
+	background-color: #505050;
+	border-radius: 10px;
 }
 
 /*============ STYLE ID ============*/

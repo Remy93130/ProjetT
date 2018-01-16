@@ -28,10 +28,6 @@
 			</div>
 		</div>
 		<div class="row">
-			<!-- <div class="col-md-12">
-				<img class="img-responsive" src="../images/carousel1.jpg" alt="Image1">
-			</div> -->
-			
 			<div id="carousel" class="carousel slide" data-ride="carousel"> <!-- Debut carousel -->
 				<!-- Indicateur -->
 				<ol class="carousel-indicators">
@@ -43,12 +39,21 @@
 				<div class="carousel-inner">
 					<div class="item active">
 						<img src="../images/carousel1.jpg" alt="Image1" style="width: 100%;">
+						<div class="carousel-caption">
+							<h2 class="caption-C">Vue sur Notre-Dame</h2>
+						</div>
 					</div>
 					<div class="item">
 						<img src="../images/carousel2.jpg" alt="Image2" style="width: 100%;">
+						<div class="carousel-caption">
+							<h2 class="caption-C">Palais de Justice</h2>
+						</div>
 					</div>
 					<div class="item">
-						<img src="../images/carousel2.jpg" alt="Image3" style="width: 100%;">
+						<img src="../images/carousel3.jpg" alt="Image3" style="width: 100%;">
+						<div class="carousel-caption">
+							<h2 class="caption-C">Statue de Charlemagne et ses Leudes</h2>
+						</div>
 					</div>
 				</div>
 
