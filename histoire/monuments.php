@@ -18,7 +18,7 @@
 <div class="container text-center">
 	<div class="row">
 		<div class="col-md-6">
-			<img src="../images/Notre-Dame.jpg" class="img-circle" width="200" height="200" data-toggle="modal" data-target="#Notre-Dame" title="Cliquez pour découvrir le monument">
+			<img src="../images/notredame.jpg" class="img-circle" width="200" height="200" data-toggle="modal" data-target="#Notre-Dame" title="Cliquez pour découvrir le monument">
 			<p>Notre-Dame</p>
 			<!-- Modal -->
 			<div class="modal fade" id="Notre-Dame" role="dialog">
@@ -29,13 +29,13 @@
 							<h2 class="modal-title text-center">Notre-Dame de Paris</h2>
 						</div>
 						<div class="modal-body">
-							<img src="../images/Notre-Dame.jpg" width="50%" height="50%" title="Notre-Dame de Paris"> <br> <br>
+							<img src="../images/notredame.jpg" width="50%" height="50%" title="Notre-Dame de Paris"> <br> <br>
 							<p class="text-justify">
 								La cathédrale Notre-Dame de Paris, est la cathédrale de l’archidiocèse de Paris, en France. 
 								Elle est située dans l'est de l’île de la Cité, dans le 4e arrondissement de Paris.
 								Sa construction à commencée sous la demande de l’évêque Maurice de Sully, elle s'étend sur plus de deux siècles, de 1163 au milieu du xive siècle. 
 							</p>
-							<button data-toggle="collapse" data-target="#Notre-Dame_plus">En savoir plus...</button>
+							<button data-toggle="collapse" data-target="#Notre-Dame_plus" class="button-more">En savoir plus...</button>
 							<div id="Notre-Dame_plus" class="collapse"> 
 								<p class="text-justify">
 									Le style n’est donc pas d’une uniformité totale : la cathédrale possède ainsi des caractères du gothique primitif et du gothique rayonnant. C'est donc le style gothique qui domine mais sous deux formes différentes.
@@ -74,7 +74,7 @@
 								La Conciergerie faisait partie du Palais de la Cité, appelé Le Palais royale ou encore aujourd’hui Le Palais de Justice, Le Palais était la résidence et le siège du pouvoir des rois de France, du xe au xive siècle. 
 								Il s’étendait sur la partie ouest de l’Île de la Cité dans le 1er arrondissement de Paris.
 							</p>
-							<button data-toggle="collapse" data-target="#Conciergerie_plus">En savoir plus...</button>
+							<button data-toggle="collapse" data-target="#Conciergerie_plus" class="button-more">En savoir plus...</button>
 							<div id="Conciergerie_plus" class="collapse"> 
 								<p class="text-justify">
 									Une partie du palais était convertie en prison d’État en 1370, après l’abandon du palais par Charles V et ses successeurs. 
@@ -95,7 +95,7 @@
 	</div>
 	<div class="row">
 		<div class="col-md-6">
-			<img src="../images/Sainte-Chapelle.jpg" class="img-circle" width="200" height="200" data-toggle="modal" data-target="#Sainte-Chapelle" title="Cliquez pour découvrir le monument">
+			<img src="../images/saintechapelle.jpg" class="img-circle" width="200" height="200" data-toggle="modal" data-target="#Sainte-Chapelle" title="Cliquez pour découvrir le monument">
 			<p>Sainte Chapelle</p>
 			<!-- Modal -->
 			<div class="modal fade" id="Sainte-Chapelle" role="dialog">
@@ -106,11 +106,11 @@
 							<h2 class="modal-title text-center">La Sainte-Chapelle</h2>
 						</div>
 						<div class="modal-body">
-							<img src="../images/Sainte-Chapelle.jpg" width="50%" height="50%" title="La Sainte-Chapelle"> <br> <br>
+							<img src="../images/saintechapelle.jpg" width="50%" height="50%" title="La Sainte-Chapelle"> <br> <br>
 							<p class="text-justify">
 								La Sainte-Chapelle, dite aussi Sainte-Chapelle du Palais, est une chapelle palatine édifiée sur l’île de la Cité, à Paris, à la demande de saint Louis afin d’abriter la Sainte Couronne d’épines, un morceau de la Vraie Croix, celle où J-C a été crucifié ainsi que diverses autres reliques de la Passion qu’il avait acquises à partir de 1239. 
 							</p>
-							<button data-toggle="collapse" data-target="#Sainte-Chapelle_plus">En savoir plus...</button>
+							<button data-toggle="collapse" data-target="#Sainte-Chapelle_plus" class="button-more">En savoir plus...</button>
 							<div id="Sainte-Chapelle_plus" class="collapse"> 
 								<p class="text-justify">
 									Elle est la première construite des Saintes chapelles, conçue comme une vaste châsse presque entièrement vitrée, et se distingue par l'élégance et la hardiesse de son architecture, 
@@ -135,7 +135,7 @@
 			</div>
 		</div>
 		<div class="col-md-6">
-			<img src="../images/Tribunal_de_Commerce.jpg" class="img-circle" width="200" height="200" data-toggle="modal" data-target="#Tribunal_de_Commerce" title="Cliquez pour découvrir le monument">
+			<img src="../images/tribunalcommerce.jpg" class="img-circle" width="200" height="200" data-toggle="modal" data-target="#Tribunal_de_Commerce" title="Cliquez pour découvrir le monument">
 			<p>Tribunal de Commerce</p>
 			<!-- Modal -->
 			<div class="modal fade" id="Tribunal_de_Commerce" role="dialog">
@@ -146,12 +146,12 @@
 							<h2 class="modal-title text-center">Le Tribunal de Commerce</h2>
 						</div>
 						<div class="modal-body">
-							<img src="../images/Tribunal_de_Commerce.jpg" width="50%" height="50%" title="Le Tribunal de Commerce"> <br> <br>
+							<img src="../images/tribunalcommerce.jpg" width="50%" height="50%" title="Le Tribunal de Commerce"> <br> <br>
 							<p class="text-justify">
 								Le tribunal de Commerce de Paris est un bâtiment situé sur la rive nord de l'île de la Cité à Paris, abritant le Tribunal de commerce de la capitale française.
 								Situé entre le quai de la Corse, le Boulevard du Palais, la rue de Lutèce et la rue Aubé, il fut construit 1860 à 1865, sur les plans de l'architecte Antoine-Nicolas Bailly (1810-1892), sous ordre de l'empereur Napoléon III
 							</p>
-							<button data-toggle="collapse" data-target="#Tribunal_de_Commerce_plus">en savoir plus...</button>
+							<button data-toggle="collapse" data-target="#Tribunal_de_Commerce_plus" class="button-more">en savoir plus...</button>
 							<div id="Tribunal_de_Commerce_plus" class="collapse"> 
 								<p class="text-justify">
 									Le tribunal est construit à l'emplacement de la partie ouest de la rue de la Pelleterie1. 
@@ -170,7 +170,7 @@
 	</div>
 	<div class="row">
 		<div class="col-md-6">
-			<img src="../images/Hotel-Dieu.jpg" class="img-circle" width="200" height="200" data-toggle="modal" data-target="#Hotel-Dieu" title="Cliquez pour découvrir le monument"> 
+			<img src="../images/hoteldieu.jpg" class="img-circle" width="200" height="200" data-toggle="modal" data-target="#Hotel-Dieu" title="Cliquez pour découvrir le monument"> 
 			<p>Hôtel Dieu</p>
 			<!-- Modal -->
 			<div class="modal fade" id="Hotel-Dieu" role="dialog">
@@ -181,13 +181,13 @@
 							<h2 class="modal-title text-center">L'Hôtel-Dieu</h2>
 						</div>
 						<div class="modal-body">
-							<img src="../images/Hotel-Dieu.jpg" width="50%" height="50%" title="L'Hôtel-Dieu"> <br> <br>
+							<img src="../images/hoteldieu.jpg" width="50%" height="50%" title="L'Hôtel-Dieu"> <br> <br>
 							<p class="text-justify">
 								L’Hôtel-Dieu de Paris est le plus ancien hôpital de la capitale. Fondé en 651 par l'évêque parisien saint Landry, il fut le symbole de la charité et de l'hospitalité.
 								Modeste à l'origine, il est construit du viie au xviie siècle sur la rive gauche de l'île de la Cité, au sud du Parvis Notre-Dame - place Jean-Paul-II ; deux bâtiments étaient reliés par le pont au Double.
 								Les constructions actuelles abritant l'hôpital datent du xixe siècle.
 							</p>
-							<!--button data-toggle="collapse" data-target="#Hotel-Dieu_plus">en savoir plus...</button>
+							<!--button data-toggle="collapse" data-target="#Hotel-Dieu_plus" class="button-more">en savoir plus...</button>
 							</p>
 							<div id="Hotel-Dieu_plus" class="collapse"> 
 								<p class="text-justify">

@@ -56,7 +56,6 @@ p {
 	font-size: 18px;
 }
 
-
 /*============ STYLE CLASS ============*/
 
 .histoire>p {
@@ -109,6 +108,11 @@ p {
 	background-color: #505050;
 	border-radius: 10px;
 	opacity: 0.75;
+}
+
+.button-more {
+	background-color: #333333;
+	border: 1px solid white;
 }
 
 /*============ STYLE ID ============*/

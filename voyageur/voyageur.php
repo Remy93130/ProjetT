@@ -46,7 +46,7 @@
 						<tr>
 							<th>
 								<img src="../images/voyageur2.jpg" class="table-col2" alt="Image2">
-								<p>La vieille maison médiévale par Fernand Pouillon 1958</p>
+								<p class="text-center">La vieille maison médiévale par Fernand Pouillon 1958</p>
 							</th>
 							<th>
 								<p class="text-justify table-col2">

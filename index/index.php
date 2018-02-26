@@ -1,4 +1,4 @@
- 	<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
 	<title>Menu</title>
@@ -19,7 +19,7 @@
 			<div class="col-md-12">
 				<h3 class="text-center">Bienvenue sur le site de l'Ile de la Cité</h3>
 				<p class="text-justify">
-					Voici le site du patrimoine mondial de l'Ile de la Cité, mandaté par l'UNESCO.
+					Voici notre site consacré au patrimoine mondial de l'Ile de la Cité, mandaté par l'UNESCO.
 					Vous trouverez sur ce site toute les informations essentielles sur l'Ile de la Cité.
 					tel que son histoire, son actualité ou encore ses meilleures spot photographiques 
 					pour prendre les meilleurs photos de l'Ile lors de votre voyage. Si vous avez des questions
@@ -40,7 +40,7 @@
 					<div class="item active">
 						<img src="../images/carousel1.jpg" alt="Image1" style="width: 100%;">
 						<div class="carousel-caption">
-							<h2 class="caption-C">Vue sur Notre-Dame</h2>
+							<h2 class="caption-C">La pointe Est de l'Ile</h2>
 						</div>
 					</div>
 					<div class="item">
@@ -68,11 +68,13 @@
 				</a>
 			</div> <!-- Fin carousel -->
 
-		</div> 
+		</div>
 		<br> <br>
 		<div class="row">
 			<div class="col-md-4">
-				<a class="twitter-timeline" data-height="525" data-theme="dark" href="https://twitter.com/Mairiedu4e?ref_src=twsrc%5Etfw">Tweets by Mairiedu4e</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+				<a class="twitter-timeline" data-height="525" data-theme="dark" href="https://twitter.com/Mairiedu4e?ref_src=twsrc%5Etfw">
+					<p>Pour suivre toute l'actualité de l'Île de la Cité, nous vous invitons à activer votre JavaScript pour voir le fil d'actualité où suivre ce lien.</p>
+				</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 			</div>
 			<div class="col-md-8">
 				<a href="../images/plan.svg"><img class="img-responsive plan" src="../images/plan.svg" alt="Plan"></a>

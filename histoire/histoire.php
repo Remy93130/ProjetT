@@ -105,7 +105,7 @@
 						<img class="img-responsive" src="../images/transition3.png">
 					</div>
 					<p>
-						Aujourd’hui, l'Ile de la Cité est désormais un lieu majoritairement touristique, tous ses monuments et toutes ses architectures sont conservés et sont visités chaques jours par des milliers de touristes.
+						Aujourd’hui, l'Ile de la Cité est désormais un lieu majoritairement touristique, tous ses monuments et toutes ses architectures sont conservés et sont visités chaques jours par des millions de touristes.
 						Elle a subi une metamorphose aux fils des années car elle est passée de lieu administratif, tête du pouvoir, à lieu touristique, de détente.
 						En décembre 2016, à la demande du président de la République, Philippe Bélaval et Dominique Perrault proposent de renforcer l’attractivité culturelle et touristique de l’île de la Cité.
 						La superficie de l'Ile de la Cité est d'environ 22,5 ha. Au 1er janvier 2013, sa population est de 981 habitants
