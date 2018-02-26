@@ -80,7 +80,6 @@
 				<a href="../images/plan.svg"><img class="img-responsive plan" src="../images/plan.svg" alt="Plan"></a>
 			</div>
 		</div>
-		<br>
 	</div>
 <?php 
 	include '../includes/footer.php'; //Ajout du pied de page 

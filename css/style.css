@@ -14,7 +14,9 @@
 }
 
 html {
+	/*position: relative;*/
 	overflow-x: hidden;
+	height: 100%;
 }
 
 header {
@@ -25,6 +27,11 @@ header {
 
 header>h1 {
 	text-align: center;
+}
+
+body {
+	height: 100%;
+	padding-bottom: 50px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -115,6 +122,25 @@ p {
 	border: 1px solid white;
 }
 
+.footer {
+	/*position: absolute;*/
+	bottom: 0;
+	height: 6em;
+	width: 100%;
+	background-color: #505050;
+	padding-top: 5px;
+	margin-top: 1%;
+}
+
+.image-footer img {
+	padding-right: 50px;
+	height: 5em;
+}
+
+.item-footer {
+	padding-top: 5px;
+}
+
 /*============ STYLE ID ============*/
 
 #titre_lien {
@@ -149,3 +175,18 @@ p {
 	}
 }
 
+@media screen and (max-width: 1100px) {
+	.image-footer img {
+		height: 3em;
+		float: left;
+	}
+}
+
+@media screen and (max-width: 805px) {
+	.image-footer img {
+		justify-content: center;
+	}
+	.item-footer {
+		display: none;
+	}
+}
