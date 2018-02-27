@@ -8,7 +8,6 @@ $histoire = "../histoire/histoire.php";
 $monuments = "../histoire/monuments.php";
 
 ?>
-<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 <header>
 	<div class="row">
 		<div class="col-md-4">
@@ -24,8 +23,8 @@ $monuments = "../histoire/monuments.php";
 		<li class="dropdown">
 			<a data-toggle="dropdown" href="<?php echo $histoire ?>" id="hist"><b>Histoire</b></a>
 			<ul class="dropdown-menu">
-				<li><a href="<?php echo $histoire ?>"><b>L'Île de la Cité</b></a></li>
-				<li><a href="<?php echo $monuments ?>"><b>Les Monuments</b></a></li>
+				<li><a class="drop" href="<?php echo $histoire ?>"><b>L'Île de la Cité</b></a></li>
+				<li><a class="drop" href="<?php echo $monuments ?>"><b>Les Monuments</b></a></li>
 			</ul>
 		</li>
 		<li><a href="<?php echo $voyage ?>"><b>Voyageur <i class="fas fa-plane"></i></b></a></li>

@@ -12,7 +12,7 @@
 				<ul class="nav nav-pills nav-justified item-footer">
 					<li><a href="#"><b>A propos</b></a></li>
 					<li><a href="#"><b>Contact</b></a></li>
-					<li><a href="#"><b>Équipe</b></a></li>
+					<li><a href="../index/equipe.php"><b>Équipe</b></a></li>
 				</ul>
 			</div>	
 		</div>
