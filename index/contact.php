@@ -67,6 +67,6 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 <script src="../js/jqBootstrapValidation.js"></script>
-<script src="../js/contact_me.js"></script>
+<script src="../js/contact_mail.js"></script>
 </body>
 </html>
