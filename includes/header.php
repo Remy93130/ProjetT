@@ -6,6 +6,7 @@ $photo = "../spotphoto/spotphoto.php";
 $voyage = "../voyageur/voyageur.php";
 $histoire = "../histoire/histoire.php";
 $monuments = "../histoire/monuments.php";
+$architecture = "../architecture/architecture.php";
 
 ?>
 <header>
@@ -30,6 +31,7 @@ $monuments = "../histoire/monuments.php";
 		<li><a href="<?php echo $voyage ?>"><b>Voyageur <i class="fas fa-plane"></i></b></a></li>
 		<li><a href="<?php echo $photo ?>"><b>Spot photo </b><i class="fas fa-camera"></i></a></li>
 		<li><a href="<?php echo $visite ?>"><b>Visiter </b><i class="fas fa-subway"></i></a></li>
+		<li><a href="<?php echo $architecture ?>"><b>Architecture </b><i class="fab fa-fort-awesome"></i></a></li>
 	</ul>
 </div> <!-- Fin de la barre de menu -->
 <!-- Gestion des liens si javascript active -->
