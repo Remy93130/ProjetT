@@ -65,13 +65,12 @@
 					<span class="sr-only">Suivant</span>
 				</a>
 			</div> <!-- Fin carousel -->
-
 		</div>
 		<br> <br>
 		<div class="row">
 			<div class="col-md-4">
 				<a class="twitter-timeline" data-height="525" data-theme="dark" href="https://twitter.com/Mairiedu4e?ref_src=twsrc%5Etfw">
-					<p>Pour suivre toute l'actualité de l'Île de la Cité, nous vous invitons à activer votre JavaScript pour voir le fil d'actualité où suivre ce lien.</p>
+					<p>Pour suivre toute l'actualité de l'Île de la Cité, nous vous invitons à activer votre JavaScript pour voir le fil d'actualité ou suivre ce lien.</p>
 				</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 			</div>
 			<div class="col-md-8">
