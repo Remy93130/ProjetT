@@ -7,6 +7,7 @@
 	<link rel="icon" type="image/jpg" href="../images/ico.png">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=no">
+</head>
 <body>
 <?php 
 	include '../includes/header.php'; //Ajout de l en tete
@@ -31,16 +32,14 @@
 			<div class="col-md-10 col-md-offset-2">
 				<div class="histoire text-justify">
 					<div class="partie" id="antiquite">
-						<h2>Antiquité</h2>
+						<img class="img-responsive" src="../images/transition1.png">
 					</div>					
 					<p>
 						On pense qu'une tribu gauloise appelée les Parisii vivait sur ce qu'on l'on appelle aujourd’hui l'Ile de la cité depuis 250 av. J.-C.
 						Aujourd’hui, en raison de l'absence d'éléments archéologiques convainquant, aucun vestige gaulois, ni même une quelconque trace d'occupation avant à la conquête romaine n'ayant été découverts sur l'île, les histoiriens pensent peut être que les Parisii aient en réalité installés leur agglomération plus loin que l'île de la Cité.
 						Comme beaucoup de partie de l'Ile de la Cité ont été détruites et reconstruites la plupart du temps, les archéologues ont découverts, sous le niveau gallo-romain, un niveau plus ancien, peu spectaculaire mais réel (clous, trous de poteau, vestiges de fosses de détritus).
 						L'île de la Cité s'étendait avant uniquement sur 9 hectares, alors qu'aujourd'hui elle en couvre 17. On pense donc que plusieurs petits îlots n'ont été ajoutés à l'île que plus tard.
-						<button data-toggle="collapse" data-target="#antiquite_plus" class="button-more">En savoir plus...</button>
 					</p>
-					<div id="antiquite_plus" class="collapse histoire2"> 
 					<p>
 						En 52 av. J.-C., après la victoire de Jules César sur Vercingétorix, on assista à la naissance de Lutèce. Les Gaulois s'installèrent sur l'île et continuaient de vivre du fleuve, par la pêche, tandis que la ville gallo-romaine se construisait sur la rive gauche.
 						À l’époque romaine, l’île de la Cité permet un contrôle stratégique du trafic et du commerce fluvial qui fait la prospérité des bateliers de la Seine. 
@@ -56,20 +55,17 @@
 						Deux empereurs militaires y ont résidés : Julien (César en Gaule de 355 à 361, et empereur de 361 à 363) puis Valentinien Ier (364-378) de 365 à 366. Reliée au palais, une basilique est élevée à l’emplacement de l’actuel marché aux fleurs. 
 						Mesurant pas moins de 70 m de long sur 35 m de large, c’est alors l’un des plus grands monuments de la Gaule. 
 						Après avoir été appelée Lutetia apud Parisios quelques temps, c’est à partir de 310 environ que Lutèce prend progressivement le nom de Civitas Parisiorum ou Urbs Parisiorum puis, à force d'abréviation, simplement Paris.					
-					</p>
-					</div>
+					</p>	
 				</div>
 				<div class="histoire text-justify">
 					<div class="partie" id="moyen-age">
-						<h2>Moyen-âge</h2>
+						<img class="img-responsive" src="../images/transition2.png">
 					</div>
 					<p>
 						Vers l'an 508, Alors que Clovis règne depuis 481, il fait de Paris la capitale du royaume des Francs et de l’ancienne forteresse gallo-romaine, sa résidence personnelle.
 						À ce moment, l’île de la Cité est la ville ; le mot de Cité s’impose alors pour désigner uniquement cette île. 
 						Le palais devient alors le château des rois mérovingiens. À la faveur de la christianisation, les églises se multiplient sur l’île et une basilique dédiée à Saint-Étienne est bientôt construite en partie sur l’emplacement de la future cathédrale Notre-Dame. 
-						<button data-toggle="collapse" data-target="#moyen_age_plus" class="button-more">En savoir plus...</button>
 					</p>
-					<div id="moyen_age_plus" class="collapse histoire2"> 
 					<p>
 						Dagobert crée un atelier monétaire durant son règne de 629 à 639. Il existe encore des pièces qui portent l'inscription Palati moneta et qui représentent saint Éloi, le ministre des finances de l'époque.
 						À partir de Charlemagne, qui a règné de 768 à 814, la Cité perd son statut de capitale. 
@@ -101,11 +97,10 @@
 						Entre 1394 et 1406, Charles VI (1380-1422) fait construire un nouveau pont en bois, le petit pont. Emporté à son tour par le 31 janvier 1408, il est rétabli en pierre dès l’année suivante et subsiste jusqu'au XVIIe siècle.
 						Le 30 mai 1413, c’est encore Charles VI qui baptise le nouveau pont de Notre-Dame, solide ouvrage de bois reliant l'île de la Cité à la rue Saint-Martin sur dix-sept rangées de piles </p>
 					</p>
-					</div>
 				</div>
 				<div class="histoire text-justify">
 					<div class="partie" id="aujourdhui">
-						<h2>Aujourd’hui</h2>
+						<img class="img-responsive" src="../images/transition3.png">
 					</div>
 					<p>
 						Aujourd’hui, l'Ile de la Cité est désormais un lieu majoritairement touristique, tous ses monuments et toutes ses architectures sont conservés et sont visités chaques jours par des millions de touristes.

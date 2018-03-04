@@ -87,8 +87,19 @@ label {
 }
 
 .partie {
-	margin: 5px;
-	padding: 4%;
+	margin: 10px;
+}
+
+.partie>h2{
+    background:url("../images/transition.png");
+    background-repeat: no-repeat;
+    height:135px;
+    line-height:72px;
+    padding-left:115px;
+	color: #505050;
+    font-size:45px;
+    white-space:nowrap;
+    overflow:hidden;
 }
 
 .plan {
@@ -102,6 +113,14 @@ label {
 	margin-top: 1.5em;
 	margin-bottom: 1.5em;
 	border: 1px solid black;
+}
+
+.histoire2 {
+	margin: 15px;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+	text-indent: 2em;
+	margin: 1em;
 }
 
 .box {
@@ -141,10 +160,6 @@ label {
 
 .item-footer {
 	padding-top: 5px;
-}
-
-.drop {
-	color:yellow;
 }
 
 .caption {
@@ -230,3 +245,28 @@ label {
 	.item-footer {
 		display: none;
 	}
+}
+
+@media(max-width: 767px){
+    .partie>h2 {
+        background: initial;
+        min-height: 50px;
+        line-height: 50px;
+        font-size: 35px;
+        height: auto;
+        overflow: initial;
+        white-space: initial;
+		color: #505050;
+        padding : 10px;
+        text-align:center;
+        background-color: #ff9933;
+        margin-bottom: 30px;
+    }
+
+}
+
+@media(min-width: 767px){
+	#monuments{
+		margin-left:100px
+	}
+}

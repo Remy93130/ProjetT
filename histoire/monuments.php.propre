@@ -12,13 +12,7 @@
 	<?php
 		include '../includes/header.php';
 	?>
-	
-<div class="container text-center">
-	Cette onglet recense tous les édifices les plus important de l'Ile, cliquez sur l'un d'eux !
-	<div class="partie text-justify" id="monuments">
-		<h2>Monuments</h2>
-	</div>
-</div>
+
 <div class="container text-center">
 	<div class="row">
 		<div class="col-md-6">
@@ -62,7 +56,7 @@
 			</div>
 		</div>
 		<div class="col-md-6">
-			<img src="../images/conciergerie.jpg" class="img-circle" width="200" height="200" data-toggle="modal" data-target="#Conciergerie" title="Cliquez pour découvrir le monument">
+			<img src="../images/Conciergerie.jpg" class="img-circle" width="200" height="200" data-toggle="modal" data-target="#Conciergerie" title="Cliquez pour découvrir le monument">
 			<p>La Conciergerie</p>
 			<!-- Modal -->
 			<div class="modal fade" id="Conciergerie" role="dialog">
@@ -129,7 +123,7 @@
 									qui s’étendait sur le site couvrant l’actuel palais de justice. Elle est gérée par le Centre des monuments nationaux, auquel elle a été attribuée à titre de dotation par un arrêté du 2 avril 2008. 
 									Desservi par la station de métro Cité, le monument a accueilli en 2013 plus d'un million de visiteurs, en faisant le troisième monument géré par le Centre des monuments nationaux le plus visité.
 								</p>
-							</div>
+							</div>			
 						</div>
 						<div class="modal-footer">
 							<button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
@@ -185,7 +179,7 @@
 							<h2 class="modal-title text-center">L'Hôtel-Dieu</h2>
 						</div>
 						<div class="modal-body">
-							<img src="../images/hotel_dieu.jpg" width="50%" height="50%" title="L'Hôtel-Dieu"> <br> <br>
+							<img src="../images/hoteldieu.jpg" width="50%" height="50%" title="L'Hôtel-Dieu"> <br> <br>
 							<p class="text-justify">
 								L’Hôtel-Dieu de Paris est le plus ancien hôpital de la capitale. Fondé en 651 par l'évêque parisien saint Landry, il fut le symbole de la charité et de l'hospitalité.
 								Modeste à l'origine, il est construit du viie au xviie siècle sur la rive gauche de l'île de la Cité, au sud du Parvis Notre-Dame - place Jean-Paul-II ; deux bâtiments étaient reliés par le pont au Double.
@@ -205,169 +199,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-md-6">
-			<img src="../images/memorialdesmartyrs.jpg" class="img-circle" width="200" height="200" data-toggle="modal" data-target="#memorial_des_martyrs" title="Cliquez pour découvrir le monument"> 
-			<p>Mémorial des Martyrs</p>
-			<!-- Modal -->
-			<div class="modal fade" id="memorial_des_martyrs" role="dialog">
-				<div class="modal-dialog">
-					<!-- contenu-->
-					<div class="histoire modal-content">
-						<div class="modal-header">
-							<h2 class="modal-title text-center">Mémorial des Martyrs</h2>
-						</div>
-						<div class="modal-body">
-							<img src="../images/memorialdesmartyrs.jpg" width="50%" height="50%" title="Mémorial des Martyrs"> <br> <br>
-							<p class="text-justify">
-								blabla
-							</p>
-							<button data-toggle="collapse" data-target="#memorial_des_martyrs_plus" class="button-more">en savoir plus...</button>
-							</p>
-							<div id="memorial_des_martyrs_plus" class="collapse"> 
-								<p class="text-justify">
-									blabla
-								</p>
-							</div>
-						</div>
-						<div class="modal-footer">
-							<button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
 	</div>	
-</div>
-<div class="container text-center">
-	<div class="partie text-justify" id="monuments">
-		<h2>Ponts</h2>
-	</div>
-</div>
-<div class="container text-center">
-	<div class="row">
-		<div class="col-md-6">
-			<img src="../images/pontneuf.jpg" class="img-circle" width="200" height="200" data-toggle="modal" data-target="#pontneuf" title="Cliquez pour découvrir le monument">
-			<p>Pont Neuf</p>
-			<!-- Modal -->
-			<div class="modal fade" id="pontneuf" role="dialog">
-				<div class="modal-dialog">
-					<!-- contenu-->
-					<div class="histoire modal-content">
-						<div class="modal-header">
-							<h2 class="modal-title text-center">Pont Neuf</h2>
-						</div>
-						<div class="modal-body">
-							<img src="../images/pontneuf.jpg" width="50%" height="50%" title="Pont Neuf"> <br> <br>
-							<p class="text-justify">
-								blabla
-							</p>
-							<button data-toggle="collapse" data-target="#pontneuf_plus" class="button-more">En savoir plus...</button>
-							<div id="pontneuf_plus" class="collapse"> 
-								<p class="text-justify">
-									blabla
-								</p>
-							</div>
-						</div>
-						<div class="modal-footer">
-							<button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="col-md-6">
-			<img src="../images/pontnotredame.jpg" class="img-circle" width="200" height="200" data-toggle="modal" data-target="#pont_notredame" title="Cliquez pour découvrir le monument">
-			<p>Pont Neuf</p>
-			<!-- Modal -->
-			<div class="modal fade" id="pont_notredame" role="dialog">
-				<div class="modal-dialog">
-					<!-- contenu-->
-					<div class="histoire modal-content">
-						<div class="modal-header">
-							<h2 class="modal-title text-center">Pont Notre-Dame</h2>
-						</div>
-						<div class="modal-body">
-							<img src="../images/pontnotredame.jpg" width="50%" height="50%" title="Pont Notre-Dame"> <br> <br>
-							<p class="text-justify">
-								blabla
-							</p>
-							<button data-toggle="collapse" data-target="#pont_notredame_plus" class="button-more">En savoir plus...</button>
-							<div id="pont_notredame_plus" class="collapse"> 
-								<p class="text-justify">
-									blabla
-								</p>
-							</div>
-						</div>
-						<div class="modal-footer">
-							<button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-md-6">
-			<img src="../images/pontaudouble.jpg" class="img-circle" width="200" height="200" data-toggle="modal" data-target="#pont_au_double" title="Cliquez pour découvrir le monument">
-			<p>Pont au double</p>
-			<!-- Modal -->
-			<div class="modal fade" id="pont_au_double" role="dialog">
-				<div class="modal-dialog">
-					<!-- contenu-->
-					<div class="histoire modal-content">
-						<div class="modal-header">
-							<h2 class="modal-title text-center">Pont au double</h2>
-						</div>
-						<div class="modal-body">
-							<img src="../images/pontaudouble.jpg" width="50%" height="50%" title="Pont au double"> <br> <br>
-							<p class="text-justify">
-								blabla
-							</p>
-							<button data-toggle="collapse" data-target="#pont_au_double_plus" class="button-more">En savoir plus...</button>
-							<div id="pont_au_double_plus" class="collapse"> 
-								<p class="text-justify">
-									blabla
-								</p>
-							</div>
-						</div>
-						<div class="modal-footer">
-							<button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="col-md-6">
-			<img src="../images/pontsaintmichel.jpg" class="img-circle" width="200" height="200" data-toggle="modal" data-target="#pont_saint_michel" title="Cliquez pour découvrir le monument">
-			<p>Pont Saint Michel</p>
-			<!-- Modal -->
-			<div class="modal fade" id="pont_saint_michel" role="dialog">
-				<div class="modal-dialog">
-					<!-- contenu-->
-					<div class="histoire modal-content">
-						<div class="modal-header">
-							<h2 class="modal-title text-center">Pont Saint Michel</h2>
-						</div>
-						<div class="modal-body">
-							<img src="../images/pontsaintmichel.jpg" width="50%" height="50%" title="Pont Saint Michel"> <br> <br>
-							<p class="text-justify">
-								blabla
-							</p>
-							<button data-toggle="collapse" data-target="#pont_saint_michel_plus" class="button-more">En savoir plus...</button>
-							<div id="pont_saint_michel_plus" class="collapse"> 
-								<p class="text-justify">
-									blabla
-								</p>
-							</div>
-						</div>
-						<div class="modal-footer">
-							<button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
 </div>
 <?php
 	include '../includes/footer.php'
