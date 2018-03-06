@@ -34,7 +34,7 @@
 		</div>
 		<hr>
 		<div class="row">
-			<h2>Monuments</h2><br>
+			<h2 class="transit">Monuments</h2><br>
 			<table class="table table-bordered">
 				<thead class="">
 					<tr class="text-center">
@@ -51,12 +51,18 @@
 						<td>55 rue Imaginaire</td>
 						<td>Palatine</td>
 					</tr>
+					<tr>
+						<td>Second</td>
+						<td>1998</td>
+						<td>12 rue Random</td>
+						<td>Militaire</td>
+					</tr>
 				</tbody>
 			</table>
 		</div>
 		<hr>
 		<div class="row">
-			<h2>Carte des monuments</h2><br>
+			<h2 class="transit">Carte des monuments</h2><br>
 			<h4 class="text-center" style="padding: 25%;">Intégrer une map pour montrer les monuments</h4>
 		</div>
 	</div>

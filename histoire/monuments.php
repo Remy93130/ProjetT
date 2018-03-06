@@ -14,9 +14,9 @@
 	?>
 	
 <div class="container text-center">
-	Cette onglet recense tous les édifices les plus important de l'Ile, cliquez sur l'un d'eux !
+	<p>Cette onglet recense tous les édifices les plus important de l'Ile, cliquez sur l'un d'eux !</p>
 	<div class="partie text-justify" id="monuments">
-		<h2>Monuments</h2>
+		<h2 class="transit">Monuments</h2>
 	</div>
 </div>
 <div class="container text-center">
@@ -240,7 +240,7 @@
 </div>
 <div class="container text-center">
 	<div class="partie text-justify" id="monuments">
-		<h2>Ponts</h2>
+		<h2 class="transit">Ponts</h2>
 	</div>
 </div>
 <div class="container text-center">

@@ -31,7 +31,7 @@
 			<div class="col-md-10 col-md-offset-2">
 				<div class="histoire text-justify">
 					<div class="partie" id="antiquite">
-						<h2>Antiquité</h2>
+						<h2 class="transit">Antiquité</h2>
 					</div>					
 					<p>
 						On pense qu'une tribu gauloise appelée les Parisii vivait sur ce qu'on l'on appelle aujourd’hui l'Ile de la cité depuis 250 av. J.-C.
@@ -61,7 +61,7 @@
 				</div>
 				<div class="histoire text-justify">
 					<div class="partie" id="moyen-age">
-						<h2>Moyen-âge</h2>
+						<h2 class="transit">Moyen-âge</h2>
 					</div>
 					<p>
 						Vers l'an 508, Alors que Clovis règne depuis 481, il fait de Paris la capitale du royaume des Francs et de l’ancienne forteresse gallo-romaine, sa résidence personnelle.
@@ -105,7 +105,7 @@
 				</div>
 				<div class="histoire text-justify">
 					<div class="partie" id="aujourdhui">
-						<h2>Aujourd’hui</h2>
+						<h2 class="transit">Aujourd’hui</h2>
 					</div>
 					<p>
 						Aujourd’hui, l'Ile de la Cité est désormais un lieu majoritairement touristique, tous ses monuments et toutes ses architectures sont conservés et sont visités chaques jours par des millions de touristes.
