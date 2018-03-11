@@ -26,7 +26,7 @@
 				</ul>
 			</div>
 			<div class="col-md-8 col-md-offset-1 box">
-				<h2 class="text-center">BLABLA</h2>
+				<h2 class="text-center">Visiter</h2>
 				<p>
 					ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
