@@ -35,9 +35,9 @@
 		<hr>
 		<div class="row">
 			<h2 class="transit">Monuments</h2><br>
-			<table class="table table-bordered">
-				<thead class="">
-					<tr class="text-center">
+			<table class="table table-bordered" style="font-size: 20px;">
+				<thead style="background-color: #B94503; color: #333333;">
+					<tr>
 						<th>Nom</th>
 						<th>Date</th>
 						<th>Adresse</th>
@@ -51,11 +51,17 @@
 						<td>55 rue Imaginaire</td>
 						<td>Palatine</td>
 					</tr>
-					<tr>
+					<tr class="bordered">
 						<td>Second</td>
 						<td>1998</td>
 						<td>12 rue Random</td>
 						<td>Militaire</td>
+					</tr>
+					<tr>
+						<td>Exemple</td>
+						<td>1997</td>
+						<td>55 rue Imaginaire</td>
+						<td>Palatine</td>
 					</tr>
 				</tbody>
 			</table>

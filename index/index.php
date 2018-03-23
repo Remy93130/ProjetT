@@ -69,9 +69,9 @@
 		<br> <br>
 		<div class="row">
 			<div class="col-md-4">
-				<a class="twitter-timeline" data-height="525" data-theme="dark" href="https://twitter.com/Mairiedu4e?ref_src=twsrc%5Etfw">
-					<p>Pour suivre toute l'actualité de l'Île de la Cité, nous vous invitons à activer votre JavaScript pour voir le fil d'actualité ou suivre ce lien.</p>
-				</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+				<a class="twitter-timeline" data-theme="dark" data-height="525" data-link-color="#f7af3e" href="https://twitter.com/iledelacite_mcn?ref_src=twsrc%5Etfw">
+				<p>Pour suivre toute l'actualité de l'Île de la Cité, nous vous invitons à activer votre JavaScript pour voir le fil d'actualité ou suivre ce lien.</p>
+			</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 			</div>
 			<div class="col-md-8">
 				<a href="../images/plan.svg"><img class="img-responsive plan" src="../images/plan.svg" alt="Plan"></a>

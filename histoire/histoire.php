@@ -15,11 +15,11 @@
 	<div class="container">
 		<br>
 		<div class="row">
-			<h1 class="col-md-10 col-md-offset-2 text-center">Histoire de l'Île de la Cité</h1>
-			<nav class="col-md-2">
+			<h1 class="col-md-10 col-md-offset-1 text-center">Histoire de l'Île de la Cité</h1>
+			<nav class="col-md-10 col-md-offset-1">
 				<div class="nav_histoire text-center">
 					<h3>Parties :</h3>
-					<ul class="nav nav-pills nav-stacked">
+					<ul class="nav nav-pills nav-stacked part">
 						<li><a href="#antiquite"><b>Antiquité</b></a></li>
 						<li><a href="#moyen-age"><b>Moyen-Age</b></a></li>
 						<li><a href="#aujourdhui"><b>Aujourd'hui</b></a></li>
@@ -28,7 +28,7 @@
 			</nav>
 		</div>
 		<div class="row">
-			<div class="col-md-10 col-md-offset-2">
+			<div class="col-md-10 col-md-offset-1">
 				<div class="histoire text-justify">
 					<div class="partie" id="antiquite">
 						<h2 class="transit">Antiquité</h2>

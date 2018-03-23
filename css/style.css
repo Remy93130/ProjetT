@@ -13,6 +13,10 @@
 	font-family: Cicle_Fina;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	font-family: Dyno_Regular;
+}
+
 html {
 	overflow-x: hidden;
 	height: 100%;
@@ -31,10 +35,6 @@ header>h1 {
 body {
 	height: 100%;
 	padding-bottom: 50px;
-}
-
-h1, h2, h3, h4, h5, h6 {
-	font-family: Dyno_Regular;
 }
 
 li>a {
@@ -139,6 +139,13 @@ label {
 	opacity: 0.75;
 }
 
+.nav_histoire {
+	background-color: #505050;
+	padding: 25px;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
 .button-more {
 	background-color: #333333;
 	border: 1px solid white;
@@ -190,10 +197,40 @@ label {
 	color: #D17581;
 }
 
+.bordered {
+	background-color: #505050
+}
+
 .logo-social {
 	font-size: 25px;
 }
 
+footer .footer-above {
+	background-color: #505050;
+	padding-top: 50px;
+	margin-top: .5rem;
+	padding-bottom: 5rem;
+}
+
+.btn-social {
+	height: 50px;
+	width: 50px;
+	border: 2px solid #fff;
+	border-radius: 100%;
+	display: inline-block;
+	font-size: 20px;
+	line-height: 45px;
+	text-align: center;
+}
+
+.social>li>a {
+	color: white;
+}
+
+.social>li>a:hover {
+	color: #505050;
+	background-color: white;
+}
 
 /*============ STYLE ID ============*/
 
@@ -204,46 +241,18 @@ label {
 	font-size: 64px;
 }
 
-/*============ STYLE RESPONSIVE ============*/
-
-@media screen and (min-width: 971px) {
-	.nav_histoire {
-		position: fixed;
-		background-color: #505050;
-		padding: 25px;
-		margin-top: 8%;
-		border: 2px solid black;
-		border-radius: 10px;
-	}
-}
+/*============ MEDIA QUERIES ============*/
 
 @media screen and (max-width: 970px) {
-	.nav_histoire {
-		background-color: #505050;
-		padding: 25px;
-		border: 1px solid black;
-		border-radius: 10px;
-	}
-
 	.caption-C {
 		display: none;
 	}
 }
 
-@media screen and (max-width: 1100px) {
-	.image-footer img {
-		height: 3em;
-		float: left;
-	}
-}
-
-@media screen and (max-width: 805px) {
+@media screen and (max-width: 768px) {
 	.image-footer img {
 		justify-content: center;
-	}
-
-	.item-footer {
-		display: none;
+		float: left;
 	}
 }
 
