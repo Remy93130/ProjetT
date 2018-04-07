@@ -19,7 +19,6 @@ h1, h2, h3, h4, h5, h6 {
 
 html {
 	overflow-x: hidden;
-	height: 100%;
 }
 
 header {
@@ -34,7 +33,6 @@ header>h1 {
 
 body {
 	height: 100%;
-	padding-bottom: 50px;
 }
 
 li>a {
@@ -151,14 +149,15 @@ label {
 	border: 1px solid white;
 }
 
-.footer {
+/*.footer {
 	bottom: 0;
 	height: 6em;
 	width: 100%;
 	background-color: #505050;
 	padding-top: 5px;
 	margin-top: 1%;
-}
+	position: absolute;
+}*/
 
 .image-footer img {
 	padding-right: 50px;
