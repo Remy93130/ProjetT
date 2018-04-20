@@ -1,17 +1,6 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-	<title>Menu</title>
-	<link rel="stylesheet" type="text/css" href="../css/style.css">
-	<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css">
-	<link rel="icon" type="image/jpg" href="../images/ico.png">
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=no">
-</head>
-<body>
-<?php 
-	include '../includes/header.php'; //Ajout de l en tete
-?>
+<?php $title = "Architectures"; ?>
+
+<?php ob_start(); ?>
 	<div class="container">
 		<div class="row">
 			<h1 class="text-center">Architecture</h1>
@@ -72,12 +61,7 @@
 			<h4 class="text-center" style="padding: 25%;">Intégrer une map pour montrer les monuments</h4>
 		</div>
 	</div>
-<?php 
-	include '../includes/footer.php'; //Ajout du pied de page 
+<?php
+$content = ob_get_clean();
+require 'template_fr.php';
 ?>
-
-<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</body>
-</html>

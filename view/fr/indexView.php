@@ -1,17 +1,6 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-	<title>Menu</title>
-	<link rel="stylesheet" type="text/css" href="../css/style.css">
-	<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css">
-	<link rel="icon" type="image/jpg" href="../images/ico.png">
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=no">
-</head>
-<body>
-<?php 
-	include '../includes/header.php'; //Ajout de l en tete
-?>
+<?php $title = "Accueil"; ?>
+
+<?php ob_start(); ?>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
@@ -36,19 +25,19 @@
 				<!-- Images -->
 				<div class="carousel-inner">
 					<div class="item active">
-						<img src="../images/carousel1.jpg" alt="Image1" style="width: 100%;">
+						<img src="public/images/carousel1.jpg" alt="Image1" style="width: 100%;">
 						<div class="carousel-caption">
 							<h2 class="caption-C">La pointe Est de l'Ile</h2>
 						</div>
 					</div>
 					<div class="item">
-						<img src="../images/carousel2.jpg" alt="Image2" style="width: 100%;">
+						<img src="public/images/carousel2.jpg" alt="Image2" style="width: 100%;">
 						<div class="carousel-caption">
 							<h2 class="caption-C">Palais de Justice</h2>
 						</div>
 					</div>
 					<div class="item">
-						<img src="../images/carousel3.jpg" alt="Image3" style="width: 100%;">
+						<img src="public/images/carousel3.jpg" alt="Image3" style="width: 100%;">
 						<div class="carousel-caption">
 							<h2 class="caption-C">Statue de Charlemagne et ses Leudes</h2>
 						</div>
@@ -74,16 +63,11 @@
 			</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 			</div>
 			<div class="col-md-8">
-				<a href="../images/plan.svg"><img class="img-responsive plan" src="../images/plan.svg" alt="Plan"></a>
+				<a href="public/images/plan.svg"><img class="img-responsive plan" src="public/images/plan.svg" alt="Plan"></a>
 			</div>
 		</div>
 	</div>
 <?php 
-	include '../includes/footer.php'; //Ajout du pied de page 
+$content = ob_get_clean(); 
+require 'template_fr.php';
 ?>
-
-<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</body>
-</html>

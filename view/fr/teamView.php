@@ -1,17 +1,6 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-	<title>Menu</title>
-	<link rel="stylesheet" type="text/css" href="../css/style.css">
-	<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css">
-	<link rel="icon" type="image/jpg" href="../images/ico.png">
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=no">
-</head>
-<body>
-<?php 
-	include '../includes/header.php'; //Ajout de l en tete
-?>
+<?php $title = "L'équipe"; ?>
+
+<?php ob_start(); ?>
 	<div class="container">
 		<div class="row">
 			<h1 class="text-center">Présentation de l'équipe :</h1><br>
@@ -19,7 +8,7 @@
 		<div class="row">
 			<div class="col-md-4">
 				<div class="thumbnail">
-					<img src="../images/chaton.jpg" alt="" class="img-circle img-thumbnail">
+					<img src="public/images/chaton.jpg" alt="" class="img-circle img-thumbnail">
 					<div class="caption">
 						<h4 class="text-center">Barberet Rémy</h4>
 						<p>
@@ -39,7 +28,7 @@
 			</div>
 			<div class="col-sm-4 col-lg-4 col-md-4">
 				<div class="thumbnail">
-					<img src="../images/chaton.jpg" alt="" class="img-circle img-thumbnail">
+					<img src="public/images/chaton.jpg" alt="" class="img-circle img-thumbnail">
 					<div class="caption">
 						<h4 class="text-center">Chardon Léo</h4>
 						<p>Chargé de communication - Responsable développement</p>
@@ -57,7 +46,7 @@
 			</div>
 			<div class="col-sm-4 col-lg-4 col-md-4">
 				<div class="thumbnail">
-					<img src="../images/chaton.jpg" alt="" class="img-circle img-thumbnail">
+					<img src="public/images/chaton.jpg" alt="" class="img-circle img-thumbnail">
 					<div class="caption">
 						<h4 class="text-center">Ghocane Dimitri</h4>
 						<p>Responsable recherche documentaire - Designer</p>
@@ -75,12 +64,7 @@
 			</div>
 		</div>
 	</div>
-<?php 
-	include '../includes/footer.php'; //Ajout du pied de page 
+<?php
+$content = ob_get_clean();
+require 'template_fr.php';
 ?>
-
-<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</body>
-</html>

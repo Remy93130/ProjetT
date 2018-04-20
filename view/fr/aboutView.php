@@ -1,20 +1,9 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-	<title>Menu</title>
-	<link rel="stylesheet" type="text/css" href="../css/style.css">
-	<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css">
-	<link rel="icon" type="image/jpg" href="../images/ico.png">
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=no">
-</head>
-<body>
-<?php 
-	include '../includes/header.php'; //Ajout de l en tete
-?>
+<?php $title = "A propos"; ?>
+
+<?php ob_start(); ?>
 	<div class="container">
 		<div class="row">
-			<h1>Le projet</h1><br>
+			<h1 class="transit">Le projet</h1><br>
 			<div class="col-md-8 col-md-offset-2">
 				<p class="text-justify">
 					Nous somme une équipe de trois étudiants de l'Institut Universitaire Technologique
@@ -25,9 +14,9 @@
 			</div>
 		</div>
 		<div class="row">
-			<h1>Nos partenaires</h1><br><br>
+			<h1 class="transit">Nos partenaires</h1><br><br>
 			<div class="col-md-6 text-center">
-				<img src="../images/upem.png" alt="UPEM">
+				<img src="public/images/upem.png" alt="UPEM">
 			</div>
 			<div class="col-md-6 text-justify">
 				<p>
@@ -39,7 +28,7 @@
 		<br><hr><br>
 		<div class="row">
 			<div class="col-md-6 text-center">
-				<img src="../images/unesco.svg" alt="UNESCO" style="width: 50%">
+				<img src="public/images/unesco.svg" alt="UNESCO" style="width: 50%">
 			</div>
 			<div class="col-md-6 text-justify">
 				<p>
@@ -55,7 +44,7 @@
 		<br><hr><br>
 		<div class="row">
 			<div class="col-md-6 text-center">
-				<img src="../images/icomos.png" alt="ICOMOS" style="width: 75%">
+				<img src="public/images/icomos.png" alt="ICOMOS" style="width: 75%">
 			</div>
 			<div class="col-md-6 text-justify">
 				<p>
@@ -69,12 +58,7 @@
 			</div>
 		</div>
 	</div>
-<?php 
-	include '../includes/footer.php'; //Ajout du pied de page 
+<?php
+$content = ob_get_clean();
+require 'template_fr.php';
 ?>
-
-<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</body>
-</html>
