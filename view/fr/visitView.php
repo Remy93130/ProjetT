@@ -10,10 +10,11 @@ $pos = "visit";
 			<div class="col-md-3 text-center box">
 				<h3>Catégories :</h3>
 				<ul class="nav nav-pills nav-stacked">
-					<li><a href="#"><b>Restaurations</b></a></li>
-					<li><a href="#"><b>Hôtels et logements</b></a></li>
-					<li><a href="#"><b>Divertissement</b></a></li>
-					<li><a href="#"><b>Quatre</b></a></li>
+					<li><a href="<?= 'index.php?action='.$pos.'&lang='.$lang?>"><b>Tout voir</b></a></li>
+					<li><a href="<?= 'index.php?action='.$pos.'&lang='.$lang.'&choice=restaurant' ?>"><b>Restaurations</b></a></li>
+					<li><a href="<?= 'index.php?action='.$pos.'&lang='.$lang.'&choice=hotel' ?>"><b>Hôtels et logements</b></a></li>
+					<li><a href="<?= 'index.php?action='.$pos.'&lang='.$lang.'&choice=entertainment' ?>"><b>Divertissement</b></a></li>
+					<li>&nbsp;</li>
 					<li><a href="#"><b>L'avis des Visiteurs</b></a></li>
 				</ul>
 			</div>
@@ -27,6 +28,71 @@ $pos = "visit";
 					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 				</p>
+			</div>
+		</div><br><br>
+		<div class="row">
+			<div class="col-md-10 col-md-offset-1">
+				<table class="table table-bordered" style="font-size: 20px;">
+					<thead style="background-color: #B94503; color: #333333;">
+						<tr>
+							<th>
+								Nom
+								<a href="<?= 'index.php?action='.$pos.'&lang='.$lang.'&choice='.$choice.'&sort=name' ?>" style="color: #303030">
+									<i class="fas fa-sort pull-right"></i>
+								</a>
+							</th>
+							<th>
+								Type 
+								<a href="<?= 'index.php?action='.$pos.'&lang='.$lang.'&choice='.$choice.'&sort=type' ?>" style="color: #303030">
+									<i class="fas fa-sort pull-right"></i>
+								</a>
+							</th>
+							<th>
+								Prix 
+								<a href="<?= 'index.php?action='.$pos.'&lang='.$lang.'&choice='.$choice.'&sort=price' ?>" style="color: #303030">
+									<i class="fas fa-sort pull-right"></i>
+								</a>
+							</th>
+							<th>
+								Site
+							</th>
+						</tr>
+					</thead>
+					<tbody>
+						<?php
+						$count = 0;
+						while ($data = $shops->fetch()) {						
+						$border = ($count % 2 == 0) ? 0 : 1 ;
+						if ($border) {
+							echo "<tr class='bordered'>";
+						} else {
+							echo "<tr>";
+						}
+						$count++;
+						?>
+							<td><?= $data['1'] ?></td>
+							<td><?= $data['2'] ?></td>
+							<td class="text-center">
+								<?php
+								for ($i=0; $i < $data['3']; $i++) { 
+									echo "€";
+								}
+								?>
+							</td>
+							<td>
+								<?php if (!empty($data['4'])) {
+									echo '<a href="' . $data['4'] . '">Lien</a>';
+								} else {
+									echo "Non renseigné";
+								}?>
+								
+							</td>
+						</tr>
+						<?php
+						}
+						?>
+					</tbody>
+				</table>
 			</div>
 		</div>
 	</div><br>

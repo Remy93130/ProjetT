@@ -1,6 +1,7 @@
 <?php
 
 require_once 'controller/BasicController.php';
+require_once 'controller/VisitController.php';
 
 try {
 	$lang = (isset($_GET['lang'])) ? $_GET['lang'] : 'fr' ;

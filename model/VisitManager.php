@@ -32,9 +32,14 @@ class VisitManager extends Manager
 			}
 		}
 		if ($sort != "") {
-			// TODO
+			if ($sort == "name") {
+				$sql .= ' ORDER BY name ASC';
+			} else if ($sort == "type") {
+				$sql .= ' ORDER BY type ASC';
+			} else if ($sort == "price") {
+				$sql .= ' ORDER BY price ASC';
+			}
 		}
-		echo $sql;
 		$req = $db->query($sql);
 		return $req;
 	}
