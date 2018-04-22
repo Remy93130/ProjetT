@@ -53,5 +53,5 @@ $pos = "contact";
 <?php
 $content = ob_get_clean();
 $form = true;
-require 'template_fr.php';
+require 'template_en.php';
 ?>

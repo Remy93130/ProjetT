@@ -33,15 +33,15 @@
 	<div class="navbar-default navbar barre_menu">
 		<ul class="nav navbar-nav text-center lien_nav">
 			<li class="dropdown">
-				<a data-toggle="dropdown" href="#" id="hist"><b>Histoire <i class='fas fa-caret-down'></i></b></a>
+				<a data-toggle="dropdown" href="#" id="hist"><b>History <i class='fas fa-caret-down'></i></b></a>
 				<ul class="dropdown-menu">
 					<li><a class="drop" href="index.php?action=history&lang=<?= $lang ?>"><b>L'Île de la Cité</b></a></li>
-					<li><a class="drop" href="index.php?action=monument&lang=<?= $lang ?>"><b>Les Monuments</b></a></li>
+					<li><a class="drop" href="index.php?action=monument&lang=<?= $lang ?>"><b>Monuments</b></a></li>
 				</ul>
 			</li>
-			<li><a href="index.php?action=traveler&lang=<?= $lang ?>"><b>Voyageur <i class="fas fa-plane"></i></b></a></li>
-			<li><a href="index.php?action=photoSpot&lang=<?= $lang ?>"><b>Spot photo </b><i class="fas fa-camera"></i></a></li>
-			<li><a href="index.php?action=visit&lang=<?= $lang ?>"><b>Visiter </b><i class="fas fa-subway"></i></a></li>
+			<li><a href="index.php?action=traveler&lang=<?= $lang ?>"><b>Traveler <i class="fas fa-plane"></i></b></a></li>
+			<li><a href="index.php?action=photoSpot&lang=<?= $lang ?>"><b>Photos Spots </b><i class="fas fa-camera"></i></a></li>
+			<li><a href="index.php?action=visit&lang=<?= $lang ?>"><b>Visit </b><i class="fas fa-subway"></i></a></li>
 			<li><a href="index.php?action=architecture&lang=<?= $lang ?>"><b>Architecture </b><i class="fab fa-fort-awesome"></i></a></li>
 		</ul>
 	</div>
@@ -62,7 +62,7 @@
 				</div><hr>
 				<div class="row">
 					<div class="footer-col col-md-6">
-						<h2>Nous retrouver sur internet</h2><br>
+						<h2>Follow us on the web</h2><br>
 						<ul class="list-inline social">
 							<li><a href="www.facebook.com/Ile.De.La.Cite.MCN" class="btn-social btn-outline" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
 							<li>
@@ -74,11 +74,11 @@
 						</ul>
 					</div>
 					<div class="footer-col col-md-6">
-						<h2>Liens utiles</h2><br>
+						<h2>Usefull links</h2><br>
 						<ul class="nav nav-pills nav-justified">
-							<li><a href="index.php?action=about&lang=<?= $lang ?>"><b>A propos</b></a></li>
+							<li><a href="index.php?action=about&lang=<?= $lang ?>"><b>About</b></a></li>
 							<li><a href="index.php?action=contact&lang=<?= $lang ?>"><b>Contact</b></a></li>
-							<li><a href="index.php?action=team&lang=<?= $lang ?>"><b>Équipe</b></a></li>
+							<li><a href="index.php?action=team&lang=<?= $lang ?>"><b>Team</b></a></li>
 						</ul>
 					</div>
 				</div>

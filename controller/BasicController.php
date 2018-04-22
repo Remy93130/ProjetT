@@ -1,6 +1,7 @@
 <?php
 
 require_once 'model/Manager.php';
+require_once 'model/VisitManager.php';
 
 function index($getLang) {
 	$manager = new Manager();
@@ -39,7 +40,18 @@ function traveler($getLang) {
 }
 
 function visit($getLang) {
-	$manager = new Manager();
+	$manager = new VisitManager();
+	if (isset($_GET['choice'])) {
+		$choice = htmlspecialchars($_GET['choice']);
+	} else {
+		$choice = "";
+	}
+	if (isset($_GET['sort'])) {
+		$sort = htmlspecialchars($_GET['sort']);
+	} else {
+		$sort = "";
+	}
+	$shops = $manager->getShops($choice, $sort);
 	$lang = $manager->getLanguage(htmlspecialchars($getLang));
 	require 'view/' . $lang . '/visitView.php';
 }

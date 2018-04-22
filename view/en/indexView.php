@@ -1,5 +1,5 @@
 <?php
-$title = "Accueil";
+$title = "Home";
 $pos = "index";
 ?>
 
@@ -7,13 +7,12 @@ $pos = "index";
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<h3 class="text-center">Bienvenue sur le site de l'Ile de la Cité</h3>
+				<h3 class="text-center">Welcome to the Ile de la Cité's website</h3>
 				<p class="text-justify">
-					Voici notre site consacré au patrimoine mondial de l'Ile de la Cité, mandaté par l'UNESCO.
-					Vous trouverez sur ce site toute les informations essentielles sur l'Ile de la Cité.
-					tel que son histoire, son actualité ou encore ses meilleures spot photographiques 
-					pour prendre les meilleurs photos de l'Ile lors de votre voyage. Si vous avez des questions
-					n'hésité pas à utiliser le support contact.
+					There is our website dedicated to world heritage of Ile de la Cité, mandated by UNESCO.
+					On this website, you can found all main information about this location.
+					Like his story, his news or his best spots to take pictures during your travel.
+					If you have any questions, please use contact support.
 				</p>
 			</div>
 		</div>
@@ -30,19 +29,19 @@ $pos = "index";
 					<div class="item active">
 						<img src="public/images/carousel/carousel1.jpg" alt="Image1" style="width: 100%;">
 						<div class="carousel-caption">
-							<h2 class="caption-C">La pointe Est de l'Ile</h2>
+							<h2 class="caption-C">The eastern tip of the island</h2>
 						</div>
 					</div>
 					<div class="item">
 						<img src="public/images/carousel/carousel2.jpg" alt="Image2" style="width: 100%;">
 						<div class="carousel-caption">
-							<h2 class="caption-C">Palais de Justice</h2>
+							<h2 class="caption-C">Courthouse</h2>
 						</div>
 					</div>
 					<div class="item">
 						<img src="public/images/carousel/carousel3.jpg" alt="Image3" style="width: 100%;">
 						<div class="carousel-caption">
-							<h2 class="caption-C">Statue de Charlemagne et ses Leudes</h2>
+							<h2 class="caption-C">Charlemagne's statue</h2>
 						</div>
 					</div>
 				</div>
@@ -50,11 +49,11 @@ $pos = "index";
 				<!-- Controle -->
 				<a class="left carousel-control" href="#carousel" data-slide="prev">
 					<span class="glyphicon glyphicon-chevron-left"></span>
-					<span class="sr-only">Precedent</span>
+					<span class="sr-only">Previous</span>
 				</a>
 				<a class="right carousel-control" href="#carousel" data-slide="next">
 					<span class="glyphicon glyphicon-chevron-right"></span>
-					<span class="sr-only">Suivant</span>
+					<span class="sr-only">Next</span>
 				</a>
 			</div> <!-- Fin carousel -->
 		</div>
@@ -62,7 +61,7 @@ $pos = "index";
 		<div class="row">
 			<div class="col-md-4">
 				<a class="twitter-timeline" data-theme="dark" data-height="525" data-link-color="#f7af3e" href="https://twitter.com/iledelacite_mcn?ref_src=twsrc%5Etfw">
-				<p>Pour suivre toute l'actualité de l'Île de la Cité, nous vous invitons à activer votre JavaScript pour voir le fil d'actualité ou suivre ce lien.</p>
+				<p>For follow all actuality of the Island, please enable your JavaScript or follow this link</p>
 			</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 			</div>
 			<div class="col-md-8">
@@ -72,5 +71,5 @@ $pos = "index";
 	</div><br>
 <?php 
 $content = ob_get_clean(); 
-require 'template_fr.php';
+require 'template_en.php';
 ?>

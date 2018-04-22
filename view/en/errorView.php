@@ -239,9 +239,9 @@
 	<div class='c'>
 		<div class='_404'>404</div>
 		<hr>
-		<div class='_1'>LA PAGE</div>
-		<div class='_2'>N'EXISTE PAS</div>
-		<a class='btn' href='javascript:history.go(-1)'>RETOUR EN ARRIERE</a>
+		<div class='_1'>THIS PAGE</div>
+		<div class='_2'>DOES NOT EXIST</div>
+		<a class='btn' href='javascript:history.go(-1)'>GO BACK</a>
 	</div>
 </body>
 </html>
