@@ -20,7 +20,8 @@ CREATE TABLE `shops` (
   `name` varchar(40) NOT NULL,
   `type` varchar(20) NOT NULL,
   `price` int(11) NOT NULL,
-  `website` varchar(65) DEFAULT NULL
+  `website` varchar(65) DEFAULT NULL,
+  `address` varchar(65) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 

@@ -15,7 +15,7 @@ $pos = "visit";
 					<li><a href="<?= 'index.php?action='.$pos.'&lang='.$lang.'&choice=hotel' ?>"><b>Hôtels et logements</b></a></li>
 					<li><a href="<?= 'index.php?action='.$pos.'&lang='.$lang.'&choice=entertainment' ?>"><b>Divertissement</b></a></li>
 					<li>&nbsp;</li>
-					<li><a href="#"><b>L'avis des Visiteurs</b></a></li>
+					<li><a href="<?= 'index.php?action='.$pos.'&lang='.$lang.'&choice=review' ?>"><b>L'avis des Visiteurs</b></a></li>
 				</ul>
 			</div>
 			<div class="col-md-8 col-md-offset-1 box">
@@ -32,6 +32,7 @@ $pos = "visit";
 		</div><br><br>
 		<div class="row">
 			<div class="col-md-10 col-md-offset-1">
+				<?php if (empty($_GET['choice']) || $_GET['choice'] != "review") { ?>
 				<table class="table table-bordered" style="font-size: 20px;">
 					<thead style="background-color: #B94503; color: #333333;">
 						<tr>
@@ -55,6 +56,9 @@ $pos = "visit";
 							</th>
 							<th>
 								Site
+							</th>
+							<th>
+								Itinéraire
 							</th>
 						</tr>
 					</thead>
@@ -81,21 +85,62 @@ $pos = "visit";
 							</td>
 							<td>
 								<?php if (!empty($data['4'])) {
-									echo '<a href="' . $data['4'] . '">Lien</a>';
+									echo '<a href="' . $data['4'] . '" target="_blank">Lien</a>';
 								} else {
 									echo "Non renseigné";
 								}?>
 								
 							</td>
+							<td>
+								<?= '<a href="'.$data['5'].'" target="_blank">Lien</a>' ?>
+							</td>
 						</tr>
-						<?php
-						}
-						?>
+						<?php } ?>
 					</tbody>
 				</table>
+				<?php } else { ?>
+				<h2 class="transit">Avis des visiteurs :</h2>
+				<div class="cool-box"><br>
+					<?php while ($data = $shops->fetch()) { ?>
+						<h4>
+							&nbsp;Auteur : <?= $data['1'] ?>
+							<i class="pull-right">Le <?= $data['3'] ?>&nbsp;</i>
+						</h4>
+						<h4>&nbsp;Message :</h4>
+						<p class="indent text-justify" style="padding: 10px"><?= $data['2'] ?></p><br>
+						<hr>
+					<?php } ?>
+					<a style="color: #F7AF3E; font-size: 18px;" href="#" data-toggle="modal" data-target="#setReview">&nbsp;Donner votre avis</a>
+				</div>
+				<?php } ?>
+				
 			</div>
 		</div>
 	</div><br>
+
+	<div class="modal fade" id="setReview" role="dialog">
+		<div class="modal-dialog">
+			<div class="histoire modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" style="color: red"><i class="fas fa-times"></i></button>
+					<h2 class="modal-title text-center">Donner votre avis</h2>
+				</div>
+				<div class="modal-body">
+					<form method="post" action="index.php?action=addReview">
+						<label for="name">Votre nom :</label>
+						<input class="form-control" type="text" name="name"><br>
+						<label for="review">Votre message :</label>
+						<textarea class="form-control" name="review" rows="4"></textarea><br>
+						<button type="submit" class="btn btn-default">Envoyez</button>
+					</form>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
 <?php
 $content = ob_get_clean();
 require 'template_fr.php';

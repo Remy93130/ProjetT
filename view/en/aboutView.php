@@ -19,7 +19,7 @@ $pos = "about";
 		<div class="row">
 			<h1 class="transit">Nos partenaires</h1><br><br>
 			<div class="col-md-6 text-center">
-				<img src="public/images/upem.png" alt="UPEM">
+				<img src="public/images/sponsor/upem.png" alt="UPEM">
 			</div>
 			<div class="col-md-6 text-justify">
 				<p>
@@ -31,7 +31,7 @@ $pos = "about";
 		<br><hr><br>
 		<div class="row">
 			<div class="col-md-6 text-center">
-				<img src="public/images/unesco.svg" alt="UNESCO" style="width: 50%">
+				<img src="public/images/sponsor/unesco.svg" alt="UNESCO" style="width: 50%">
 			</div>
 			<div class="col-md-6 text-justify">
 				<p>
@@ -47,7 +47,7 @@ $pos = "about";
 		<br><hr><br>
 		<div class="row">
 			<div class="col-md-6 text-center">
-				<img src="public/images/icomos.png" alt="ICOMOS" style="width: 75%">
+				<img src="public/images/sponsor/icomos.png" alt="ICOMOS" style="width: 75%">
 			</div>
 			<div class="col-md-6 text-justify">
 				<p>

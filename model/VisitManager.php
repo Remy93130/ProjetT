@@ -29,9 +29,11 @@ class VisitManager extends Manager
 				$sql .= 'WHERE type = "hotel"';
 			} else if ($choice == "entertainment") {
 				$sql .= 'WHERE type = "entertainment"';
+			} else if ($choice == "review") {
+				$sql =  'SELECT * FROM review ORDER BY date DESC';
 			}
 		}
-		if ($sort != "") {
+		if ($sort != "" && $choice != "review") {
 			if ($sort == "name") {
 				$sql .= ' ORDER BY name ASC';
 			} else if ($sort == "type") {
@@ -42,5 +44,17 @@ class VisitManager extends Manager
 		}
 		$req = $db->query($sql);
 		return $req;
+	}
+
+	public function insertReview($author, $review) {
+		$db = $this->dbConnect();
+		$sql = 'INSERT INTO review (author, review, date)
+				VALUES (:author, :review, CURRENT_DATE)';
+		$req = $db->prepare($sql);
+		$result = $req->execute(array(
+			':author' => $author,
+			':review' => $review));
+
+		return $result;
 	}
 }

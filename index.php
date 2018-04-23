@@ -26,6 +26,16 @@ try {
 			team($lang);
 		} else if ($_GET['action'] == "contact") {
 			contact($lang);
+		} else if ($_GET['action'] == "addReview") {
+			if (isset($_POST['name']) && isset($_POST['review'])) {
+				if (!empty($_POST['name']) && !empty($_POST['review'])) {
+					addReview($_POST['name'], $_POST['review']);
+				} else {
+					visit($lang);
+				}
+			} else {
+				visit($lang);
+			}
 		} else {
 			error404($lang);
 		}

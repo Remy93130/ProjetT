@@ -12,18 +12,17 @@ $pos = "team";
 			<div class="col-md-4">
 				<div class="thumbnail">
 					<br>
-					<img src="public/images/team/chaton.jpg" alt="" class="img-circle img-thumbnail">
+					<img src="public/images/team/remy.jpg" alt="" class="img-circle img-thumbnail">
 					<div class="caption">
 						<h4 class="text-center">Barberet Rémy</h4>
 						<p>
-							Chef de Projet - Responsable intégration
+							Chef de Projet - Responsable développement
 						</p>&nbsp;
 						<hr>
 					</div>
 					<div class="ratings">
 						<p><b>&nbsp;Contact : </b></p>
 						<p class="logo-social text-center">
-							<!-- <i class="fab fa-facebook-square"></i> -->
 							<a href="https://www.linkedin.com/in/rémy-barberet" target="_blank"><i class="fab fa-linkedin"></i></a>
 							<a href="http://perso-etudiant.u-pem.fr/~rbarbere/" target="_blank"><i class="fas fa-globe"></i></a>
 						</p>
@@ -33,18 +32,17 @@ $pos = "team";
 			<div class="col-sm-4 col-lg-4 col-md-4">
 				<div class="thumbnail">
 					<br>
-					<img src="public/images/team/chaton.jpg" alt="" class="img-circle img-thumbnail">
+					<img src="public/images/team/leo.jpg" alt="" class="img-circle img-thumbnail">
 					<div class="caption">
 						<h4 class="text-center">Chardon Léo</h4>
-						<p>Chargé de communication - Responsable développement</p>
+						<p>Chargé de communication - Responsable recherche documentaire</p>
 						<hr>
 					</div>
 					<div class="ratings">
 						<p><b>&nbsp;Contact : </b></p>
 						<p class="logo-social text-center">
-							<!-- <i class="fab fa-facebook-square"></i> -->
-							<a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
-							<a href="#" target="_blank"><i class="fas fa-globe"></i></a>
+							<a href="https://www.linkedin.com/in/l%C3%A9o-chardon-950319155/" target="_blank"><i class="fab fa-linkedin"></i></a>
+							<a href="http://perso-etudiant.u-pem.fr/~lchard02/" target="_blank"><i class="fas fa-globe"></i></a>
 						</p>
 					</div>
 				</div>
@@ -52,20 +50,18 @@ $pos = "team";
 			<div class="col-sm-4 col-lg-4 col-md-4">
 				<div class="thumbnail">
 					<br>
-					<img src="public/images/team/chaton.jpg" alt="" class="img-circle img-thumbnail">
+					<img src="public/images/team/dimitri.jpg" alt="" class="img-circle img-thumbnail">
 					<div class="caption">
 						<h4 class="text-center">Ghocane Dimitri</h4>
 						<p>
-							Responsable recherche documentaire - Designer
+							Responsable traduction - Designer
 						</p>&nbsp;
 						<hr>
 					</div>
 					<div class="ratings">
 						<p><b>&nbsp;Contact : </b></p>
 						<p class="logo-social text-center">
-							<!-- <i class="fab fa-facebook-square"></i> -->
-							<a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
-							<a href="#" target="_blank"><i class="fas fa-globe"></i></a>
+							<a href="https://www.linkedin.com/in/dimitri-ghocane-413319155/" target="_blank"><i class="fab fa-linkedin"></i></a>
 						</p>
 					</div>
 				</div>
