@@ -1,21 +1,21 @@
 /*============ STYLE FONT ============*/
 
 @font-face {
-	font-family: Dyno_Regular;
-	src: url(../font/Dyno_Regular.ttf);
 	font-family: Cicle_Fina;
 	src: url(../font/Cicle_Fina.ttf);
 }
 
-/*============ STYLE GENERAL ============*/
-
-* {
-	font-family: Cicle_Fina;
-}
-
-h1, h2, h3, h4, h5, h6 {
+@font-face {
 	font-family: Dyno_Regular;
+	src: url(../font/Dyno_Regular.ttf);
 }
+
+@font-face {
+	font-family: Springtime;
+	src: url(../font/Springtime_in_April.ttf);
+}
+
+/*============ STYLE GENERAL ============*/
 
 html {
 	overflow-x: hidden;
@@ -33,10 +33,17 @@ header>h1 {
 
 body {
 	height: 100%;
+	font-family: Cicle_Fina;
+	color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Dyno_Regular;
+	color: #F7AF3E;
 }
 
 li>a {
-	color:  #B94503;
+	color:  white;
 }
 
 li>a:hover {
@@ -254,13 +261,47 @@ footer .footer-above {
 	margin: auto;
 }
 
+.captionI {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: all ease .5s;
+	moz transition: all ease .5s;
+	webkit transition: all ease .5s;
+	background-color: rgba(25, 25, 25, 0.5);
+}
+
+.captionI:hover {
+	opacity: 1;
+}
+
+.caption-content {
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.link {
+	color: #EA5C0D;
+}
+
 /*============ STYLE ID ============*/
 
 #titre_lien {
 	text-decoration: none;
-	color: #B94503;
-	font-family: Dyno_Regular;
-	font-size: 64px;
+	color: #EA5C0D;
+	font-family: Springtime;
+	font-size: 82px;
 }
 
 /*============ MEDIA QUERIES ============*/

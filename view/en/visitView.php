@@ -5,10 +5,10 @@ $pos = "visit";
 
 <?php ob_start(); ?>
 	<br>
-	<div class="container">
+	<div class="container-fluid">
 		<div class="row">
-			<div class="col-md-3 text-center box">
-				<h3>Catégories :</h3>
+			<div class="col-md-3 col-md-offset-1 text-center box">
+				<h3 class="link">Catégories :</h3>
 				<ul class="nav nav-pills nav-stacked">
 					<li><a href="<?= 'index.php?action='.$pos.'&lang='.$lang?>"><b>Tout voir</b></a></li>
 					<li><a href="<?= 'index.php?action='.$pos.'&lang='.$lang.'&choice=restaurant' ?>"><b>Restaurations</b></a></li>
@@ -18,7 +18,7 @@ $pos = "visit";
 					<li><a href="<?= 'index.php?action='.$pos.'&lang='.$lang.'&choice=review' ?>"><b>L'avis des Visiteurs</b></a></li>
 				</ul>
 			</div>
-			<div class="col-md-8 col-md-offset-1 box">
+			<div class="col-md-6 col-md-offset-1 box">
 				<h2 class="text-center">Visiter</h2>
 				<p>
 					ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -31,7 +31,7 @@ $pos = "visit";
 			</div>
 		</div><br><br>
 		<div class="row">
-			<div class="col-md-10 col-md-offset-1">
+			<div class="col-md-10 col-md-offset-1 table-responsive">
 				<?php if (empty($_GET['choice']) || $_GET['choice'] != "review") { ?>
 				<table class="table table-bordered" style="font-size: 20px;">
 					<thead style="background-color: #B94503; color: #333333;">
@@ -107,7 +107,7 @@ $pos = "visit";
 							<i class="pull-right">Le <?= $data['3'] ?>&nbsp;</i>
 						</h4>
 						<h4>&nbsp;Message :</h4>
-						<p class="indent"><?= $data['2'] ?></p><br>
+						<p class="indent text-justify" style="padding: 10px"><?= htmlspecialchars($data['2']) ?></p><br>
 						<hr>
 					<?php } ?>
 					<a style="color: #F7AF3E; font-size: 18px;" href="#" data-toggle="modal" data-target="#setReview">&nbsp;Donner votre avis</a>

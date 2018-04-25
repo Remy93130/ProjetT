@@ -62,7 +62,7 @@
 				</div><hr>
 				<div class="row">
 					<div class="footer-col col-md-6">
-						<h2>Follow us on the web</h2><br>
+						<h2 class="link">Follow us on the web</h2><br>
 						<ul class="list-inline social">
 							<li><a href="www.facebook.com/Ile.De.La.Cite.MCN" class="btn-social btn-outline" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
 							<li>
@@ -74,7 +74,7 @@
 						</ul>
 					</div>
 					<div class="footer-col col-md-6">
-						<h2>Usefull links</h2><br>
+						<h2 class="link">Usefull links</h2><br>
 						<ul class="nav nav-pills nav-justified">
 							<li><a href="index.php?action=about&lang=<?= $lang ?>"><b>About</b></a></li>
 							<li><a href="index.php?action=contact&lang=<?= $lang ?>"><b>Contact</b></a></li>

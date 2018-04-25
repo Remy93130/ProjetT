@@ -70,7 +70,7 @@ $reqShops = $db->query($sqlShops);
 						<?php while ($data = $reqReview->fetch()) { ?>
 							<tr>
 								<td><?= $data['1'] ?></td>
-								<td><?= $data['2'] ?></td>
+								<td><?= htmlspecialchars($data['2']) ?></td>
 								<td><?= $data['3'] ?></td>
 								<td><a href="deleteReview.php?target=<?= $data['0'] ?>">Supprimer</a></td>
 							</tr>

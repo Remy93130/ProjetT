@@ -4,13 +4,13 @@ $pos = "history";
 ?>
 
 <?php ob_start(); ?>
-	<div class="container">
+	<div class="container-fluid">
 		<br>
 		<div class="row">
 			<h1 class="col-md-10 col-md-offset-1 text-center">Histoire de l'Île de la Cité</h1>
 			<nav class="col-md-6 col-md-offset-3">
 				<div class="nav_histoire text-center">
-					<h3>Parties :</h3>
+					<h3 class="link">Parties :</h3>
 					<ul class="nav nav-pills nav-stacked part">
 						<li><a href="#antiquite"><b>Antiquité</b></a></li>
 						<li><a href="#moyen-age"><b>Moyen-Age</b></a></li>

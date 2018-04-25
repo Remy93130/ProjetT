@@ -1,0 +1,12 @@
+{
+  "name": "ProjetT",
+  "description": "",
+  "launch_path": "/index.php",
+  "icons": {
+    "128": "/public/images/ico.png"
+  },
+  "developer": {
+    "name": "Remy Barberet",
+    "url": "http://perso-etudiant.u-pem.fr/~rbarbere/"
+  }
+}
