@@ -64,12 +64,12 @@
 					<div class="footer-col col-md-6">
 						<h2 class="link">Follow us on the web</h2><br>
 						<ul class="list-inline social">
-							<li><a href="www.facebook.com/Ile.De.La.Cite.MCN" class="btn-social btn-outline" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+							<li><a href="https://www.facebook.com/Ile.De.La.Cite.MCN" class="btn-social btn-outline" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
 							<li>
-								<a href="twitter.com/iledelacite_mcn" class="btn-social btn-outline" target="_blank"><i class="fab fa-twitter"></i></a>
+								<a href="https://twitter.com/iledelacite_mcn" class="btn-social btn-outline" target="_blank"><i class="fab fa-twitter"></i></a>
 							</li>
 							<li>
-								<a href="www.instagram.com/iledelacite_mcn" class="btn-social btn-outline" target="_blank"><i class="fab fa-instagram"></i></a>
+								<a href="https://www.instagram.com/iledelacite_mcn" class="btn-social btn-outline" target="_blank"><i class="fab fa-instagram"></i></a>
 							</li>
 						</ul>
 					</div>

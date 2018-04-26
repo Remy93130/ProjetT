@@ -93,12 +93,6 @@ label {
 	justify-content: center;
 }
 
-.histoire {
-	padding: 5px;
-	border-radius: 6px;
-	color: white;
-}
-
 .partie {
 	margin: 10px;
 }
@@ -121,11 +115,12 @@ label {
 
 .histoire {
 	padding: 5px;
-	border-radius: 25px;
+	border-radius: 1rem;
 	background-color: #505050;
 	margin-top: 1.5em;
 	margin-bottom: 1.5em;
 	border: 1px solid black;
+	color: white;
 }
 
 .histoire2 {
