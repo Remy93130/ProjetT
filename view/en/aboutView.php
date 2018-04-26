@@ -1,5 +1,5 @@
 <?php
-$title = "A propos";
+$title = "About";
 $pos = "about";
 ?>
 
@@ -35,12 +35,8 @@ $pos = "about";
 			</div>
 			<div class="col-md-6 text-justify">
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					L'UNESCO<br>
+					Nous a permis d'utiliser le contenu disponible sur l'Île de la Cité ainsi que les photographies mais également nous avoir confié la charge de promouvoir un lieu classé dans le patrimoine mondial.
 				</p>
 			</div>
 		</div>
@@ -51,12 +47,8 @@ $pos = "about";
 			</div>
 			<div class="col-md-6 text-justify">
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					ICOMOS<br>
+					Nous a permis d'utiliser les archives historiques conservées par leur organisation et de les afficher sur notre site internet.
 				</p>
 			</div>
 		</div>

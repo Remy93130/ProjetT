@@ -100,15 +100,15 @@ $pos = "visit";
 				<h2 class="transit">Avis des visiteurs :</h2>
 				<div class="cool-box"><br>
 					<?php while ($data = $shops->fetch()) { ?>
-						<h4>
+						<h4 class="link">
 							&nbsp;Auteur : <?= $data['1'] ?>
 							<i class="pull-right">Le <?= $data['3'] ?>&nbsp;</i>
 						</h4>
-						<h4>&nbsp;Message :</h4>
+						<h4 class="link">&nbsp;Message :</h4>
 						<p class="indent text-justify" style="padding: 10px"><?= htmlspecialchars($data['2']) ?></p><br>
 						<hr>
 					<?php } ?>
-					<a style="color: #F7AF3E; font-size: 18px;" href="#" data-toggle="modal" data-target="#setReview">&nbsp;Donner votre avis</a>
+					<a style="font-size: 18px;" href="#" data-toggle="modal" data-target="#setReview">&nbsp;Donner votre avis</a>
 				</div>
 				<?php } ?>
 				

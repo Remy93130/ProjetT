@@ -42,12 +42,20 @@ h1, h2, h3, h4, h5, h6 {
 	color: #F7AF3E;
 }
 
+a {
+	color: #B94503;
+}
+
+a:hover {
+	color: #EA5C0D;
+}
+
 li>a {
 	color:  white;
 }
 
 li>a:hover {
-	color:  #333;
+	color:  #505050;
 	text-decoration: none;
 }
 
