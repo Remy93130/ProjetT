@@ -254,8 +254,24 @@ $pos = "monument";
 				<div class="modal-body text-center">
 					<img src="public/images/monument/memorialdesmartyrs.jpg" width="50%" height="50%"><br><br>
 					<p class="text-justify">
-						TODO: Faire le texte
+						Situé sur l'Ile de la Cité à Paris, derrière le chevet de la cathédrale Notre-Dame,
+						le Mémorial des martys de la Deportation a été inauguré le 12 avril 1962
+						par le général de Gaulle. Il rappelle certains aspects 
+						caractéristiques du monde concentrationnaire comme l'emprisonnement, l'oppression, 
+						ou encore l'évasion impossible. C'est une oeuvre de l'architecte Georges-Henri Pingusson.
 					</p>
+					<button data-toggle="collapse" data-target="#memorial-plus" class="button-more">En savoir plus...</button>
+					<div id="memorial-plus" class="collapse">
+						<p class="text-justify">
+							C'est lieu plutôt propice à la réflexion car c'est au cœur du bâtiment que le visiteur ressent le mieux l'esprit qui présida à cette construction, 
+							le souvenir de tous ces pauvres gens qui partirent de France pour l'enfer concentrationnaire. 
+							Le mémorial est aussi au centre de la cérémonie annuelle, le dernier dimanche d'avril, 
+							de la Journée nationale du souvenir des martyrs et des héros de la déportation.
+							Ce lieu montre donc l'horreur d'un système qui, pour des 
+							motifs idéologiques, condamna des millions d'êtres humains à l'esclavage et à 
+							la mort, il est fait pour montrer l'horreur des régimes totalitaires.
+						</p>
+					</div>
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
@@ -273,8 +289,23 @@ $pos = "monument";
 				<div class="modal-body text-center">
 					<img src="public/images/monument/pontneuf.jpg" width="50%" height="50%"><br><br>
 					<p class="text-justify">
-						TODO: Faire le texte
+						Le pont Neuf est, malgré son nom, 
+						le plus ancien pont existant de Paris. Il traverse la Seine à la pointe ouest de l'île de la Cité.
+						Il est long de 140 mètres et large de 20 mètres environ.
+						Le pont est commencé en 1578 sous sous le règne du Roi Henri III est achevé en 1604 sous celui du Roi Henri IV.
 					</p>
+					<button data-toggle="collapse" data-target="#pontneuf-plus" class="button-more">En savoir plus...</button>
+					<div id="pontneuf-plus" class="collapse">
+						<p class="text-justify">
+							Ses travaux sont dirigés dans un premier temps par l'architecte Baptiste 
+							Androuet du Cerceau, puis ensuite par Guillaume Marchant.
+							Ils seront interrompus par les guerres de Religion, de 1588 à 1599. 
+							Henri IV, qui inaugurera l'ouvrage en 1607, le baptisera du nom Pont Neuf, 
+							appelé au moment de sa construction par opposition aux anciens ponts de Paris.
+							C'est un pont en arc, en effet on le reconnaît à ses 12 arches en plein cintre et à sa statue équestre d’Henri IV,
+							première effigie exposée en France sur une voie publique.
+						</p>
+					</div>
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
@@ -292,8 +323,21 @@ $pos = "monument";
 				<div class="modal-body text-center">
 					<img src="public/images/monument/pontnotredame.jpg" width="50%" height="50%"><br><br>
 					<p class="text-justify">
-						TODO: Faire le texte
+						Le Pont Notre-Dame est comme son nom l'indique, un pont permettant d'acceder au quartier de Notre-Dame
+						en reliant le quai de Gesvres au quai de la Corse sur l'île de la Cité.
+						Il est long de 105 mètres environ et large de 20 mètres. 
+						Il occupe l'emplacement de l'un des tout premiers ponts de la capitale : le "Grand-Pont", 
+						remplacé par les "planches de Milbray" et enfin l'actuel.
 					</p>
+					<button data-toggle="collapse" data-target="#pontnotredame-plus" class="button-more">En savoir plus...</button>
+					<div id="pontnotredame-plus" class="collapse">
+						<p class="text-justify">
+							Beaucoup de pont ont été à son emplacement auparavant, celui actuel à été construit de 
+							1910 à 1914 et réalisée par l'ingénieur Jean Résal.
+							Il comportait initialement cinq arches, mais étant devenu très dangereux pour la navigation, son nombre
+							a été réduit à trois en 1912, dont une arche centrale métallique de 60 mètres.
+						</p>
+					</div>
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
@@ -311,8 +355,19 @@ $pos = "monument";
 				<div class="modal-body text-center">
 					<img src="public/images/monument/pontaudouble.jpg" width="50%" height="50%"><br><br>
 					<p class="text-justify">
-						TODO: Faire le texte
+						Le pont porte ce nom car le péage pour le 
+						franchissement du premier pont à cet emplacement était de deux deniers, monnaie de base du système monétaire romain.
+						Il relie le 4e arrondissement au 5e.
+						Il est long de 45 mètres et large de 20 mètres.
+						Sa construction s'est faites de 1881 à 1883 et les architectes sont Henri-Prosper Bernard et Jules Lax
 					</p>
+					<button data-toggle="collapse" data-target="#pontaudouble-plus" class="button-more">En savoir plus...</button>
+					<div id="pontaudouble-plus" class="collapse">
+						<p class="text-justify">
+							Le pont est fait de fonte mais en réalité, il a simplement été refait car ce pont existe depuis
+							1632 et c'est en 1634 qu'un péage va être installé, il va subsister jusqu'en 1789.
+						</p>
+					</div>
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
@@ -330,8 +385,19 @@ $pos = "monument";
 				<div class="modal-body text-center">
 					<img src="public/images/monument/pontsaintmichel.jpg" width="50%" height="50%"><br><br>
 					<p class="text-justify">
-						TODO: Faire le texte
+						Le Pont Saint Michel a été construit en 1857 à la demande de Napoléon III par les ingénieurs Vaudrey de La Galisserie
+						Il relie l'Ile de la Cité à la rive gauche par la place Saint Michel. Ce nom lui a été donné car le pont
+						est très proche de la Sainte Chapelle. Il est long de 62 mètres et larges de 30 mètres 
 					</p>
+					<button data-toggle="collapse" data-target="#pontsaintmichel-plus" class="button-more">En savoir plus...</button>
+					<div id="pontsaintmichel-plus" class="collapse">
+						<p class="text-justify">
+							Le pont construit initialement en 1378 fut reconstruit plusieurs fois, 
+							en dernier lieu en 1857. Le pont fut en bois et ensuite, après sa destruction, en pierre.
+							Aujourd'hui le pont est en pierre et il comporte trois arches
+							Au au dessus de chaque pile un "N" gravé, rappelant l'emblème impérial de Napoléon III.
+						</p>
+					</div>
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
