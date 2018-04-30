@@ -1,4 +1,2 @@
-
-*.txt
-arbo.txt
-images/hoteldieu.jpg
+.htaccess
+.htpasswd
