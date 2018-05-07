@@ -6,7 +6,7 @@ $pos = "architecture";
 <?php ob_start(); ?>
 	<div class="container">
 		<div class="row">
-			<h1 class="text-center">Architecture</h1>
+			<h1 class="text-center" style="font-size: 50px">Architecture</h1>
 		</div>
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2">
@@ -26,7 +26,7 @@ $pos = "architecture";
 				</p>
 			</div>
 		</div>
-		<div class="row">
+		<div class="row" style="margin-top: 2%">
 			<h2 class="transit">Monuments</h2><br>
 			<div class="table-responsive">
 				<table class="table table-borderless table-responsive" style="font-size: 20px;">

@@ -9,7 +9,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=no">
 </head>
 <body>
-
 	<header>
 		<div class="row">
 			<div class="col-md-4">
@@ -32,17 +31,11 @@
 	</header>
 	<div class="navbar-default navbar barre_menu">
 		<ul class="nav navbar-nav text-center lien_nav">
-			<li class="dropdown">
-				<a data-toggle="dropdown" href="#" id="hist"><b>History <i class='fas fa-caret-down'></i></b></a>
-				<ul class="dropdown-menu">
-					<li><a class="drop" href="index.php?action=history&lang=<?= $lang ?>"><b>L'Île de la Cité</b></a></li>
-					<li><a class="drop" href="index.php?action=monument&lang=<?= $lang ?>"><b>Monuments</b></a></li>
-				</ul>
-			</li>
+			<li><a href="index.php?action=history&lang=<?= $lang ?>"><b>History <i class="fas fa-book"></i></b></a></li>
 			<li><a href="index.php?action=traveler&lang=<?= $lang ?>"><b>Traveler <i class="fas fa-plane"></i></b></a></li>
 			<li><a href="index.php?action=photoSpot&lang=<?= $lang ?>"><b>Photos Spots </b><i class="fas fa-camera"></i></a></li>
 			<li><a href="index.php?action=visit&lang=<?= $lang ?>"><b>Visit </b><i class="fas fa-subway"></i></a></li>
-			<li><a href="index.php?action=architecture&lang=<?= $lang ?>"><b>Architecture </b><i class="fab fa-fort-awesome"></i></a></li>
+			<li><a href="index.php?action=architecture&lang=<?= $lang ?>"><b>Architecture </b><i class="fas fa-chess-rook"></i></a></li>
 		</ul>
 	</div>
 

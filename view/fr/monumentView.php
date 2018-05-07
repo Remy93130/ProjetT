@@ -96,7 +96,7 @@ $pos = "monument";
 		<div class="modal-dialog">
 			<div class="histoire modal-content">
 				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" style="color: red"><i class="fas fa-times"></i></button>
+					<button type="button" class="close" data-dismiss="modal" style="color: red; font-size: 32px"><i class="fas fa-times"></i></button>
 					<h2 class="modal-title text-center">Notre-Dame de Paris</h2>
 				</div>
 				<div class="modal-body text-center">
@@ -131,7 +131,7 @@ $pos = "monument";
 		<div class="modal-dialog">
 			<div class="histoire modal-content">
 				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" style="color: red"><i class="fas fa-times"></i></button>
+					<button type="button" class="close" data-dismiss="modal" style="color: red; font-size: 32px"><i class="fas fa-times"></i></button>
 					<h2 class="modal-title text-center">La Conciergerie</h2>
 				</div>
 				<div class="modal-body text-center">
@@ -162,7 +162,7 @@ $pos = "monument";
 		<div class="modal-dialog">
 			<div class="histoire modal-content">
 				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" style="color: red"><i class="fas fa-times"></i></button>
+					<button type="button" class="close" data-dismiss="modal" style="color: red; font-size: 32px"><i class="fas fa-times"></i></button>
 					<h2 class="modal-title text-center">La Sainte-Chapelle</h2>
 				</div>
 				<div class="modal-body text-center">
@@ -197,7 +197,7 @@ $pos = "monument";
 		<div class="modal-dialog">
 			<div class="histoire modal-content">
 				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" style="color: red"><i class="fas fa-times"></i></button>
+					<button type="button" class="close" data-dismiss="modal" style="color: red; font-size: 32px"><i class="fas fa-times"></i></button>
 					<h2 class="modal-title text-center">Le Tribunal de Commerce</h2>
 				</div>
 				<div class="modal-body text-center">
@@ -225,7 +225,7 @@ $pos = "monument";
 		<div class="modal-dialog">
 			<div class="histoire modal-content">
 				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" style="color: red"><i class="fas fa-times"></i></button>
+					<button type="button" class="close" data-dismiss="modal" style="color: red; font-size: 32px"><i class="fas fa-times"></i></button>
 					<h2 class="modal-title text-center">L'Hôtel Dieu</h2>
 				</div>
 				<div class="modal-body text-center">
@@ -246,7 +246,7 @@ $pos = "monument";
 		<div class="modal-dialog">
 			<div class="histoire modal-content">
 				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" style="color: red"><i class="fas fa-times"></i></button>
+					<button type="button" class="close" data-dismiss="modal" style="color: red; font-size: 32px"><i class="fas fa-times"></i></button>
 					<h2 class="modal-title text-center">Le Mémorial des Martyrs</h2>
 				</div>
 				<div class="modal-body text-center">
@@ -281,7 +281,7 @@ $pos = "monument";
 		<div class="modal-dialog">
 			<div class="histoire modal-content">
 				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" style="color: red"><i class="fas fa-times"></i></button>
+					<button type="button" class="close" data-dismiss="modal" style="color: red; font-size: 32px"><i class="fas fa-times"></i></button>
 					<h2 class="modal-title text-center">Le pont Neuf</h2>
 				</div>
 				<div class="modal-body text-center">
@@ -315,7 +315,7 @@ $pos = "monument";
 		<div class="modal-dialog">
 			<div class="histoire modal-content">
 				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" style="color: red"><i class="fas fa-times"></i></button>
+					<button type="button" class="close" data-dismiss="modal" style="color: red; font-size: 32px"><i class="fas fa-times"></i></button>
 					<h2 class="modal-title text-center">Le pont Notre-Dame</h2>
 				</div>
 				<div class="modal-body text-center">
@@ -347,7 +347,7 @@ $pos = "monument";
 		<div class="modal-dialog">
 			<div class="histoire modal-content">
 				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" style="color: red"><i class="fas fa-times"></i></button>
+					<button type="button" class="close" data-dismiss="modal" style="color: red; font-size: 32px"><i class="fas fa-times"></i></button>
 					<h2 class="modal-title text-center">Le pont au double</h2>
 				</div>
 				<div class="modal-body text-center">
@@ -377,7 +377,7 @@ $pos = "monument";
 		<div class="modal-dialog">
 			<div class="histoire modal-content">
 				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" style="color: red"><i class="fas fa-times"></i></button>
+					<button type="button" class="close" data-dismiss="modal" style="color: red; font-size: 32px"><i class="fas fa-times"></i></button>
 					<h2 class="modal-title text-center">Le pont Saint Michel</h2>
 				</div>
 				<div class="modal-body text-center">

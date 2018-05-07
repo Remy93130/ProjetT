@@ -7,7 +7,7 @@ $pos = "index";
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-offset-2 col-md-8">
-				<h3 class="text-center">Welcome to the Ile de la Cité's website</h3>
+				<h1 class="text-center">Welcome to the Ile de la Cité's website</h1>
 				<p class="text-justify">
 					There is our website dedicated to world heritage of Ile de la Cité, mandated by UNESCO.
 					On this website, you can found all main information about this location.
@@ -204,13 +204,13 @@ $pos = "index";
 		</div><br><br>
 		<div class="row">
 			<div class="col-md-4">
-				<h2>Informations :</h2><hr>
+				<h1>Informations :</h1><hr>
 				<a class="twitter-timeline" data-theme="dark" data-height="635" data-link-color="#f7af3e" href="https://twitter.com/iledelacite_mcn?ref_src=twsrc%5Etfw">
 				<p>For follow all actuality of the Island, please enable your JavaScript or follow this link</p>
 			</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 			</div>
 			<div class="col-md-8">
-				<h2>Map of the place :</h2><hr>
+				<h1>Map of the place :</h1><hr>
 				<a href="public/images/plan.svg" target="_blank">
 					<img class="img-responsive plan" src="public/images/plan.svg" alt="Plan">
 					<div class="captionI">

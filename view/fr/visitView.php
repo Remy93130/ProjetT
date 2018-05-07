@@ -7,7 +7,18 @@ $pos = "visit";
 	<br>
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-md-3 col-md-offset-1 text-center box">
+			<div class="col-md-6 col-md-offset-3 box">
+				<h1 class="text-center">Visiter</h1>
+				<p class="text-justify">
+					Ici, vous pourrez trouvez tout les commerces intéressant aux alentours de l'Île de la Cité, que ce soit des lieux pour ce restaurer,
+					dormir ou s'amuser, vous avez accès aux principales information de ceux-ci mais également la possibilité d'obtenir un itinéraire pour
+					vous y rendre (via google maps).<br>
+					Vous avez également la possibilité de déposer un avis et de lire ceux des autres visiteur via la section 'L'avis des visiteurs'.
+				</p>
+			</div>
+		</div>
+		<div class="row" style="margin-top: 2%">
+			<div class="col-md-4 col-md-offset-4 text-center box">
 				<h3 class="link">Catégories :</h3>
 				<ul class="nav nav-pills nav-stacked">
 					<li><a href="<?= 'index.php?action='.$pos.'&lang='.$lang?>"><b>Tout voir</b></a></li>
@@ -17,15 +28,6 @@ $pos = "visit";
 					<li>&nbsp;</li>
 					<li><a href="<?= 'index.php?action='.$pos.'&lang='.$lang.'&choice=review' ?>"><b>L'avis des Visiteurs</b></a></li>
 				</ul>
-			</div>
-			<div class="col-md-6 col-md-offset-1 box">
-				<h2 class="text-center">Visiter</h2>
-				<p>
-					Ici, vous pourrez trouvez tout les commerces intéressant aux alentours de l'Île de la Cité, que ce soit des lieux pour ce restaurer,
-					dormir ou s'amuser, vous avez accès aux principales information de ceux-ci mais également la possibilité d'obtenir un itinéraire pour
-					vous y rendre (via google maps).<br>
-					Vous avez également la possibilité de déposer un avis et de lire ceux des autres visiteur via la section 'L'avis des visiteurs'.
-				</p>
 			</div>
 		</div><br><br>
 		<div class="row">

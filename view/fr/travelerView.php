@@ -5,11 +5,7 @@ $pos = "traveler";
 
 <?php ob_start(); ?>
 	<div class="container">
-		<div class="row">
-			<h1 class="text-center">Anecdotes sur L'Île de la Cité</h1>
-		</div><br>
-		<hr>
-		<div class="row">
+		<div class="row" style="margin-top: 5%">
 			<div class="col-md-6">
 				<img src="public/images/traveler/traveler1.jpg" class="img-responsive" alt="Image1">
 				<p>Mur de l'Hôtel Dieu</p>

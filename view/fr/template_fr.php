@@ -32,17 +32,11 @@
 	</header>
 	<div class="navbar-default navbar barre_menu">
 		<ul class="nav navbar-nav text-center lien_nav">
-			<li class="dropdown">
-				<a data-toggle="dropdown" href="#" id="hist"><b>Histoire <i class='fas fa-caret-down'></i></b></a>
-				<ul class="dropdown-menu">
-					<li><a class="drop" href="index.php?action=history&lang=<?= $lang ?>"><b>L'Île de la Cité</b></a></li>
-					<li><a class="drop" href="index.php?action=monument&lang=<?= $lang ?>"><b>Les Monuments</b></a></li>
-				</ul>
-			</li>
+			<li><a href="index.php?action=history&lang=<?= $lang ?>"><b>Histoire <i class="fas fa-book"></i></b></a></li>
 			<li><a href="index.php?action=traveler&lang=<?= $lang ?>"><b>Voyageur <i class="fas fa-plane"></i></b></a></li>
 			<li><a href="index.php?action=photoSpot&lang=<?= $lang ?>"><b>Spot photo </b><i class="fas fa-camera"></i></a></li>
 			<li><a href="index.php?action=visit&lang=<?= $lang ?>"><b>Visiter </b><i class="fas fa-subway"></i></a></li>
-			<li><a href="index.php?action=architecture&lang=<?= $lang ?>"><b>Architecture </b><i class="fab fa-fort-awesome"></i></a></li>
+			<li><a href="index.php?action=architecture&lang=<?= $lang ?>"><b>Architecture </b><i class="fas fa-chess-rook"></i></a></li>
 		</ul>
 	</div>
 
