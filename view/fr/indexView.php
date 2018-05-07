@@ -6,7 +6,7 @@ $pos = "index";
 <?php ob_start(); ?>
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-md-10 col-md-offset-1">
+			<div class="col-md-offset-2 col-md-8">
 				<h3 class="text-center test">Bienvenue sur le site de l'Ile de la Cité</h3>
 				<p class="text-justify">
 					Voici notre site consacré au patrimoine mondial de l'Ile de la Cité, mandaté par l'UNESCO.
@@ -202,7 +202,7 @@ $pos = "index";
 					</div>
 				</div> 
 			</div>
-		</div><br><hr><br>
+		</div><br><br>
 		<div class="row">
 			<div class="col-md-4">
 				<h2>Informations :</h2><hr>
