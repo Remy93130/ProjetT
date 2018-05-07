@@ -56,7 +56,7 @@
 						<ul class="nav navbar-nav image-footer">
 							<li><img src="public/images/sponsor/icomos.png" class="img-responsive" title="Icomos International" alt="Icomos International"></li>
 							<li><img src="public/images/sponsor/upem.png" class="img-responsive" title="Université Paris Est Marne la Vallée" alt="Université Paris Est Marne la Vallée"></li>
-							<li><img src="public/images/sponsor/unesco.svg" class="img-responsive" title="UNESCO" alt="UNESCO"></li>
+							<li><img src="public/images/sponsor/unesco.png" class="img-responsive" title="UNESCO" alt="UNESCO"></li>
 						</ul>
 					</div>
 				</div>
