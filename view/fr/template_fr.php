@@ -59,10 +59,9 @@
 							<li><img src="public/images/sponsor/unesco.svg" class="img-responsive" title="UNESCO" alt="UNESCO"></li>
 						</ul>
 					</div>
-				</div><hr>
-				<div class="row">
+				</div>
+				<div class="row" style="margin-top: 5%">
 					<div class="footer-col col-md-6">
-						<h2 class="link">Nous retrouver sur internet</h2><br>
 						<ul class="list-inline social">
 							<li><a href="https://www.facebook.com/Ile.De.La.Cite.MCN" class="btn-social btn-outline" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
 							<li>
@@ -74,7 +73,6 @@
 						</ul>
 					</div>
 					<div class="footer-col col-md-6">
-						<h2 class="link">Liens utiles</h2><br>
 						<ul class="nav nav-pills nav-justified">
 							<li><a href="index.php?action=about&lang=<?= $lang ?>"><b>A propos</b></a></li>
 							<li><a href="index.php?action=contact&lang=<?= $lang ?>"><b>Contact</b></a></li>
