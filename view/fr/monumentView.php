@@ -15,41 +15,39 @@ $pos = "monument";
 		</div>
 
 		<div class="row">
-			<div class="col-md-6">
+			<div class="col-md-4">
 				<a data-toggle="modal" data-target="#notredame">
 					<img src="public/images/monument/notredame.jpg" class="img-circle" width="200" height="200">
 				</a>
 				<p>Notre-Dame</p>
 			</div>
-			<div class="col-md-6">
+			<div class="col-md-4">
 				<a data-toggle="modal" data-target="#conciergerie">
 					<img src="public/images/monument/conciergerie.jpg" class="img-circle" width="200" height="200">
 				</a>
 				<p>La Conciergerie</p>
 			</div>
-		</div><br>
-		<div class="row">
-			<div class="col-md-6">
+			<div class="col-md-4">
 				<a data-toggle="modal" data-target="#saintechapelle">
 					<img src="public/images/monument/saintechapelle.jpg" class="img-circle" width="200" height="200">
 				</a>
 				<p>La Sainte Chapelle</p>
 			</div>
-			<div class="col-md-6">
+		</div><br>
+		<div class="row">
+			<div class="col-md-4">
 				<a data-toggle="modal" data-target="#tribunalcommerce">
 					<img src="public/images/monument/tribunalcommerce.jpg" class="img-circle" width="200" height="200">
 				</a>
 				<p>Tribunal de Commerce</p>
 			</div>
-		</div><br>
-		<div class="row">
-			<div class="col-md-6">
+			<div class="col-md-4">
 				<a data-toggle="modal" data-target="#hoteldieu">
 					<img src="public/images/monument/hoteldieu.jpg" class="img-circle" width="200" height="200">
 				</a>
 				<p>Hôtel Dieu</p>
 			</div>
-			<div class="col-md-6">
+			<div class="col-md-4">
 				<a data-toggle="modal" data-target="#memorial">
 					<img src="public/images/monument/memorialdesmartyrs.jpg" class="img-circle" width="200" height="200">
 				</a>
@@ -64,27 +62,27 @@ $pos = "monument";
 		</div>
 
 		<div class="row">
-			<div class="col-md-6">
+			<div class="col-md-4">
 				<a data-toggle="modal" data-target="#pontneuf">
 					<img src="public/images/monument/pontneuf.jpg" class="img-circle" width="200" height="200">
 				</a>
 				<p>Pont Neuf</p>
 			</div>
-			<div class="col-md-6">
+			<div class="col-md-4">
 				<a data-toggle="modal" data-target="#pontnotredame">
 					<img src="public/images/monument/pontnotredame.jpg" class="img-circle" width="200" height="200">
 				</a>
 				<p>Pont Notre-Dame</p>
 			</div>
-		</div><br>
-		<div class="row">
-			<div class="col-md-6">
+			<div class="col-md-4">
 				<a data-toggle="modal" data-target="#pontaudouble">
 					<img src="public/images/monument/pontaudouble.jpg" class="img-circle" width="200" height="200">
 				</a>
 				<p>Pont au double</p>
 			</div>
-			<div class="col-md-6">
+		</div><br>
+		<div class="row">
+			<div class="col-md-4">
 				<a data-toggle="modal" data-target="#pontsaintmichel">
 					<img src="public/images/monument/pontsaintmichel.jpg" class="img-circle" width="200" height="200">
 				</a>

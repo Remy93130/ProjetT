@@ -212,7 +212,7 @@ $pos = "index";
 			</div>
 			<div class="col-md-8">
 				<h2>Carte du lieu :</h2><hr>
-				<a href="public/images/plan.svg">
+				<a href="public/images/plan.svg" target="_blank">
 					<img class="img-responsive plan" src="public/images/plan.svg" alt="Plan">
 					<div class="captionI">
 						<div class="caption-content">
