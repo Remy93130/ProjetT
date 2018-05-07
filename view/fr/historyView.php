@@ -30,7 +30,7 @@ $pos = "history";
 						Aujourd’hui, en raison de l'absence d'éléments archéologiques convainquant, aucun vestige gaulois, ni même une quelconque trace d'occupation avant à la conquête romaine n'ayant été découverts sur l'île, les histoiriens pensent peut être que les Parisii aient en réalité installés leur agglomération plus loin que l'île de la Cité.
 						Comme beaucoup de partie de l'Ile de la Cité ont été détruites et reconstruites la plupart du temps, les archéologues ont découverts, sous le niveau gallo-romain, un niveau plus ancien, peu spectaculaire mais réel (clous, trous de poteau, vestiges de fosses de détritus).
 						L'île de la Cité s'étendait avant uniquement sur 9 hectares, alors qu'aujourd'hui elle en couvre 17. On pense donc que plusieurs petits îlots n'ont été ajoutés à l'île que plus tard.
-						<button data-toggle="collapse" data-target="#antiquite_plus" class="button-more">En savoir plus...</button>
+						
 					</p>
 					<div id="antiquite_plus" class="collapse histoire2"> 
 					<p>
@@ -50,6 +50,7 @@ $pos = "history";
 						Après avoir été appelée Lutetia apud Parisios quelques temps, c’est à partir de 310 environ que Lutèce prend progressivement le nom de Civitas Parisiorum ou Urbs Parisiorum puis, à force d'abréviation, simplement Paris.					
 					</p>
 					</div>
+					<button data-toggle="collapse" data-target="#antiquite_plus" class="button-more button-hist">En savoir plus...</button>
 				</div>
 				<div class="histoire text-justify">
 					<div class="partie" id="moyen-age">
@@ -59,7 +60,6 @@ $pos = "history";
 						Vers l'an 508, Alors que Clovis règne depuis 481, il fait de Paris la capitale du royaume des Francs et de l’ancienne forteresse gallo-romaine, sa résidence personnelle.
 						À ce moment, l’île de la Cité est la ville ; le mot de Cité s’impose alors pour désigner uniquement cette île. 
 						Le palais devient alors le château des rois mérovingiens. À la faveur de la christianisation, les églises se multiplient sur l’île et une basilique dédiée à Saint-Étienne est bientôt construite en partie sur l’emplacement de la future cathédrale Notre-Dame. 
-						<button data-toggle="collapse" data-target="#moyen_age_plus" class="button-more">En savoir plus...</button>
 					</p>
 					<div id="moyen_age_plus" class="collapse histoire2"> 
 					<p>
@@ -91,9 +91,10 @@ $pos = "history";
 						La Conciergerie est commencée peu avant 1300 et achevée avant 1315. 
 						La construction du pont saint michel s'étale de 1379 à 1387. Il est emporté par la Seine en 1404, seulement 17 ans plus tard
 						Entre 1394 et 1406, Charles VI (1380-1422) fait construire un nouveau pont en bois, le petit pont. Emporté à son tour par le 31 janvier 1408, il est rétabli en pierre dès l’année suivante et subsiste jusqu'au XVIIe siècle.
-						Le 30 mai 1413, c’est encore Charles VI qui baptise le nouveau pont de Notre-Dame, solide ouvrage de bois reliant l'île de la Cité à la rue Saint-Martin sur dix-sept rangées de piles </p>
+						Le 30 mai 1413, c’est encore Charles VI qui baptise le nouveau pont de Notre-Dame, solide ouvrage de bois reliant l'île de la Cité à la rue Saint-Martin sur dix-sept rangées de piles.
 					</p>
 					</div>
+					<button data-toggle="collapse" data-target="#moyen_age_plus" class="button-more button-hist">En savoir plus...</button>
 				</div>
 				<div class="histoire text-justify">
 					<div class="partie" id="aujourdhui">

@@ -26,7 +26,7 @@ $reqShops = $db->query($sqlShops);
 		<div class="row" style="margin-top: 5%">
 			<div class="col-md-6 cool-box table-responsive">
 				<h2 class="text-center">Gestion des shops</h2>
-				<a class="pull-right" href="alterShop?action=add">Ajouter un magasin</a>
+				<a class="pull-right" href="alterShop.php?action=add">Ajouter un magasin</a>
 				<table class="table">
 					<thead>
 						<tr>
