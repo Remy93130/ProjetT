@@ -88,7 +88,7 @@ $pos = "index";
 					catégories : Le travers de l'île et les institutions, en voici quelques une.
 				</p>
 				<div class="panel-group" id="accordion">
-					<div class="panel panel-default">
+					<div class="panel panel-default info-id">
 						<div class="panel-heading">
 							<h3 class="panel-title">
 								<a data-toggle="collapse" data-parent="#accordion" href="#collapse1">A travers l'Île <i class='fas fa-caret-down pull-right'></i></a>
@@ -143,7 +143,7 @@ $pos = "index";
 							</div>
 						</div>
 					</div>
-					<div class="panel panel-default">
+					<div class="panel panel-default info-id">
 						<div class="panel-heading">
 							<h3 class="panel-title">
 								<a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Au fil des institution <i class='fas fa-caret-down pull-right'></i></a>

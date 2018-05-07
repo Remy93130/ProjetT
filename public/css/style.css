@@ -298,6 +298,20 @@ footer .footer-above {
 	color: #EA5C0D;
 }
 
+.info-id {
+	background-color: #505050;
+}
+
+.info-id p {
+	color: white;
+}
+
+.panel-default>.panel-heading {
+	color: white;
+	background-color: #232323;
+	border-color: #DDD;
+}
+
 /*============ STYLE ID ============*/
 
 #titre_lien {
