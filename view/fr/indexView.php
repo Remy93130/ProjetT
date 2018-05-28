@@ -10,7 +10,7 @@ $pos = "index";
 				<h1 class="text-center test">Bienvenue sur le site de l'Ile de la Cité</h1>
 				<p class="text-justify">
 					Voici notre site consacré au patrimoine mondial de l'Ile de la Cité, mandaté par l'UNESCO.
-					Vous trouverez sur ce site toute les informations essentielles sur l'Ile de la Cité.
+					Vous trouverez sur ce site toute les informations essentielles sur l'Ile de la Cité,
 					tel que son histoire, son actualité ou encore ses meilleures spot photographiques 
 					pour prendre les meilleurs photos de l'Ile lors de votre voyage. Si vous avez des questions
 					n'hésité pas à utiliser le support contact.

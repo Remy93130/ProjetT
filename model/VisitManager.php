@@ -3,8 +3,8 @@
 /**
  * Class for manage visit page
  */
-class VisitManager extends Manager
-{
+class VisitManager extends Manager {
+
 	/**
 	 * @method PDO getShops() {
 	 *		connect to the database for get
@@ -16,45 +16,27 @@ class VisitManager extends Manager
 	 *		@param String $sort if the user want sort
 	 *		shops with an indicator 
 	 *
-	 * 		@return PDOStatement object
+	 * 		@return PDOStatementObject
 	 * }
 	 */
 	public function getShops($choice = "", $sort = "") {
 		$db = $this->dbConnect();
 		$sql = 'SELECT * FROM shops ';
-		if ($choice != "") {
-			if ($choice == "restaurant") {
-				$sql .= 'WHERE type = "restaurant"';
-			} else if ($choice == "hotel") {
-				$sql .= 'WHERE type = "hotel"';
-			} else if ($choice == "entertainment") {
-				$sql .= 'WHERE type = "entertainment"';
-			} else if ($choice == "review") {
-				$sql =  'SELECT * FROM review ORDER BY date DESC';
-			}
+		if ($choice == "restaurant") {
+			$sql .= 'WHERE type = "restaurant"';
+		} else if ($choice == "hotel") {
+			$sql .= 'WHERE type = "hotel"';
+		} else if ($choice == "entertainment") {
+			$sql .= 'WHERE type = "entertainment"';
 		}
-		if ($sort != "" && $choice != "review") {
-			if ($sort == "name") {
-				$sql .= ' ORDER BY name ASC';
-			} else if ($sort == "type") {
-				$sql .= ' ORDER BY type ASC';
-			} else if ($sort == "price") {
-				$sql .= ' ORDER BY price ASC';
-			}
+		if ($sort == "name") {
+			$sql .= ' ORDER BY name ASC';
+		} else if ($sort == "type") {
+			$sql .= ' ORDER BY type ASC';
+		} else if ($sort == "price") {
+			$sql .= ' ORDER BY price ASC';
 		}
 		$req = $db->query($sql);
 		return $req;
-	}
-
-	public function insertReview($author, $review) {
-		$db = $this->dbConnect();
-		$sql = 'INSERT INTO review (author, review, date)
-				VALUES (:author, :review, CURRENT_DATE)';
-		$req = $db->prepare($sql);
-		$result = $req->execute(array(
-			':author' => $author,
-			':review' => $review));
-
-		return $result;
-	}
+	}	
 }

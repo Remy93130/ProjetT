@@ -33,8 +33,9 @@
 		<ul class="nav navbar-nav text-center lien_nav">
 			<li><a href="index.php?action=history&lang=<?= $lang ?>"><b>History <i class="fas fa-book"></i></b></a></li>
 			<li><a href="index.php?action=traveler&lang=<?= $lang ?>"><b>Traveler <i class="fas fa-plane"></i></b></a></li>
-			<li><a href="index.php?action=photoSpot&lang=<?= $lang ?>"><b>Photos Spots </b><i class="fas fa-camera"></i></a></li>
+			<li><a href="index.php?action=photoSpot&lang=<?= $lang ?>"><b>Photo Spots </b><i class="fas fa-camera"></i></a></li>
 			<li><a href="index.php?action=visit&lang=<?= $lang ?>"><b>Visit </b><i class="fas fa-subway"></i></a></li>
+			<li><a href="index.php?action=review&lang=<?= $lang ?>"><b>Opinions of visitors </b><i class="fas fa-users"></i></a></li>
 			<li><a href="index.php?action=architecture&lang=<?= $lang ?>"><b>Architecture </b><i class="fas fa-chess-rook"></i></a></li>
 		</ul>
 	</div>

@@ -2,6 +2,7 @@
 
 require_once 'controller/BasicController.php';
 require_once 'controller/VisitController.php';
+require_once 'controller/ReviewController.php';
 
 try {
 	$lang = (isset($_GET['lang'])) ? $_GET['lang'] : 'fr' ;
@@ -26,6 +27,8 @@ try {
 			team($lang);
 		} else if ($_GET['action'] == "contact") {
 			contact($lang);
+		} elseif ($_GET['action'] == 'review') {
+			review($lang);
 		} else if ($_GET['action'] == "addReview") {
 			if (isset($_POST['name']) && isset($_POST['review'])) {
 				if (!empty($_POST['name']) && !empty($_POST['review'])) {

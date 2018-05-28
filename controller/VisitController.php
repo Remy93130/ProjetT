@@ -18,14 +18,3 @@ function visit($getLang) {
 	$lang = $manager->getLanguage(htmlspecialchars($getLang));
 	require 'view/' . $lang . '/visitView.php';
 }
-
-function addReview($author, $review) {
-	$manager = new VisitManager();
-	$result = $manager->insertReview($author, $review);
-
-	if (!$result) {
-		die('Impossible d\'ajouter votre avis');
-	} else {
-		header('Location: index.php?action=visit&choice=review');
-	}
-}

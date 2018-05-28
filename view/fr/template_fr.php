@@ -36,6 +36,7 @@
 			<li><a href="index.php?action=traveler&lang=<?= $lang ?>"><b>Voyageur <i class="fas fa-plane"></i></b></a></li>
 			<li><a href="index.php?action=photoSpot&lang=<?= $lang ?>"><b>Spot photo </b><i class="fas fa-camera"></i></a></li>
 			<li><a href="index.php?action=visit&lang=<?= $lang ?>"><b>Visiter </b><i class="fas fa-subway"></i></a></li>
+			<li><a href="index.php?action=review&lang=<?= $lang ?>"><b>L'avis des visiteurs </b><i class="fas fa-users"></i></a></li>
 			<li><a href="index.php?action=architecture&lang=<?= $lang ?>"><b>Architecture </b><i class="fas fa-chess-rook"></i></a></li>
 		</ul>
 	</div>

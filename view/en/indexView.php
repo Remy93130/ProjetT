@@ -7,11 +7,11 @@ $pos = "index";
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-offset-2 col-md-8">
-				<h1 class="text-center">Welcome to the Ile de la Cité's website</h1>
+				<h1 class="text-center">Welcome to the Ile de la Cité website</h1>
 				<p class="text-justify">
-					There is our website dedicated to world heritage of Ile de la Cité, mandated by UNESCO.
-					On this website, you can found all main information about this location.
-					Like his story, his news or his best spots to take pictures during your travel.
+					This is a website dedicated to world heritage of Ile de la Cité, mandated by UNESCO.
+					On this website, you can find all main information about this location,
+					Like its history, his news or his best spots to take pictures during your travel.
 					If you have any questions, please use contact support.
 				</p>
 			</div>
@@ -41,7 +41,7 @@ $pos = "index";
 					<div class="item">
 						<img src="public/images/carousel/carousel3.jpg" alt="Image3" style="width: 100%;">
 						<div class="carousel-caption">
-							<h2 class="caption-C">Charlemagne's statue</h2>
+							<h2 class="caption-C">Statue of Charlemagne</h2>
 						</div>
 					</div>
 				</div>
