@@ -13,7 +13,7 @@
 	<header>
 		<div class="row">
 			<div class="col-md-4">
-				<img class="img-responsive att" src="public/images/logo.jpg" alt="logo">	
+				<img class="img-responsive att" src="public/images/logo.jpg" alt="logo" id="logo">	
 			</div>
 			<div class="col-md-4 text-center">
 				<h1><a href="index.php?action=index&lang=<?= $lang ?>" id="titre_lien">Île de la Cité</a></h1>
@@ -56,7 +56,13 @@
 					</div>
 				</div>
 				<div class="row" style="margin-top: 5%">
-					<div class="footer-col col-md-6">
+					<div class="footer-col col-md-3">
+						<a href="#logo" class="smooth-scroll" style="font-size: 32px; color: white">
+							<i class="fas fa-arrow-up"></i>
+							Haut de page
+						</a>
+					</div>
+					<div class="footer-col col-md-3">
 						<ul class="list-inline social">
 							<li><a href="https://www.facebook.com/Ile.De.La.Cite.MCN" class="btn-social btn-outline" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
 							<li>
@@ -82,6 +88,7 @@
 	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 	<script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script defer src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script defer src="public/js/script.js"></script>
 	<?php
 	if (isset($form)) {
 		echo '<script defer src="public/js/jqBootstrapValidation.js"></script>';

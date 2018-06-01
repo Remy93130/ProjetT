@@ -9,20 +9,19 @@ $pos = "visit";
 		<div class="row">
 			<div class="col-md-10 col-md-offset-1 box">
 				<div class="col-md-6 col-md-offset-1">
-					<h1 class="text-center">Visiter</h1>
+					<h1 class="text-center">Visit</h1>
 					<p class="text-justify">
-						Ici, vous pourrez trouvez tout les commerces intéressant aux alentours de l'Île de la Cité, que ce soit des lieux pour ce restaurer,
-						dormir ou s'amuser, vous avez accès aux principales information de ceux-ci mais également la possibilité d'obtenir un itinéraire pour
-						vous y rendre (via google maps).
+						Here you can find all good shops around the Île de la Cité, it can be restaurants, hotel or places to have fun, they are main informations
+						about them and a itinerary to get there (with Google Maps) 
 					</p>
 				</div>
 				<div class="col-md-4 text-center">
 					<h3 class="link">Catégories :</h3>
 					<ul class="nav nav-pills nav-stacked">
 						<li><a href="<?= 'index.php?action='.$pos.'&lang='.$lang?>"><b>Tout voir</b></a></li>
-						<li><a href="<?= 'index.php?action='.$pos.'&lang='.$lang.'&choice=restaurant' ?>"><b>Restaurations</b></a></li>
-						<li><a href="<?= 'index.php?action='.$pos.'&lang='.$lang.'&choice=hotel' ?>"><b>Hôtels et logements</b></a></li>
-						<li><a href="<?= 'index.php?action='.$pos.'&lang='.$lang.'&choice=entertainment' ?>"><b>Divertissement</b></a></li>
+						<li><a href="<?= 'index.php?action='.$pos.'&lang='.$lang.'&choice=restaurant' ?>"><b>Restoration</b></a></li>
+						<li><a href="<?= 'index.php?action='.$pos.'&lang='.$lang.'&choice=hotel' ?>"><b>Hôtels and housing</b></a></li>
+						<li><a href="<?= 'index.php?action='.$pos.'&lang='.$lang.'&choice=entertainment' ?>"><b>Entertainment</b></a></li>
 					</ul>
 				</div>
 			</div>
@@ -37,7 +36,7 @@ $pos = "visit";
 					<thead style="background-color: #B94503; color: #333333;">
 						<tr>
 							<th>
-								Nom
+								Name
 								<a href="<?= 'index.php?action='.$pos.'&lang='.$lang.'&choice='.$choice.'&sort=name' ?>" style="color: #303030">
 									<i class="fas fa-sort pull-right"></i>
 								</a>
@@ -49,16 +48,16 @@ $pos = "visit";
 								</a>
 							</th>
 							<th>
-								Prix 
+								Price 
 								<a href="<?= 'index.php?action='.$pos.'&lang='.$lang.'&choice='.$choice.'&sort=price' ?>" style="color: #303030">
 									<i class="fas fa-sort pull-right"></i>
 								</a>
 							</th>
 							<th>
-								Site
+								Website
 							</th>
 							<th>
-								Itinéraire
+								Itinerary
 							</th>
 						</tr>
 					</thead>
@@ -85,14 +84,14 @@ $pos = "visit";
 							</td>
 							<td>
 								<?php if (!empty($data['4'])) {
-									echo '<a href="' . $data['4'] . '" target="_blank">Lien</a>';
+									echo '<a href="' . $data['4'] . '" target="_blank">Link</a>';
 								} else {
-									echo "Non renseigné";
+									echo "Not specified";
 								}?>
 								
 							</td>
 							<td>
-								<?= '<a href="'.$data['5'].'" target="_blank">Lien</a>' ?>
+								<?= '<a href="'.$data['5'].'" target="_blank">Link</a>' ?>
 							</td>
 						</tr>
 						<?php } ?>

@@ -4,7 +4,7 @@
 	<title><?= $title ?></title>
 	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="public/css/style.css">
-	<link rel="icon" type="image/jpg" href="public/images/ico.png">
+	<link rel="icon" type="image/jpg" href="public/images/ico.png" id="logo">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=no">
 </head>
@@ -55,7 +55,13 @@
 					</div>
 				</div>
 				<div class="row" style="margin-top: 5%">
-					<div class="footer-col col-md-6">
+				<div class="footer-col col-md-3">
+						<a href="#logo" class="smooth-scroll" style="font-size: 32px; color: white">
+							<i class="fas fa-arrow-up"></i>
+							Back to top
+						</a>
+					</div>
+					<div class="footer-col col-md-3">
 						<ul class="list-inline social">
 							<li><a href="https://www.facebook.com/Ile.De.La.Cite.MCN" class="btn-social btn-outline" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
 							<li>
@@ -81,6 +87,7 @@
 	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 	<script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script defer src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script defer src="public/js/script.js"></script>
 	<?php
 	if (isset($form)) {
 		echo '<script defer src="public/js/jqBootstrapValidation.js"></script>';

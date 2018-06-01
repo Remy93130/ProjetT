@@ -12,9 +12,9 @@ $pos = "history";
 				<div class="nav_histoire text-center">
 					<h3 class="link">Parties :</h3>
 					<ul class="nav nav-pills nav-stacked part">
-						<li><a href="#antiquite"><b>Histoire</b></a></li>
-						<li><a href="#monument"><b>Monuments</b></a></li>
-						<li><a href="#pont"><b>Ponts</b></a></li>
+						<li><a href="#antiquite" class="smooth-scroll"><b>Histoire</b></a></li>
+						<li><a href="#monument" class="smooth-scroll"><b>Monuments</b></a></li>
+						<li><a href="#pont" class="smooth-scroll"><b>Ponts</b></a></li>
 					</ul>
 				</div>
 			</nav>

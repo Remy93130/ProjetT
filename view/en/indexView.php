@@ -63,82 +63,75 @@ $pos = "index";
 				<h1 class="text-center">Mission Île de la Cité</h1><br>
 				<blockquote>
 					<p style="font-size: 24px">
-						"Construire une île de verre sur une île de pierre"
+						"Built a glass island on a stone island"
 					</p>
-					<footer style="font-size: 20px">Dominique Perrault - Architecte</footer>
+					<footer style="font-size: 20px">Dominique Perrault - Architect</footer>
 				</blockquote><br>
-				<h2 class="link">Qu'est-ce que c'est ?</h2>
+				<h2 class="link">What is it ?</h2>
 				<p class="text-justify indent">
-					La mission Île de la Cité est un projet qui à été lancé par l'ancien président
-					de la république François Hollande.<br>
-					Ce projet est de transformer cette île qu'il considère comme <ins><em>"aujourd'hui enfermée sur elle-même"</em></ins>, tout en
-					voulant <ins><em>"conserver ce paysage urbain unique"</em></ins> où cohabitent sites historiques et institutions
-					publiques, mais <ins><em>"le mettre en valeur et le rendre accessible dans tous les sens du terme, à tous".</em></ins>
+					The Île de la Cité mission is a project lauched by the former French's president François Hollande.<br>
+					This project is improve this island that he considered like <ins><em>"Today lock up on herself"</em></ins>, while wanting  
+					<ins><em>"preserve this unique urban landscape"</em></ins> where cohabits historical sites and public institutions, although 
+					<ins><em>"enhance it and make it accessible in every sense of the word, to everyone".</em></ins>
 				</p><br>
-				<h2 class="link">Les acteurs</h2>
+				<h2 class="link">Cast</h2>
 				<p class="text-justify indent">
-					Afin de mener à bien ce projet, ce sont <a href="https://fr.wikipedia.org/wiki/Dominique_Perrault" target="_blank">Dominique Perrault</a>,
-					un professeur à l'école polytechnique fédérale de Lausanne, c'est l'architecte à l'origine du nouvel Hippodrome de Longchamp ainsi que 
-					<a href="https://fr.wikipedia.org/wiki/Philippe_B%C3%A9laval" target="_blank">Philippe Bélaval</a>, président du Centre des monuments 
-					nationaux qui est également commandeur de l'Ordre des arts et lettres qui ont été choisis.
+					In order to carry out this project, <a href="https://fr.wikipedia.org/wiki/Dominique_Perrault" target="_blank">Dominique Perrault</a>, 
+					a professor at the Federal Polytechnic School of Lausanne, is the architect behind the new Longchamp Racecourse 
+					and <a href="https://fr.wikipedia.org/wiki/Philippe_B%C3%A9laval" target="_blank">Philippe Bélaval</a>, President of the Centre des 
+					monuments nationaux. who is also Commander  of the Order of Arts and Letters who were chosen.
 				</p><br>
-				<h2 class="link">Le projet</h2>
+				<h2 class="link">The project</h2>
 				<p class="text-justify indent">
-					Lors de leur rapport, Dominique Perrault et Philippe Bélaval ont soumis trente-cinq proposition que l'ont peut dissocier en deux grandes
-					catégories : Le travers de l'île et les institutions, en voici quelques une.
+					In their report, Dominique Perrault and Philippe Bélaval submitted thirty-five proposals that can be broken down into two broad categories: 
+					Cross-Island and Institutions. here are some of them:
 				</p>
 				<div class="panel-group" id="accordion">
 					<div class="panel panel-default info-id">
 						<div class="panel-heading">
 							<h3 class="panel-title">
-								<a data-toggle="collapse" data-parent="#accordion" href="#collapse1">A travers l'Île <i class='fas fa-caret-down pull-right'></i></a>
+								<a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Cross-Island <i class='fas fa-caret-down pull-right'></i></a>
 							</h3>
 						</div>
 						<div id="collapse1" class="panel-collapse collapse">
 							<div class="panel-body" style="color:  #505050">
-								<h3 class="link">Le balcon de l'île</h3>
+								<h3 class="link">The balcony of the island</h3>
 								<p>
-									Transformer les quais Sud en grande promenade piétonne, reliant la pointe aval à la pointe amont, de la
-									place du Pont-Neuf au square de l'Île-de-France, du Square du Vert-Galant au Mémorial des Martyrs de la
-									Déportation
+									Transform the South wharves into a Great Pedestrian Promenade, connecting the tip to the upstream point, the Place du Pont-Neuf 
+									square to the Île-de-France square, the Vert-Galant Square to the Memorial of the Martyrs of the Deportation
 								</p>
 								<p>
-									Adapter la mobilité et les flux véhicules à l’évolution de l’île, et supprimer la circulation automobile sur le
-									Pont de l'Archevêché afin de créer un parcours piéton du Quai de la Tournelle à l'Île Saint-Louis. 
+									Adapt mobility and vehicle flows to the evolution of the island, and remove traffic on the bridge of the Archbishop's Palace to 
+									create a pedestrian route from the Quai de la Tournelle to Île Saint-Louis.
 								</p>
 								<p>
-									Aménager sur la pointe amont de l’île, une nouvelle place symbolique pour Paris et pour la France : La
-									Place des Cultures. 
+									Set up on the tip of the island, a new symbolic place for Paris and for France: Place des Cultures.
 								</p>
-								<h3 class="link">Le Parvis Notre-Dame</h3>
+								<h3 class="link">The Parvis Notre-Dame</h3>
 								<p>
-									Dévoiler la Crypte archéologique du Parvis de NotreDame, par la création d'un sol de verre.
-								</p>
-								<p>
-									Convertir le parc de stationnement situé sous le Parvis en Galerie d'accueil pour les visiteurs de la cathédrale,
-									en lien avec un nouveau débarcadère côté Seine, et permettant de relier à la manière d’un Forum, NotreDame,
-									la crypte, l'Hôtel-Dieu, et la station SaintMichel.
+									Unveil the Archaeological Crypt of the Parvis of Notre-Dame, by creating a glass vase.
 								</p>
 								<p>
-									Relier le dessous et le dessus du Parvis par des grandes marches autour d’une place basse située au niveau de
-									la Seine.
-								</p>
-								<h3 class="link">La Place de Lutèce</h3>
-								<p>
-									Mettre en scène la station de métro Cité en galerie d’exposition de l'Île, à l'instar de la station LouvreRivoli
-									et la mettre en lumière par le percement d’un puits de lumière, reconfigurant les accès aux différents
-									niveaux de l’espace public.
+									Convert the parking lot located under the forecourt into a reception gallery for visitors to the cathedral, in connection 
+									with a new landing stage on the Seine, and connecting the way of a Forum, Notre-Dame, the crypt, 
+									the Hotel-Dieu, and the station Saint-Michel.
 								</p>
 								<p>
-									Réinventer l’actuelle place, en uniformisant le revêtement de sol, le mobilier urbain, la signalétique
-									et la mise en lumière, du parvis du Palais de Justice à l'Hôtel-Dieu, à la manière de la place Saint-Marc à
-									Venise.
+									Connect the bottom and the top of the forecourt by large steps around a lower square at the level of the Seine.
+								</p>
+								<h3 class="link">The Place of Lutetia</h3>
+								<p>
+									Showcasing the Cité metro station in the Island's exhibition gallery, like the LouvreRivoli station, and highlighting 
+									a skylight, reconfiguring access to the different levels of the museum. public space.
 								</p>
 								<p>
-									Relier, par le dessous, l’ensemble des institutions situées autour de la place de Lutèce par la création
-									d’une Grande Galerie. Tel un mail institutionnel, elle permettrait d’orienter, de filtrer et d’accueillir sur un
-									même sol, dans des conditions d’accueil optimales, les différents publics des divers équipements, activités,
-									services et monuments, en lien direct avec les transports publics et le parc de stationnement existant.
+									Reinvent the current square, standardize the flooring, street furniture, signage and lighting, the forecourt of the Palace 
+									of Justice at the Hôtel-Dieu, in the manner of St. Mark's Square in Venice.
+								</p>
+								<p>
+									Connect, from below, all the institutions around the Place de Lutèce by creating a Grande Galerie. Such as an institutional 
+									mail, a researcher to guide, a filterer and a reception on the same ground, in optimal reception conditions, different 
+									audiences of equipment, activities, services and monuments, directly linked to public transport and the existing car park.
 								</p>
 							</div>
 						</div>
@@ -146,55 +139,53 @@ $pos = "index";
 					<div class="panel panel-default info-id">
 						<div class="panel-heading">
 							<h3 class="panel-title">
-								<a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Au fil des institution <i class='fas fa-caret-down pull-right'></i></a>
+								<a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Institutions <i class='fas fa-caret-down pull-right'></i></a>
 							</h3>
 						</div>
 						<div id="collapse2" class="panel-collapse collapse">
 							<div class="panel-body" style="color:  #505050">
-								<h3 class="link">L'Hôtel-Dieu</h3>
+								<h3 class="link">The Hôtel-Dieu</h3>
 								<p>
-									Désenclaver l’Hôtel-Dieu en transformant l'enceinte actuelle, hermétique à la vie urbaine, en colonnade ou
-									péristyle, permettant de favoriser les interfaces avec la ville.
+									To open the Hôtel-Dieu by transforming the current enclosure, hermetic to the urban life, in 
+									colonnade or peristyle, allowing to favor the interfaces with the city.
 								</p>
 								<p>
-									Étendre largement l'Hôtel-Dieu en sous-œuvre et le relier aux transports publics et différents équipements.
+									Extend the Hotel-Dieu largely as an underpinning and link it to public transport and various facilities.
 								</p>
 								<p>
-									Installer un pôle d’accueil, de services et d’exposition à l’attention des visiteurs de l’île dans l’aile Sud le long
-									du Parvis de Notre-Dame : le Pavillon Lutèce
+									Set up a reception, service and exhibition center for the visitors of the island in the South wing 
+									along the Parvis de Notre-Dame: the Lutèce Pavilion
 								</p>
-								<h3 class="link">La préfecture de Police de Paris</h3>
+								<h3 class="link">The Prefecture of Police of Paris</h3>
 								<p>
-									Créer partiellement des arcades publiques le long du Quai du Marché Neuf permettant d’accueillir
-									différentes activités ouvertes au public, sans rompre la parfaite autonomie de la Préfecture.
-								</p>
-								<p>
-									Ouvrir un passage reliant la Place de Lutèce et le Quai du Marché Neuf le long de la façade Ouest de la
-									Préfecture, et le couvrir par une verrière, à l’image des galeries parisiennes du XIXe siècle
-								</p>
-								<h3 class="link">Le Marché aux Fleurs</h3>
-								<p>
-									Dessiner un grand Carreau de verre sur l’emprise de l’actuel Marché aux Fleurs, comme une grande serre,
-									abritant le Marché aux fleurs et aux oiseaux et de nouvelles activités, en lien direct avec le métro.
-								</p>
-								<h3 class="link">Le Tribunal de Commerce</h3>
-								<p>
-									Recréer les arcades originelles ceinturant le bâtiment
-									et permettre l’implantation de services ou activités
-									ouvertes au public, entre Seine et Place de Lutèce,
-									entre boulevard du Palais et Marché aux Fleurs.
-								</p>
-								<h3 class="link">Le Palais de Justice et les monuments nationaux</h3>
-								<p>
-									Renforcer les fonctions juridictionnelles vers l’Ouest sur la rue de Harlay par une refonte des accès et des
-									flux et la création d’une Place Basse devant la place Dauphine.
+									Partially create public arches along the New Market Quay to accommodate different activities open 
+									to the public, without breaking the perfect autonomy of the Prefecture.
 								</p>
 								<p>
-									Investir certaines cours du Palais de Justice pour créer de nouvelles surfaces utiles par la couverture de celles-ci
-									par des verrières, à l’image du Palais du Louvre
+									Open a passage connecting the Place de Lutèce and the Quai du Marché Neuf along the west facade 
+									of the Prefecture, and cover it with a glass roof, like the Paris galleries of the nineteenth century
+								</p>
+								<h3 class="link">The Flower Market</h3>
+								<p>
+									Draw a large glass tile on the hold of the current Flower Market, like a large greenhouse, home to the 
+									Flower and Bird Market and new activities, in direct connection with the metro.
+								</p>
+								<h3 class="link">The Commercial Court</h3>
+								<p>
+									Recreate the original arcades surrounding the building and allow the establishment of services or 
+									activities open to the public, between the Seine and Place de Lutèce, between Boulevard du Palais and Flower Market.
+								</p>
+								<h3 class="link">The Palace of Justice and National Monuments</h3>
+								<p>
+									Strengthen jurisdictional functions towards West on Harlay Street by redesigning accesses and flows 
+									and creating a Lower Square in front of Place Dauphine.
 								</p>
 								<p>
-									Révéler la cour de la Sainte-Chapelle par une réflexion globale sur ses accès et sa matérialité au sol.
+									Invest some courtyards of the Palais de Justice to create new useful surfaces by covering them 
+									with glass roofs, like the Louvre Palace
+								</p>
+								<p>
+									Reveal the courtyard of the Sainte-Chapelle by a global reflection on its access and its materiality on the ground.
 								</p>
 							</div>
 						</div>

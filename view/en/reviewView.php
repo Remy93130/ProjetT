@@ -7,10 +7,10 @@ $pos = "review";
 	<div class="container">
 		<div class="row">
 			<h1 class="text-center">
-				Votre avis
+				Your opinion
 			</h1>
 			<p class="text-center">
-				Ici, vous avez la possibilité de déposer un avis et de lire ceux des autres visiteurs, Qu'attendez-vous ? Allez-y !
+				Here you have the opportunity to post a review and read those of other visitors, what are you waiting for ? Go for it !
 			</p>
 		</div>
 		<div class="row">
@@ -26,7 +26,7 @@ $pos = "review";
 			</div>
 		</div>
 		<div class="row">
-			<h2 class="text-center">Avis des visiteurs :</h2>
+			<h2 class="text-center">Opinions of visitors :</h2>
 			<?php while ($data = $dataReview->fetch()): ?>
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">

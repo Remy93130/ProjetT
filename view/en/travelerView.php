@@ -8,13 +8,14 @@ $pos = "traveler";
 		<div class="row" style="margin-top: 5%">
 			<div class="col-md-6">
 				<img src="public/images/traveler/traveler1.jpg" class="img-responsive" alt="Image1">
-				<p>Mur de l'Hôtel Dieu</p>
+				<p>Wall of the hotel Dieu</p>
 			</div>
 			<div class="col-md-6">
-				<h3 class="link">Stigmates de la seconde guerre mondiale</h3>
+				<h3 class="link">Stigmas of the Second World War</h3>
 				<p class="text-justify text-left">
-					Si Paris a été sauvé de la destruction, elle n'en a pas moins été bombardé et en porte encore les cicatrices à de très nombreux endroits dans la capitale.
-					En effet, au niveau de la rue d'Arcole, le haut mur de l'Hôtel Dieu porte encore la trace de deux tirs d'obus d'un char Allemand lors de la libération de Paris en Août 1944.
+					If Paris was saved from destruction, it was nevertheless bombed and still bears scars 
+					in many places in the capital. Indeed, at the rue d'Arcole, the high wall of the Hôtel Dieu 
+					still bears the traces of two shells of a German tank during the liberation of Paris in August 1944.
 				</p>
 			</div>
 		</div>
@@ -22,12 +23,17 @@ $pos = "traveler";
 		<div class="row">
 			<div class="col-md-6">
 				<img src="public/images/traveler/traveler2.jpg" class="img-responsive" alt="Image2">
-				<p>La vieille maison médiévale par Fernand Pouillon 1958</p>
+				<p>The old medieval house by Fernand Pouillon 1958</p>
 			</div>
 			<div class="col-md-6">
-				<h3 class="link">La fausse vieille maison médiévale</h3>
+				<h3 class="link">The fake old medieval house</h3>
 				<p class="text-justify text-left">
-					Sur l’Île de la Cité, à l’angle de la rue des Chantres et de la rue des Ursins, se trouve une maison qui n’a aucun équivalent dans la capitale. Une imposante porte en bois massif, de petites fenêtres à ogives, de jolies grilles en fer forgé, des pierres calcaires apparentes, une tour qui nous rappelle celles des fortifications médiévales… Cette construction semble nous donner un aperçu de ce à quoi ressemblaient les maisons de l’ancienne Lutèce, à l’époque où les premières pierres de la Cathédrale Notre-Dame ont été posées. Logique non, puisque nous sommes sur l’Île de la Cité, à deux pas du plus imposant édifice médiéval encore sur pied dans la capitale !
+					On Île de la Cité, at the corner of the Rue des Chantres and rue des Ursins, is a 
+					house that has no equivalent in the capital. An imposing solid wood door, small lancet 
+					windows, pretty wrought iron gates, exposed limestone, a tower that reminds us of the medieval 
+					fortifications... This construction seems to give us a glimpse of what the houses of the old 
+					Lutetia, at the time when the first stones of the Notre-Dame Cathedral were laid. Logic no, since we 
+					are on the Ile de la Cité, close to the most impressive medieval building still standing in the capital!
 				</p>
 			</div>
 		</div>
@@ -35,13 +41,20 @@ $pos = "traveler";
 		<div class="row">
 			<div class="col-md-6">
 				<img src="public/images/traveler/traveler3.jpg" class="img-responsive" alt="Image3">
-				<p>La statue de Henri IV</p>
+				<p>The statue of Henri IV</p>
 			</div>
 			<div class="col-md-6">
-				<h3 class="link">Le mystère de la statue d'Henri IV</h3>
+				<h3 class="link">The mystery of the statue of Henry IV</h3>
 				<p class="text-justify text-left">
-					En effet, en 2004, à l’occasion de la restauration de la statue, sont mises à jours 7 boites scellées renfermant des documents des plus divers. Solennellement ouvertes par le ministre de la Culture, qui plus est devant une assemblée de journalistes intrigués, on y découvre 26 médailles retraçant les différentes étapes de la vie du roi, le récit du transport et un procès-verbal de l’inauguration de la statue, un exemplaire des Economies royales de Sully, un autre de la Henriade de Voltaire, et enfin une Histoire d’Henri le Grand de Péréfixe.
-					Pourtant la septième boite, cachée dans la tête du cavalier et sur le couvercle de laquelle est inscrit « Mesnel »,  ne livre pas immédiatement ses secrets: Elle contient un parchemin enroulé et très détérioré. Ce n’est qu’à l’issue de minutieux travaux de restauration que l’on a découvert qu’il contenait la liste de tous les fondeurs et ciseleurs de la statue sous la direction de Mesnel.
+					Indeed, in 2004, on the occasion of the restoration of the statue, are updated 7 sealed boxes containing 
+					various documents. Solemnly opened by the Minister of Culture, which is more in front of an assembly of 
+					intrigued journalists, one discovers there 26 medals tracing the different stages of the life of the king, 
+					the story of the transport and a report of the inauguration of the statue , a copy of the Royal Economy of 
+					Sully, another of the Henriade de Voltaire, and finally a History of Henry the Great of Perefixe. Yet the 
+					seventh box, hidden in the head of the rider and on the lid of which is written "Mesnel", does not immediately 
+					reveal its secrets: It contains a parchment rolled and very deteriorated. It was only after careful restoration 
+					work that it was discovered that it contained the list of all the founders and carvers of the statue 
+					under the direction of Mesnel.
 				</p>
 			</div>
 		</div>

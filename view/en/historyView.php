@@ -7,106 +7,108 @@ $pos = "history";
 	<div class="container-fluid">
 		<br>
 		<div class="row">
-			<h1 class="col-md-10 col-md-offset-1 text-center">Histoire de l'Île de la Cité</h1>
+			<h1 class="col-md-10 col-md-offset-1 text-center">History of Île de la Cité</h1>
 			<nav class="col-md-6 col-md-offset-3">
 				<div class="nav_histoire text-center">
 					<h3 class="link">Parties :</h3>
 					<ul class="nav nav-pills nav-stacked part">
-						<li><a href="#antiquite"><b>Histoire</b></a></li>
-						<li><a href="#monument"><b>Monuments</b></a></li>
-						<li><a href="#pont"><b>Ponts</b></a></li>
+						<li><a href="#antiquite" class="smooth-scroll"><b>History</b></a></li>
+						<li><a href="#monument" class="smooth-scroll"><b>Monuments</b></a></li>
+						<li><a href="#pont" class="smooth-scroll"><b>Bridges</b></a></li>
 					</ul>
 				</div>
 			</nav>
 		</div>
 		<div class="partie text-justify" id="histoire">
-			<h2 class="transit" style="margin-top: 5%">Histoire</h2>
+			<h2 class="transit" style="margin-top: 5%">History</h2>
 		</div>
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2">
 				<div class="histoire text-justify">
 					<div class="partie" id="antiquite">
-						<h2 class="text-center part">Antiquité</h2>
+						<h2 class="text-center part">Antiquity</h2>
 					</div>					
 					<p>
-						On pense qu'une tribu gauloise appelée les Parisii vivait sur ce qu'on l'on appelle aujourd’hui l'Ile de la cité depuis 250 av. J.-C.
-						Aujourd’hui, en raison de l'absence d'éléments archéologiques convainquant, aucun vestige gaulois, ni même une quelconque trace d'occupation avant à la conquête romaine n'ayant été découverts sur l'île, les histoiriens pensent peut être que les Parisii aient en réalité installés leur agglomération plus loin que l'île de la Cité.
-						Comme beaucoup de partie de l'Ile de la Cité ont été détruites et reconstruites la plupart du temps, les archéologues ont découverts, sous le niveau gallo-romain, un niveau plus ancien, peu spectaculaire mais réel (clous, trous de poteau, vestiges de fosses de détritus).
-						L'île de la Cité s'étendait avant uniquement sur 9 hectares, alors qu'aujourd'hui elle en couvre 17. On pense donc que plusieurs petits îlots n'ont été ajoutés à l'île que plus tard.
+						It is believed that a Gallic tribe called the Parisii lived on what is now called the Ile de la Cité since 250 BC. Nowadays, due to convincing archaeological evidence,  
+						no Gallic vestige, or even any trace of occupation prior to the Roman conquest having been discovered on the island,  the histoiriens think maybe the Parisii had actually 
+						settled their settlement further than the Île de la Cité. Since much of the Île de laCité was destroyed and rebuilt over time, archaeologists discovered, under the 
+						gallo-romain level, an older level, not so spectacular although it is real (nails, post holes, remains of trash pits). The Île de la Cité stretched previously only 9 hectares, 
+						instead of 17 today. We suppose that a few islets were added only later.
 					</p>
 					<div id="antiquite_plus" class="collapse histoire2"> 
 					<p>
-						En 52 av. J.-C., après la victoire de Jules César sur Vercingétorix, on assista à la naissance de Lutèce. Les Gaulois s'installèrent sur l'île et continuaient de vivre du fleuve, par la pêche, tandis que la ville gallo-romaine se construisait sur la rive gauche.
-						À l’époque romaine, l’île de la Cité permet un contrôle stratégique du trafic et du commerce fluvial qui fait la prospérité des bateliers de la Seine. 
-						Mais la ville elle-même s’étend presque exclusivement sur la rive gauche du fleuve.
-						Les deux seuls ponts en bois à desservir l’île pendant les périodes gallo-romaine puis mérovingienne jusqu’au milieu du IXe s étaient à l'emplacement actuels du petit pont et du pont de notre Dame.
-						Vers l'an 200, Les invasions barbares obligent la population parisienne à se réfugier sur cette île qui est naturellement protégée par la Seine.					
+						In 52 BC., next to the Jules Cesar’s victory against Vercingetorix, we see the birth of the Lutece. Galtics settled on the island and continued to live from the river, thanks fishing, 
+						while the gallo-romain city was built on the left bank. In Roman times, the Île de la cité enable a strategic supervision of the traffic and the river trade which makes the prosperity 
+						of the boatmen of the Seine. But the city itself extends almost exclusively on the left bank of the river. The only two wooden bridges to serve the island during the Gallo-Roman and 
+						then Merovingian periods until the middle of the 9th century were at the current location of the little bridge and Notre Dame bridge. Around the year 200, the barbarian invasions force 
+						the Parisian population to take refuge on this island which is naturally protected by the Seine.
 					</p>
 					<p>
-						Vers l'an 300. L’île devient le nouveau centre de la ville accueillant la plus grande partie de sa population, alors que la rive gauche, moins sécurisée, est en partie délaissée. 
-						Un remaniement des structures urbaines débute par la construction d’un rempart (entre 308 et 360), fabriqué avec de gros blocs de pierre, fragments architecturaux provenant des grands édifices de la rive gauche (forum, amphithéâtre, nécropoles, etc.). 
-						De grands bâtiments publics et officiels apparaissent, utilisant aussi des blocs de pierre des anciens bâtiments. 
-						Dans la partie occidentale de l’île est implanté un grand édifice, probablement de caractère militaire et lieu de la résidence impériale, c'est le palais, qui est le siège des gouverneurs et qui abrite aussi le Tribunal du prétoire. 
-						Deux empereurs militaires y ont résidés : Julien (César en Gaule de 355 à 361, et empereur de 361 à 363) puis Valentinien Ier (364-378) de 365 à 366. Reliée au palais, une basilique est élevée à l’emplacement de l’actuel marché aux fleurs. 
-						Mesurant pas moins de 70 m de long sur 35 m de large, c’est alors l’un des plus grands monuments de la Gaule. 
-						Après avoir été appelée Lutetia apud Parisios quelques temps, c’est à partir de 310 environ que Lutèce prend progressivement le nom de Civitas Parisiorum ou Urbs Parisiorum puis, à force d'abréviation, simplement Paris.					
+						Around the year 300. The island becomes the new center of the city welcoming most of its population, while the left bank, less secure, is partly abandoned. A reorganization of urban 
+						structures begins with the construction of a rampart (between 308 and 360), made with large blocks of stone, architectural fragments from the great buildings of the left bank 
+						(forum, amphitheater, necropolis, etc.).Large public and official buildings appear, also using stone blocks from the old buildings. In the western part of the island there is a 
+						large building, probably of a military character and the place of the imperial residence, it is the palace, which is the seat of the governors and which also houses the Court of the 
+						Praetorium. Two military emperors have resided there: Julian (Caesar in Gaul from 355 to 361, and emperor from 361 to 363) then Valentinian I (364-378) from 365 to 366. Connected to 
+						the palace, a basilica is raised on the site of the current flower market. Measuring no less than 70 m long and 35 m wide, it is one of the greatest monuments of Gaul. After being 
+						called Lutetia apud Parisios some time, it is from about 310 that Lutèce gradually takes the name of Civitas Parisiorum or Urbs Parisiorum then, by force of abbreviation, simply Paris.
 					</p>
 					</div>
-					<button data-toggle="collapse" data-target="#antiquite_plus" class="button-more button-hist">En savoir plus...</button>
+					<button data-toggle="collapse" data-target="#antiquite_plus" class="button-more button-hist">More...</button>
 				</div>
 				<div class="histoire text-justify">
 					<div class="partie" id="moyen-age">
-						<h2 class="text-center part">Moyen-âge</h2>
+						<h2 class="text-center part">Middle age</h2>
 					</div>
 					<p>
-						Vers l'an 508, Alors que Clovis règne depuis 481, il fait de Paris la capitale du royaume des Francs et de l’ancienne forteresse gallo-romaine, sa résidence personnelle.
-						À ce moment, l’île de la Cité est la ville ; le mot de Cité s’impose alors pour désigner uniquement cette île. 
-						Le palais devient alors le château des rois mérovingiens. À la faveur de la christianisation, les églises se multiplient sur l’île et une basilique dédiée à Saint-Étienne est bientôt construite en partie sur l’emplacement de la future cathédrale Notre-Dame. 
+						Around the year 508, while Clovis reigns since 481, he makes Paris the capital of the kingdom of the Franks and the old Gallo-Roman fortress, his personal residence. At this moment,
+						the island of the city is the city; the word of Cite is then necessary to designate only this island. The palace then becomes the castle of the Merovingian kings. In favor of Christianization,
+						churches are multiplying on the island and a basilica dedicated to Saint-Étienne is soon built partly on the site of the future Notre-Dame cathedral.
 					</p>
 					<div id="moyen_age_plus" class="collapse histoire2"> 
 					<p>
-						Dagobert crée un atelier monétaire durant son règne de 629 à 639. Il existe encore des pièces qui portent l'inscription Palati moneta et qui représentent saint Éloi, le ministre des finances de l'époque.
-						À partir de Charlemagne, qui a règné de 768 à 814, la Cité perd son statut de capitale. 
-						Les centres du pouvoir de la nouvelle dynastie sont surtout établis en Italie, à Rome. Les évêques de Paris deviennent alors les maîtres de l’île, 
-						C'est bien durant le moyen- Age que l'Ile de la Cité voit ses grands monuments et ses ponts, très celebres aujourd’hui se faire construire.
+						Dagobert creates a monetary workshop during his reign from 629 to 639. There are still coins bearing the inscription Palati Moneta and representing St. Eloi, the finance minister of the time.
+						From Charlemagne, which reigned from 768 to 814, the city lost its status as capital. The centers of power of the new dynasty are mainly established in Italy, at Rome. The bishops of Paris then 
+						become the masters of the island, It is well during the Middle Ages that the Ile de la Cité sees its great monuments and bridges, very famous today to be built.
 					</p> 
 					<p> 
-						Durant le règne de Charle le chauve, petit-fils de Charlemagne, de 843 à 877 est construit un grand pont à l’emplacement de l’actuel Pont-au-Change. On édifie aussi deux grandes tours sur les rives, le Petit et le Grand Châtelet, afin de protéger l'accès aux ponts, dont on resserre les piles afin de mieux contrôler le passage des bateaux.
-						Car l'Ile à connue des pillages normand entre 845 et 861. 
+						During the reign of Charle the bald, grandson of Charlemagne, from 843 to 877 is built a large bridge on the site of the current Pont-au-Change. There are also two large towers on the banks, 
+						the Petit and the Grand Châtelet, to protect the access to the bridges, whose stacks are tightened to better control the passage of boats. Because the island has known Norman looting 
+						between 845 and 861.
 					</p>
 					<p>
-						Les abbayes des deux rives font bâtir des églises sur l'île (souvent à l’emplacement de plus petites chapelles), afin d'y mettre à l'abri trésor et reliques précieuses : sont ainsi érigées Saint-Germain-le-Vieux, Sainte-Geneviève-la-Petite, Saint-Landry-des-Arcis, et Saint-Barthélemy au Xe siècle.
+						The abbeys on both banks have churches built on the island (often on the site of smaller chapels), to shelter treasures and precious relics: Saint-Germain-le-Vieux is thus erected,
+						Sainte-Geneviève-la-Petite, Saint-Landry-des-Arcis, and Saint-Barthélemy in the 10th century.
 					</p>
 					<p>
-						Les deux ponts de la Cité sont une fois encore détruits. Le Grand-Pont est rebâti plus à l'ouest alors que le Petit-Pont est reconstruit au même emplacement bordé de maisons et de commerces.
-						Sur les anciennes piles du Grand-Pont est construit le Pont-aux-Meuniers, consistant en une rangée de moulins. Il est doublé en 1142 par le Pont-aux-Changeurs, qui prend alors à son tour le nom de Grand-Pont. 
-						Paris est alors une ville tripartite avec la Cité en son centre, le reste de l’agglomération étant réparti entre la parie que relie le petit pont et la celle que relie le grand pont
-						Sur l’ordre de Maurice de Sully, évêque depuis 1160, on commence à remplacer la vieille cathédrale mérovingienne Saint-Étienne, devenue trop petite pour une population qui grandit, par une construction beaucoup plus grande, la cathédrale Notre-Dame, dans un style nouveau : le gothique. 
-						Les maisons du cloître trop proches du chantier sont démolies et une nouvelle rue, la rue Neuve-Notre-Dame, est percée dans l’axe de la nouvelle église pour faciliter le transport des matériaux. 
+						The two bridges of the City are once again destroyed. The Grand-Pont is rebuilt further west while the Petit-Pont is rebuilt in the same location lined with houses and shops. On the old 
+						piers of the Grand Pont is built Pont-aux-Meuniers, consisting of a row of mills. It was doubled in 1142 by the Pont-aux-Changeurs, which then took the name of Grand-Pont. Paris is then 
+						a tripartite city with the city in its center, the rest of the agglomeration being distributed between the bet that connects the small bridge and the one that connects the great bridge 
+						On the order of Maurice de Sully, bishop since 1160, We are beginning to replace the old Saint-Etienne Merovingian cathedral, which has become too small for a growing population, with a 
+						much larger construction, the Notre-Dame cathedral, in a new style: Gothic. Cloister houses too close to the site are demolished and a new street, Rue Neuve-Notre-Dame, is pierced along 
+						the axis of the new church to facilitate the transportation of materials.
 					</p>
 					<p>
-						En 1182, le chœur est achevé et le maître-autel est consacré le 19 mai. Toutefois, de nombreux autres sanctuaires occupent encore cette même partie de la Cité. 
-						Conjointement à la cathédrale, Maurice de Sully fait rebâtir le palais, au sud de Notre-Dame.
-						En 1185, le Petit-Pont est réédifié par décision de l'évêque Maurice de Sully.
-						Au début du XIIIe siècle, l'île compte pas moins de douze églises paroissiales : Saint-Barthélémy, Saint-Pierre-des-Arcis, Saint-Éloi, Sainte-Croix, Saint-Germain-le-Vieux, Sainte-Geneviève-la-Petite, Saint-Denis-de-la-Châtre, Sainte-Marie-Madeleine, Saint-Landry, Sainte-Marine, Saint-Pierre-aux-bœufs, Saint-Christophe
-						La sainte chapelle fut construite de 1242 à 1248 sur demande de saint Louis en lieu et place de l’ancienne chapelle Saint-Nicolas, 
-						La Conciergerie est commencée peu avant 1300 et achevée avant 1315. 
-						La construction du pont saint michel s'étale de 1379 à 1387. Il est emporté par la Seine en 1404, seulement 17 ans plus tard
-						Entre 1394 et 1406, Charles VI (1380-1422) fait construire un nouveau pont en bois, le petit pont. Emporté à son tour par le 31 janvier 1408, il est rétabli en pierre dès l’année suivante et subsiste jusqu'au XVIIe siècle.
-						Le 30 mai 1413, c’est encore Charles VI qui baptise le nouveau pont de Notre-Dame, solide ouvrage de bois reliant l'île de la Cité à la rue Saint-Martin sur dix-sept rangées de piles.
+						In 1182, the choir was completed and the main altar was consecrated on May 19th. However, many other shrines still occupy this same part of the City. Together with the cathedral, Maurice 
+						de Sully is rebuilding the palace, south of Notre-Dame. In 1185, the Petit-Pont is rebuilt by decision of Bishop Maurice de Sully. At the beginning of the thirteenth century, the island 
+						has no less than twelve parish churches: Saint-Barthélémy, Saint-Pierre-des-Arcis, St. Eloi, St. Croix, Saint-Germain-le-Vieux, Sainte-Geneviève-la -Small, Saint-Denis-de-la-Châtre, 
+						St. Mary Magdalene, Saint-Landry, St. Marine, St. Peter-aux-oxes, St. Christopher The Holy Chapel was built from 1242 to 1248 on request of Saint Louis instead of the old chapel of 
+						St. Nicholas, The Conciergerie was started shortly before 1300 and completed before 1315. The construction of the Saint Michel Bridge spreads from 1379 to 1387. It is washed away by the 
+						Seine in 1404, only 17 years later Between 1394 and 1406, Charles VI (1380-1422) built a new wooden bridge, the little bridge. 
+						Carried in turn by January 31, 1408, it is restored in stone the following year and remains until the seventeenth century. May 30, 1413, it is still Charles VI who baptizes the new bridge 
+						of Notre-Dame, solid work of wood connecting the island of the City to the street Saint-Martin on seventeen rows of piles.
 					</p>
 					</div>
-					<button data-toggle="collapse" data-target="#moyen_age_plus" class="button-more button-hist">En savoir plus...</button>
+					<button data-toggle="collapse" data-target="#moyen_age_plus" class="button-more button-hist">More...</button>
 				</div>
 				<div class="histoire text-justify">
 					<div class="partie" id="aujourdhui">
-						<h2 class="text-center part">Aujourd’hui</h2>
+						<h2 class="text-center part">Nowaday</h2>
 					</div>
 					<p>
-						Aujourd’hui, l'Ile de la Cité est désormais un lieu majoritairement touristique, tous ses monuments et toutes ses architectures sont conservés et sont visités chaques jours par des millions de touristes.
-						Elle a subi une metamorphose aux fils des années car elle est passée de lieu administratif, tête du pouvoir, à lieu touristique, de détente.
-						En décembre 2016, à la demande du président de la République, Philippe Bélaval et Dominique Perrault proposent de renforcer l’attractivité culturelle et touristique de l’île de la Cité.
-						La superficie de l'Ile de la Cité est d'environ 22,5 ha. Au 1er janvier 2013, sa population est de 981 habitants
+						Today, the Ile de la Cité is now a predominantly tourist place, all its monuments and architectures are preserved and are visited every day by millions of tourists. It has undergone a 
+						metamorphosis to the threads of the years because it went from administrative place, head of power, to tourist place, relaxation. In December 2016, at the request of the President of 
+						the Republic, Philippe Bélaval and Dominique Perrault propose to strengthen the cultural and tourist attractiveness of the Ile de la Cité. The area of ​​Ile de la Cité is about 22.5 ha. 
+						As of January 1, 2013, its population is 981
 					</p>
 				</div>
 			</div>
@@ -125,7 +127,7 @@ $pos = "history";
 				<a data-toggle="modal" data-target="#conciergerie">
 					<img src="public/images/monument/conciergerie.jpg" class="img-circle" width="200" height="200">
 				</a>
-				<p>La Conciergerie</p>
+				<p>Conciergerie</p>
 			</div>
 			<div class="col-md-4">
 				<a data-toggle="modal" data-target="#saintechapelle">
@@ -139,7 +141,7 @@ $pos = "history";
 				<a data-toggle="modal" data-target="#tribunalcommerce">
 					<img src="public/images/monument/tribunalcommerce.jpg" class="img-circle" width="200" height="200">
 				</a>
-				<p>Tribunal de Commerce</p>
+				<p>Commercial Court</p>
 			</div>
 			<div class="col-md-4">
 				<a data-toggle="modal" data-target="#hoteldieu">
@@ -151,13 +153,13 @@ $pos = "history";
 				<a data-toggle="modal" data-target="#memorial">
 					<img src="public/images/monument/memorialdesmartyrs.jpg" class="img-circle" width="200" height="200">
 				</a>
-				<p>Mémorial des Martyrs</p>
+				<p>Memorial of the Martyrs</p>
 			</div>
 		</div>
 
 		<div class="row">
 			<div class="partie text-justify" id="pont">
-				<h2 class="transit">Ponts</h2>
+				<h2 class="transit">Bridges</h2>
 			</div>
 		</div>
 
@@ -197,32 +199,34 @@ $pos = "history";
 			<div class="histoire modal-content">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal" style="color: red; font-size: 32px"><i class="fas fa-times"></i></button>
-					<h2 class="modal-title text-center">Notre-Dame de Paris</h2>
+					<h2 class="modal-title text-center">Notre Dame Cathedral</h2>
 				</div>
 				<div class="modal-body text-center">
 					<img src="public/images/monument/notredame.jpg" width="50%" height="50%"><br><br>
 					<p class="text-justify">
-						La cathédrale Notre-Dame de Paris, est la cathédrale de l’archidiocèse de Paris, en France. 
-						Elle est située dans l'est de l’île de la Cité, dans le 4e arrondissement de Paris.
-						Sa construction à commencée sous la demande de l’évêque Maurice de Sully, elle s'étend sur plus de deux siècles, de 1163 au milieu du xive siècle. 
+						Notre Dame Cathedral, is the Cathedral of the Archdiocese of Paris, in France. It is located in the east of the Île de la Cité, in the 4th 
+						arrondissement of Paris. Its construction began under the request of Bishop Maurice de Sully, it extends over more than two centuries, from 
+						1163 to the middle of the fourteenth century.
+
 					</p>
 					<div id="notredame-plus" class="collapse">
 						<p class="text-justify">
-							Le style n’est donc pas d’une uniformité totale : la cathédrale possède ainsi des caractères du gothique primitif et du gothique rayonnant. C'est donc le style gothique qui domine mais sous deux formes différentes.
-							Les deux rosaces qui ornent chacun des bras du transept sont parmi les plus grandes d’Europe, et mesurent chacune treize mètres de diamètre. Lors de son achèvement, la cathédrale est l'une des plus grandes d'Occident.
-							Après la tourmente révolutionnaire, la cathédrale bénéficie de 1844 à 1864 d'une restauration importante, sous la direction de l’architecte Viollet-le-Duc, qui y incorpore des éléments et des motifs inédits.
-							La cathédrale est depuis l'origine l'un des monuments les plus emblématiques de Paris. 
-							Longtemps plus haute construction de la ville, elle occupe à Paris une place symbolique de premier rang, et est l'une des plus célèbres cathédrales du pays. Édifice à la fois religieux et patrimonial, elle est liée à de nombreux épisodes de l’histoire de France.
-							Des cérémonies religieuses y ont lieu à la mort du général de Gaulle le 12 novembre 1970, de Georges Pompidou le 6 avril 1974, et de François Mitterrand le 11 janvier 1996.
-							Dans le domaine littéraire, elle figure notamment au centre du roman de Victor Hugo, Notre-Dame de Paris, publié en 1831.
-							Cette cathédrale accueille aujourd’hui plus de 20 millions de visiteurs par an (dont 13,6 millions qui y sont entrés en 20112), ce qui en fait le monument le plus visité de Paris et de toute l’Europe. 
-							Elle fête en 2013 le 850e anniversaire de sa construction.
+							The style is not of total uniformity: the cathedral as well as the characters of the primitive Gothic and the radiant Gothic. It is therefore 
+							the Gothic style that dominates but in two different forms. The two rosettes on each arm of the transept are among the largest in Europe, each 
+							measuring thirteen meters in diameter. When completed, the cathedral is one of the largest in the West. After the revolutionary turmoil, the 
+							cathedral has from 1844 to 1864 a major restoration, under the direction of the architect Viollet-le-Duc, which incorporates new elements and 
+							new motifs. The cathedral is from the beginning one of the most emblematic monuments of Paris. Long higher construction of the city, it occupies 
+							in Paris a symbolic place of first rank, and is one of the most famous cathedrals of the country. Building both religious and heritage, it is 
+							linked to many episodes in the history of France. Religious ceremonies take place at the death of General de Gaulle on November 12, 1970, 
+							Georges Pompidou on April 6, 1974, and François Mitterrand January 11, 1996. In the literary field, she is at the center of Victor Hugo's novel, 
+							Notre-Dame de Paris, published in 1831. This cathedral today welcomes more than 20 million visitors a year (of which 13.6 million entered in 20112), 
+							making it the most visited monument in Paris and all over Europe. It celebrates in 2013 the 850th anniversary of its construction.
 						</p>
 					</div>
-					<button data-toggle="collapse" data-target="#notredame-plus" class="button-more">En savoir plus...</button>
+					<button data-toggle="collapse" data-target="#notredame-plus" class="button-more">More...</button>
 				</div>
 				<div class="modal-footer">
-					<button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 				</div>
 			</div>
 		</div>
@@ -232,27 +236,27 @@ $pos = "history";
 			<div class="histoire modal-content">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal" style="color: red; font-size: 32px"><i class="fas fa-times"></i></button>
-					<h2 class="modal-title text-center">La Conciergerie</h2>
+					<h2 class="modal-title text-center">Conciergerie</h2>
 				</div>
 				<div class="modal-body text-center">
 					<img src="public/images/monument/conciergerie.jpg" width="50%" height="50%"><br><br>
 					<p class="text-justify">
-						La Conciergerie faisait partie du Palais de la Cité, appelé Le Palais royale ou encore aujourd’hui Le Palais de Justice, Le Palais était la résidence et le siège du pouvoir des rois de France, du xe au xive siècle. 
-						Il s’étendait sur la partie ouest de l’Île de la Cité dans le 1er arrondissement de Paris.
+						The Conciergerie was part of the Palace of the City, called The Royal Palace or today The Palace of Justice, The Palace was the residence and seat of power 
+						of the kings of France, the tenth to the fourteenth century. It extended on the western part of the Ile de la Cité in the 1st district of Paris.
 					</p>
 					<div id="conciergerie-plus" class="collapse">
 						<p class="text-justify">
-							Une partie du palais était convertie en prison d’État en 1370, après l’abandon du palais par Charles V et ses successeurs. 
-							La prison de la Conciergerie occupait le rez-de-chaussée du bâtiment bordant le quai de l’Horloge et les deux tours ; l’étage supérieur était réservé au Parlement. 
-							La prison était considérée pendant la Terreur comme l’antichambre de la mort. Peu en sortaient libres. La reine Marie-Antoinette y fut emprisonnée en 1793.
-							De nos jours, une grande partie du site est occupée par le Palais de justice de Paris et l'essentiel des vestiges de ce palais sont constitués par l'ancienne prison de la 	Conciergerie qui longe le quai de l'Horloge,
-							au nord-est de l'île, ainsi que par la Sainte-Chapelle.
+							Part of the palace was converted into a state prison in 1370, after the palace was abandoned by Charles V and his successors.The prison of the Conciergerie 
+							occupied the ground floor of the building bordering the quay of the clock and the two towers; the upper floor was reserved for Parliament. The prison was 
+							considered during the Terror as the antechamber of death. Few came out free. Queen Marie Antoinette was imprisoned there in 1793. Today, a large part of the site 
+							is occupied by the Palais de Justice in Paris and most of the remains of this palace are constituted by the former prison of the Conciergerie which runs along the 
+							quay of the clock, in the northeast of the island, as well as Sainte-Chapelle.
 						</p>
 					</div>
-					<button data-toggle="collapse" data-target="#conciergerie-plus" class="button-more">En savoir plus...</button>
+					<button data-toggle="collapse" data-target="#conciergerie-plus" class="button-more">More...</button>
 				</div>
 				<div class="modal-footer">
-					<button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 				</div>
 			</div>
 		</div>
@@ -268,27 +272,30 @@ $pos = "history";
 			<div class="modal-body text-center">
 				<img src="public/images/monument/saintechapelle.jpg" width="50%" height="50%"><br><br>
 				<p class="text-justify">
-					La Sainte-Chapelle, dite aussi Sainte-Chapelle du Palais, est une chapelle palatine édifiée sur l’île de la Cité, à Paris, à la demande de saint Louis afin d’abriter la Sainte Couronne d’épines, un morceau de la Vraie Croix, celle où J-C a été crucifié ainsi que diverses autres reliques de la Passion qu’il avait acquises à partir de 1239.
+					La Sainte-Chapelle, dite aussi Sainte-Chapelle du Palais, est une chapelle palatine édifiée sur l’île de la Cité, à Paris, à la demande de saint 
+					Louis afin d’abriter la Sainte Couronne d’épines, un morceau de la Vraie Croix, celle où J-C a été crucifié ainsi que diverses autres reliques de 
+					la Passion qu’il avait acquises à partir de 1239.
 				</p>
 				<div id="saintechapelle-plus" class="collapse">
 					<p class="text-justify">
-						Elle est la première construite des Saintes chapelles, conçue comme une vaste châsse presque entièrement vitrée, et se distingue par l'élégance et la hardiesse de son architecture, 
-						qui se manifeste dans une élévation importante et la suppression quasi totale des murs au niveau des fenêtres de la chapelle haute. Bien qu'édifiée dans un bref ( 7 ans ), 
-						il n'y a aucun défauts de construction, et la décoration n'a pas été négligée. Elle fait notamment appel à la sculpture, la peinture et l'art du vitrail : 
-						ce sont ses immenses vitraux historiés d'origine qui font aujourd'hui la richesse de la Sainte-Chapelle, car elle a été privée de ses reliques à la Révolution française, 
-						et perdu ainsi sa principale raison d'être.. En 1797, elle est transformée en dépôt d'archives du palais de justice, et l'expansion de celui-ci menace son existence même. Son sauvetage est décidé en 
-						1836 sous la pression de l'opinion publique, et sa restauration est lancée un an plus tard et dure vingt-six ans. En tant qu'édifice emblématique du style gothique rayonnant, la Sainte-Chapelle 
-						est classée monument historique par liste de 1862, un an avant l'achèvement de sa restauration, qui est l'une des plus réussies de son temps. Ceci n'empêche pas qu'en raison de son piètre état
-						en 1836, le monument que l'on voit aujourd'hui est essentiellement un monument du xixe siècle.
+						Elle est la première construite des Saintes chapelles, conçue comme une vaste châsse presque entièrement vitrée, et se distingue par l'élégance et la hardiesse de 
+						son architecture, qui se manifeste dans une élévation importante et la suppression quasi totale des murs au niveau des fenêtres de la chapelle haute. Bien qu'édifiée 
+						dans un bref ( 7 ans ), il n'y a aucun défauts de construction, et la décoration n'a pas été négligée. Elle fait notamment appel à la sculpture, la peinture et l'art 
+						du vitrail : ce sont ses immenses vitraux historiés d'origine qui font aujourd'hui la richesse de la Sainte-Chapelle, car elle a été privée de ses reliques à la Révolution française, 
+						et perdu ainsi sa principale raison d'être.. En 1797, elle est transformée en dépôt d'archives du palais de justice, et l'expansion de celui-ci menace son existence 
+						même. Son sauvetage est décidé en 1836 sous la pression de l'opinion publique, et sa restauration est lancée un an plus tard et dure vingt-six ans. En tant qu'édifice 
+						emblématique du style gothique rayonnant, la Sainte-Chapelle est classée monument historique par liste de 1862, un an avant l'achèvement de sa restauration, qui est 
+						l'une des plus réussies de son temps. Ceci n'empêche pas qu'en raison de son piètre état en 1836, le monument que l'on voit aujourd'hui est essentiellement un monument du xixe siècle.
 						Avec la Conciergerie, la Sainte-Chapelle constitue l'un des vestiges du palais de la Cité, 
-						qui s’étendait sur le site couvrant l’actuel palais de justice. Elle est gérée par le Centre des monuments nationaux, auquel elle a été attribuée à titre de dotation par un arrêté du 2 avril 2008. 
-						Desservi par la station de métro Cité, le monument a accueilli en 2013 plus d'un million de visiteurs, en faisant le troisième monument géré par le Centre des monuments nationaux le plus visité.
+						qui s’étendait sur le site couvrant l’actuel palais de justice. Elle est gérée par le Centre des monuments nationaux, auquel elle a été attribuée à titre de dotation par 
+						un arrêté du 2 avril 2008. Desservi par la station de métro Cité, le monument a accueilli en 2013 plus d'un million de visiteurs, en faisant le troisième monument géré 
+						par le Centre des monuments nationaux le plus visité.
 					</p>
 				</div>
-				<button data-toggle="collapse" data-target="#saintechapelle-plus" class="button-more">En savoir plus...</button>
+				<button data-toggle="collapse" data-target="#saintechapelle-plus" class="button-more">More...</button>
 			</div>
 			<div class="modal-footer">
-				<button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 			</div>
 		</div>
 	</div>
@@ -298,25 +305,26 @@ $pos = "history";
 		<div class="histoire modal-content">
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" style="color: red; font-size: 32px"><i class="fas fa-times"></i></button>
-				<h2 class="modal-title text-center">Le Tribunal de Commerce</h2>
+				<h2 class="modal-title text-center">Commercial Court</h2>
 			</div>
 			<div class="modal-body text-center">
 				<img src="public/images/monument/tribunalcommerce.jpg" width="50%" height="50%"><br><br>
 				<p class="text-justify">
-					Le tribunal de Commerce de Paris est un bâtiment situé sur la rive nord de l'île de la Cité à Paris, abritant le Tribunal de commerce de la capitale française.
-					Situé entre le quai de la Corse, le Boulevard du Palais, la rue de Lutèce et la rue Aubé, il fut construit 1860 à 1865, sur les plans de l'architecte Antoine-Nicolas Bailly (1810-1892), sous ordre de l'empereur Napoléon III
+					The Commercial Court of Paris is a building located on the north bank of the Ile de la Cité in Paris, home to the Commercial 
+					Court of the French capital. Located between the quay of Corsica, the Boulevard du Palais, the street of Lutèce and the Aubé 
+					street, it was built from 1860 to 1865, on the plans of the architect Antoine-Nicolas Bailly (1810-1892), under orders of the Emperor Napoleon III. 
 				</p>
 				<div id="tribunalcommerce-plus" class="collapse">
 					<p class="text-justify">
-						Le tribunal est construit à l'emplacement de la partie ouest de la rue de la Pelleterie1. 
-						Pour permettre la construction du nouveau bâtiment, le bal du Prado, qui se trouvait à l'angle de la rue de la Pelleterie et de la rue de la Barillerie (actuellement boulevard du Palais), est démoli en 1858. 
-						Il occupait le théâtre de la Cité-Variétés, lui-même construit à l'emplacement de l'église Saint-Barthélemy
+						The court is built on the site of the western part of Pelleterie Street. To allow the construction of the new building, the Prado Ball, 
+						which was at the corner of the rue de la Pelleterie and the rue de la Barillerie (currently Boulevard du Palais), was demolished in 1858. 
+						It occupied the theater of the Cité-Variétés, itself built on the site of the Saint-Barthélemy church
 					</p>
 				</div>
-				<button data-toggle="collapse" data-target="#tribunalcommerce-plus" class="button-more">En savoir plus...</button>
+				<button data-toggle="collapse" data-target="#tribunalcommerce-plus" class="button-more">More...</button>
 			</div>
 			<div class="modal-footer">
-				<button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 			</div>
 		</div>
 	</div>
@@ -326,18 +334,19 @@ $pos = "history";
 		<div class="histoire modal-content">
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" style="color: red; font-size: 32px"><i class="fas fa-times"></i></button>
-				<h2 class="modal-title text-center">L'Hôtel Dieu</h2>
+				<h2 class="modal-title text-center">Hôtel Dieu</h2>
 			</div>
 			<div class="modal-body text-center">
 				<img src="public/images/monument/hoteldieu.jpg" width="50%" height="50%"><br><br>
 				<p class="text-justify">
-					L’Hôtel-Dieu de Paris est le plus ancien hôpital de la capitale. Fondé en 651 par l'évêque parisien saint Landry, il fut le symbole de la charité et de l'hospitalité.
-					Modeste à l'origine, il est construit du viie au xviie siècle sur la rive gauche de l'île de la Cité, au sud du Parvis Notre-Dame - place Jean-Paul-II ; Deux bâtiments étaient reliés par le pont au Double.
-					Les constructions actuelles abritant l'hôpital datent du xixe siècle.
+					The Hôtel-Dieu de Paris is the oldest hospital in the capital. Founded in 651 by the Parisian bishop Saint Landry, it was the symbol of 
+					charity and hospitality.Modest at the origin, it is built from the seventh to the seventeenth century on the left bank of the Ile de la 
+					Cité, south of the Parvis Notre-Dame - Place Jean-Paul-II; Two buildings were connected by the Double Bridge. The current buildings 
+					housing the hospital date back to the nineteenth century.
 				</p>
 			</div>
 			<div class="modal-footer">
-				<button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 			</div>
 		</div>
 	</div>
@@ -347,32 +356,33 @@ $pos = "history";
 		<div class="histoire modal-content">
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" style="color: red; font-size: 32px"><i class="fas fa-times"></i></button>
-				<h2 class="modal-title text-center">Le Mémorial des Martyrs</h2>
+				<h2 class="modal-title text-center">Memorial of the Martyrs</h2>
 			</div>
 			<div class="modal-body text-center">
 				<img src="public/images/monument/memorialdesmartyrs.jpg" width="50%" height="50%"><br><br>
 				<p class="text-justify">
-					Situé sur l'Ile de la Cité à Paris, derrière le chevet de la cathédrale Notre-Dame,
-					le Mémorial des martys de la Deportation a été inauguré le 12 avril 1962
-					par le général de Gaulle. Il rappelle certains aspects 
-					caractéristiques du monde concentrationnaire comme l'emprisonnement, l'oppression, 
-					ou encore l'évasion impossible. C'est une oeuvre de l'architecte Georges-Henri Pingusson.
+					Situated on Ile de la Cité at Paris, behind the bedside of the cathedral Notre-Dame,
+					The Memorial of the martyrs of the Deportation was inaugurated on 12 april 1962
+					by General de Gaulle, he reminder some aspects and characteristics of world ot the concentration
+					like imprisonment, oppression, or the impossible escape. It's a work of the architect Georges-Henri Pingusson.
+
 				</p>
 				<div id="memorial-plus" class="collapse">
 					<p class="text-justify">
-						C'est lieu plutôt propice à la réflexion car c'est au cœur du bâtiment que le visiteur ressent le mieux l'esprit qui présida à cette construction, 
-						le souvenir de tous ces pauvres gens qui partirent de France pour l'enfer concentrationnaire. 
-						Le mémorial est aussi au centre de la cérémonie annuelle, le dernier dimanche d'avril, 
-						de la Journée nationale du souvenir des martyrs et des héros de la déportation.
-						Ce lieu montre donc l'horreur d'un système qui, pour des 
-						motifs idéologiques, condamna des millions d'êtres humains à l'esclavage et à 
-						la mort, il est fait pour montrer l'horreur des régimes totalitaires.
+						It is a place rather conducive to the reflection because it's at the heart of the building that 
+						the visitor feels the best spirit that presided over this construction,
+						the memory of all those poor people who left France for the hell of the concentration camp.
+						The memorial is also at the center of the annual ceremony, the last Sunday of April, the 
+						National Day of Remembrance of Martyrs and Heroes of Deportation.
+						So this place shows the horror of a system that, for ideological motives, condemned millions of human 
+						beings to slavery and death, it is made to show the horror of totalitarian regimes.
+
 					</p>
 				</div>
-				<button data-toggle="collapse" data-target="#memorial-plus" class="button-more">En savoir plus...</button>
+				<button data-toggle="collapse" data-target="#memorial-plus" class="button-more">More...</button>
 			</div>
 			<div class="modal-footer">
-				<button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 			</div>
 		</div>
 	</div>
@@ -403,10 +413,10 @@ $pos = "history";
 						première effigie exposée en France sur une voie publique.
 					</p>
 				</div>
-				<button data-toggle="collapse" data-target="#pontneuf-plus" class="button-more">En savoir plus...</button>
+				<button data-toggle="collapse" data-target="#pontneuf-plus" class="button-more">More...</button>
 			</div>
 			<div class="modal-footer">
-				<button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 			</div>
 		</div>
 	</div>
@@ -435,10 +445,10 @@ $pos = "history";
 						a été réduit à trois en 1912, dont une arche centrale métallique de 60 mètres.
 					</p>
 				</div>
-				<button data-toggle="collapse" data-target="#pontnotredame-plus" class="button-more">En savoir plus...</button>
+				<button data-toggle="collapse" data-target="#pontnotredame-plus" class="button-more">More...</button>
 			</div>
 			<div class="modal-footer">
-				<button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 			</div>
 		</div>
 	</div>
@@ -465,10 +475,10 @@ $pos = "history";
 						1632 et c'est en 1634 qu'un péage va être installé, il va subsister jusqu'en 1789.
 					</p>
 				</div>
-				<button data-toggle="collapse" data-target="#pontaudouble-plus" class="button-more">En savoir plus...</button>
+				<button data-toggle="collapse" data-target="#pontaudouble-plus" class="button-more">More...</button>
 			</div>
 			<div class="modal-footer">
-				<button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 			</div>
 		</div>
 	</div>
@@ -495,10 +505,10 @@ $pos = "history";
 						Au au dessus de chaque pile un "N" gravé, rappelant l'emblème impérial de Napoléon III.
 					</p>
 				</div>
-				<button data-toggle="collapse" data-target="#pontsaintmichel-plus" class="button-more">En savoir plus...</button>
+				<button data-toggle="collapse" data-target="#pontsaintmichel-plus" class="button-more">More...</button>
 			</div>
 			<div class="modal-footer">
-				<button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 			</div>
 		</div>
 	</div>

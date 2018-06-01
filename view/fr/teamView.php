@@ -12,7 +12,7 @@ $pos = "team";
 			<div class="col-md-4">
 				<div class="thumbnail">
 					<br>
-					<img src="public/images/team/remy.jpg" alt="" class="img-circle img-thumbnail">
+					<img src="public/images/team/remy.jpg" alt="" class="img-circle img-thumbnail" style="max-height: 500px;">
 					<div class="caption">
 						<h4 class="text-center">Barberet Rémy</h4>
 						<p>
@@ -32,7 +32,7 @@ $pos = "team";
 			<div class="col-sm-4 col-lg-4 col-md-4">
 				<div class="thumbnail">
 					<br>
-					<img src="public/images/team/leo.jpg" alt="" class="img-circle img-thumbnail">
+					<img src="public/images/team/leo.jpg" alt="" class="img-circle img-thumbnail" style="max-height: 500px;">
 					<div class="caption">
 						<h4 class="text-center">Chardon Léo</h4>
 						<p>Chargé de communication - Responsable recherche documentaire</p>
@@ -50,7 +50,7 @@ $pos = "team";
 			<div class="col-sm-4 col-lg-4 col-md-4">
 				<div class="thumbnail">
 					<br>
-					<img src="public/images/team/dimitri.jpg" alt="" class="img-circle img-thumbnail">
+					<img src="public/images/team/dimitri.jpg" alt="" class="img-circle img-thumbnail" style="max-height: 500px;">
 					<div class="caption">
 						<h4 class="text-center">Ghocane Dimitri</h4>
 						<p>
