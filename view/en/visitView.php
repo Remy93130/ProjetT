@@ -18,7 +18,7 @@ $pos = "visit";
 				<div class="col-md-4 text-center">
 					<h3 class="link">Catégories :</h3>
 					<ul class="nav nav-pills nav-stacked">
-						<li><a href="<?= 'index.php?action='.$pos.'&lang='.$lang?>"><b>Tout voir</b></a></li>
+						<li><a href="<?= 'index.php?action='.$pos.'&lang='.$lang?>"><b>See everything</b></a></li>
 						<li><a href="<?= 'index.php?action='.$pos.'&lang='.$lang.'&choice=restaurant' ?>"><b>Restoration</b></a></li>
 						<li><a href="<?= 'index.php?action='.$pos.'&lang='.$lang.'&choice=hotel' ?>"><b>Hôtels and housing</b></a></li>
 						<li><a href="<?= 'index.php?action='.$pos.'&lang='.$lang.'&choice=entertainment' ?>"><b>Entertainment</b></a></li>
