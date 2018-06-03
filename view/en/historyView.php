@@ -10,7 +10,7 @@ $pos = "history";
 			<h1 class="col-md-10 col-md-offset-1 text-center">History of Île de la Cité</h1>
 			<nav class="col-md-6 col-md-offset-3">
 				<div class="nav_histoire text-center">
-					<h3 class="link">Parties :</h3>
+					<h3 class="link">Parts :</h3>
 					<ul class="nav nav-pills nav-stacked part">
 						<li><a href="#antiquite" class="smooth-scroll"><b>History</b></a></li>
 						<li><a href="#monument" class="smooth-scroll"><b>Monuments</b></a></li>
@@ -133,7 +133,7 @@ $pos = "history";
 				<a data-toggle="modal" data-target="#saintechapelle">
 					<img src="public/images/monument/saintechapelle.jpg" class="img-circle" width="200" height="200">
 				</a>
-				<p>La Sainte Chapelle</p>
+				<p>Sainte Chapelle</p>
 			</div>
 		</div><br>
 		<div class="row text-center">
@@ -168,19 +168,19 @@ $pos = "history";
 				<a data-toggle="modal" data-target="#pontneuf">
 					<img src="public/images/monument/pontneuf.jpg" class="img-circle" width="200" height="200">
 				</a>
-				<p>Pont Neuf</p>
+				<p>New Bridge</p>
 			</div>
 			<div class="col-md-4">
 				<a data-toggle="modal" data-target="#pontnotredame">
 					<img src="public/images/monument/pontnotredame.jpg" class="img-circle" width="200" height="200">
 				</a>
-				<p>Pont Notre-Dame</p>
+				<p>Notre-Dame Bridge</p>
 			</div>
 			<div class="col-md-4">
 				<a data-toggle="modal" data-target="#pontaudouble">
 					<img src="public/images/monument/pontaudouble.jpg" class="img-circle" width="200" height="200">
 				</a>
-				<p>Pont au double</p>
+				<p>Pont au Double Bridge</p>
 			</div>
 		</div><br>
 		<div class="row text-center">
@@ -188,7 +188,7 @@ $pos = "history";
 				<a data-toggle="modal" data-target="#pontsaintmichel">
 					<img src="public/images/monument/pontsaintmichel.jpg" class="img-circle" width="200" height="200">
 				</a>
-				<p>Pont Saint Michel</p>
+				<p>Saint Michel Bridge</p>
 			</div>
 		</div><br>
 	</div>
@@ -267,29 +267,17 @@ $pos = "history";
 		<div class="histoire modal-content">
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" style="color: red; font-size: 32px"><i class="fas fa-times"></i></button>
-				<h2 class="modal-title text-center">La Sainte-Chapelle</h2>
+				<h2 class="modal-title text-center">Sainte-Chapelle</h2>
 			</div>
 			<div class="modal-body text-center">
 				<img src="public/images/monument/saintechapelle.jpg" width="50%" height="50%"><br><br>
 				<p class="text-justify">
-					La Sainte-Chapelle, dite aussi Sainte-Chapelle du Palais, est une chapelle palatine édifiée sur l’île de la Cité, à Paris, à la demande de saint 
-					Louis afin d’abriter la Sainte Couronne d’épines, un morceau de la Vraie Croix, celle où J-C a été crucifié ainsi que diverses autres reliques de 
-					la Passion qu’il avait acquises à partir de 1239.
+					The holy Chapel, also known as Sainte-Chapelle du Palais, is a palatine chapel built on the Ile de la Cité, at Paris, at the request of Saint Louis to house the relics of 
+					the Passion that he had acquired from 1239, like a piece of the True Cross or the Holy Crown of Thorns.
 				</p>
 				<div id="saintechapelle-plus" class="collapse">
 					<p class="text-justify">
-						Elle est la première construite des Saintes chapelles, conçue comme une vaste châsse presque entièrement vitrée, et se distingue par l'élégance et la hardiesse de 
-						son architecture, qui se manifeste dans une élévation importante et la suppression quasi totale des murs au niveau des fenêtres de la chapelle haute. Bien qu'édifiée 
-						dans un bref ( 7 ans ), il n'y a aucun défauts de construction, et la décoration n'a pas été négligée. Elle fait notamment appel à la sculpture, la peinture et l'art 
-						du vitrail : ce sont ses immenses vitraux historiés d'origine qui font aujourd'hui la richesse de la Sainte-Chapelle, car elle a été privée de ses reliques à la Révolution française, 
-						et perdu ainsi sa principale raison d'être.. En 1797, elle est transformée en dépôt d'archives du palais de justice, et l'expansion de celui-ci menace son existence 
-						même. Son sauvetage est décidé en 1836 sous la pression de l'opinion publique, et sa restauration est lancée un an plus tard et dure vingt-six ans. En tant qu'édifice 
-						emblématique du style gothique rayonnant, la Sainte-Chapelle est classée monument historique par liste de 1862, un an avant l'achèvement de sa restauration, qui est 
-						l'une des plus réussies de son temps. Ceci n'empêche pas qu'en raison de son piètre état en 1836, le monument que l'on voit aujourd'hui est essentiellement un monument du xixe siècle.
-						Avec la Conciergerie, la Sainte-Chapelle constitue l'un des vestiges du palais de la Cité, 
-						qui s’étendait sur le site couvrant l’actuel palais de justice. Elle est gérée par le Centre des monuments nationaux, auquel elle a été attribuée à titre de dotation par 
-						un arrêté du 2 avril 2008. Desservi par la station de métro Cité, le monument a accueilli en 2013 plus d'un million de visiteurs, en faisant le troisième monument géré 
-						par le Centre des monuments nationaux le plus visité.
+						She is the first built of the holy chapels, conceived as a vast frame almost entirely glazed, and distinguished herself by the elegance and the boldness of its architecture, which manifests itself in a large elevation and the almost total suppression of the walls at the windows of the upper chapel. Although built in a short time (7 years), there are no construction defects, and the decoration was not been neglected. She is particularly interested in sculpture, painting and the art of stained glass : it is its huge original stained glass windows that make today the wealth of the Holy Chapel, because it was deprived of its relics to the French Revolution, and thus lost its main reason for being.. In 1797, it was turned into an archive depot of the courthouse, and the expansion of it threatened his very existence. His rescue was decided in 1836 under the pressure of public opinion, and its restoration is launched a year later and lasts twenty-six years. As an emblematic building of the radiant Gothic style, the Sainte-Chapelle is classified as a historical monument by list of 1862, a year before the completion of his restoration, which is one of the most successful of his time. his does not prevent that because of its poor condition in 1836, the monument that we see today is essentially a monument of the nineteenth century. With the Conciergerie, The Holy Chapel is one of the remains of the Palace of the City, which extended on the site covering the current Palace of justice. It is managed by the National Monuments Center, to which it has been attributed as an endowment by a decree of April 2, 2008. Served by Cité metro station, the monument welcomed more than one million visitors in 2013, making it the third monument managed by National Center for Monuments most visited.
 					</p>
 				</div>
 				<button data-toggle="collapse" data-target="#saintechapelle-plus" class="button-more">More...</button>
@@ -392,25 +380,22 @@ $pos = "history";
 		<div class="histoire modal-content">
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" style="color: red; font-size: 32px"><i class="fas fa-times"></i></button>
-				<h2 class="modal-title text-center">Le pont Neuf</h2>
+				<h2 class="modal-title text-center">New bridge</h2>
 			</div>
 			<div class="modal-body text-center">
 				<img src="public/images/monument/pontneuf.jpg" width="50%" height="50%"><br><br>
 				<p class="text-justify">
-					Le pont Neuf est, malgré son nom, 
-					le plus ancien pont existant de Paris. Il traverse la Seine à la pointe ouest de l'île de la Cité.
-					Il est long de 140 mètres et large de 20 mètres environ.
-					Le pont est commencé en 1578 sous sous le règne du Roi Henri III est achevé en 1604 sous celui du Roi Henri IV.
+					The new bridge is, despite his name,
+					the oldest bridge in Paris. It crosses the Seine at the western tip of Ile de la Cité. It is 140 meters long and approximately 20 meters wide.
+					The bridge was begun in 1578 under King Henry III is completed in 1604 under that of King Henry IV. 
 				</p>
 				<div id="pontneuf-plus" class="collapse">
 					<p class="text-justify">
-						Ses travaux sont dirigés dans un premier temps par l'architecte Baptiste 
-						Androuet du Cerceau, puis ensuite par Guillaume Marchant.
-						Ils seront interrompus par les guerres de Religion, de 1588 à 1599. 
-						Henri IV, qui inaugurera l'ouvrage en 1607, le baptisera du nom Pont Neuf, 
-						appelé au moment de sa construction par opposition aux anciens ponts de Paris.
-						C'est un pont en arc, en effet on le reconnaît à ses 12 arches en plein cintre et à sa statue équestre d’Henri IV,
-						première effigie exposée en France sur une voie publique.
+						His work is directed initially by the architect Baptiste Androuet du Cerceau, then by Guillaume Marchant.
+						They will be interrupted by the Wars of Religion, from 1588 to 1599. Henry IV, who will inaugurate the work in 1607,
+						will name it New Bridge, called at the time of its construction as opposed to the old bridges of Paris.
+						It is an arch bridge, indeed it is recognized by its 12 arches and its equestrian statue of Henry IV,
+						first effigy displayed in France on a public road.
 					</p>
 				</div>
 				<button data-toggle="collapse" data-target="#pontneuf-plus" class="button-more">More...</button>
@@ -426,23 +411,21 @@ $pos = "history";
 		<div class="histoire modal-content">
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" style="color: red; font-size: 32px"><i class="fas fa-times"></i></button>
-				<h2 class="modal-title text-center">Le pont Notre-Dame</h2>
+				<h2 class="modal-title text-center">Notre-Dame Bridge</h2>
 			</div>
 			<div class="modal-body text-center">
 				<img src="public/images/monument/pontnotredame.jpg" width="50%" height="50%"><br><br>
 				<p class="text-justify">
-					Le Pont Notre-Dame est comme son nom l'indique, un pont permettant d'acceder au quartier de Notre-Dame
-					en reliant le quai de Gesvres au quai de la Corse sur l'île de la Cité.
-					Il est long de 105 mètres environ et large de 20 mètres. 
-					Il occupe l'emplacement de l'un des tout premiers ponts de la capitale : le "Grand-Pont", 
-					remplacé par les "planches de Milbray" et enfin l'actuel.
+					Notre-Dame Bridge is, as its name suggests, a bridge to access the Notre-Dame district by
+					connecting the quai of Gesvres to the quay of Corsica on the Ile de la Cité. It is 105 meters long and 20 meters wide.
+					It occupies the site of one of the very first bridges of the capital: the "Grand-Pont",
+					replaced by the "boards of Milbray" and finally the current one. 
 				</p>
 				<div id="pontnotredame-plus" class="collapse">
 					<p class="text-justify">
-						Beaucoup de pont ont été à son emplacement auparavant, celui actuel à été construit de 
-						1910 à 1914 et réalisée par l'ingénieur Jean Résal.
-						Il comportait initialement cinq arches, mais étant devenu très dangereux pour la navigation, son nombre
-						a été réduit à trois en 1912, dont une arche centrale métallique de 60 mètres.
+						Many bridges have been at its location before, the current one was built from 1910 to 1914 and carried out by the engineer Jean Résal.
+						It originally had five arches, but having become very dangerous for navigation, its number was reduced to three in 1912,
+						including a central metal arch of 60 meters.
 					</p>
 				</div>
 				<button data-toggle="collapse" data-target="#pontnotredame-plus" class="button-more">More...</button>
@@ -458,21 +441,19 @@ $pos = "history";
 		<div class="histoire modal-content">
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" style="color: red; font-size: 32px"><i class="fas fa-times"></i></button>
-				<h2 class="modal-title text-center">Le pont au double</h2>
+				<h2 class="modal-title text-center">Pont au Double Bridge</h2>
 			</div>
 			<div class="modal-body text-center">
 				<img src="public/images/monument/pontaudouble.jpg" width="50%" height="50%"><br><br>
 				<p class="text-justify">
-					Le pont porte ce nom car le péage pour le 
-					franchissement du premier pont à cet emplacement était de deux deniers, monnaie de base du système monétaire romain.
-					Il relie le 4e arrondissement au 5e.
-					Il est long de 45 mètres et large de 20 mètres.
-					Sa construction s'est faites de 1881 à 1883 et les architectes sont Henri-Prosper Bernard et Jules Lax
+					The bridge bears this name because the toll for crossing the first bridge at this location was two deniers,
+					the basic currency of the Roman monetary system. It connects the 4th arrondissement to the 5th. It is 45 meters long
+					and 20 meters wide. Its construction was made from 1881 to 1883 and the architects are Henri-Prosper Bernard and Jules Lax.
 				</p>
 				<div id="pontaudouble-plus" class="collapse">
 					<p class="text-justify">
-						Le pont est fait de fonte mais en réalité, il a simplement été refait car ce pont existe depuis
-						1632 et c'est en 1634 qu'un péage va être installé, il va subsister jusqu'en 1789.
+						The bridge is made of cast iron but in reality it was simply redone, because this bridge exists 
+						since 1632 and it is in 1634 that a toll will be installed, it will remain until 1789.
 					</p>
 				</div>
 				<button data-toggle="collapse" data-target="#pontaudouble-plus" class="button-more">More...</button>
@@ -488,21 +469,20 @@ $pos = "history";
 		<div class="histoire modal-content">
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" style="color: red; font-size: 32px"><i class="fas fa-times"></i></button>
-				<h2 class="modal-title text-center">Le pont Saint Michel</h2>
+				<h2 class="modal-title text-center">Saint Michel Bridge</h2>
 			</div>
 			<div class="modal-body text-center">
 				<img src="public/images/monument/pontsaintmichel.jpg" width="50%" height="50%"><br><br>
 				<p class="text-justify">
-					Le Pont Saint Michel a été construit en 1857 à la demande de Napoléon III par les ingénieurs Vaudrey de La Galisserie
-					Il relie l'Ile de la Cité à la rive gauche par la place Saint Michel. Ce nom lui a été donné car le pont
-					est très proche de la Sainte Chapelle. Il est long de 62 mètres et larges de 30 mètres 
+					The Saint Michel Bridge was built in 1857 at the request of Napoleon III by the engineers Vaudrey de la Galisserie.
+					It connects the Ile de la Cité to the left bank by the Place Saint Michel.
+					This name was given to him because the bridge is very close to the Sainte Chapelle. It is 62 meters long and 30 meters wide.
 				</p>
 				<div id="pontsaintmichel-plus" class="collapse">
 					<p class="text-justify">
-						Le pont construit initialement en 1378 fut reconstruit plusieurs fois, 
-						en dernier lieu en 1857. Le pont fut en bois et ensuite, après sa destruction, en pierre.
-						Aujourd'hui le pont est en pierre et il comporte trois arches
-						Au au dessus de chaque pile un "N" gravé, rappelant l'emblème impérial de Napoléon III.
+						The bridge originally built in 1378 was rebuilt several times, most recently in 1857.
+						The bridge was made of wood and then, after its destruction, in stone. Today the bridge is stone and it has three arches.
+						Above each pile an "N" engraved, reminiscent of the imperial emblem of Napoleon III.
 					</p>
 				</div>
 				<button data-toggle="collapse" data-target="#pontsaintmichel-plus" class="button-more">More...</button>
